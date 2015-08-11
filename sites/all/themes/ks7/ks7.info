@@ -1,0 +1,43 @@
+name = KS7
+description = CUSTOM DRUPAL 7 THEME FOR KNOWING SCIENCE 2013.
+version = VERSION
+core = 7.x
+base theme  = zen
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/ks7.css
+stylesheets[print][] = print.css
+
+regions[toptab] = Top Tab
+regions[header] = Header
+regions[slideshow]  = Slide Show
+regions[rightbox] = Right Box
+regions[leftbox]  = Left Box
+regions[content_bottom] = Content Bottom
+regions[footer] = Footer
+regions[navigation] = Navigation bar
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+ 
+; The page_top and page_bottom regions are hidden, which means they will not
+; show up on the blocks administration page. But they are required in order for
+; the html.tpl.php to work properly, so do not delete them.
+
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom
+
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+; Information added by drupal.org packaging script on 2010-12-15
+version = "7.23"
+project = "drupal"
+datestamp = "1375928238"

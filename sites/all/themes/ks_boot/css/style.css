@@ -1,0 +1,145 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+body {
+/*   background-image: url('/sites/all/themes/ks7/images/back_tile.jpg') repeat-x; */
+  }
+  
+h1.page-header {
+  font-size:24px;
+  }
+    
+h2, .h2 {
+  font-size:20px;
+  }
+    
+div.view-filters {
+}
+#views-exposed-form-lessons-1-page {
+}
+
+.views-exposed-widgets .form-type-radio {
+margin:10px 10px 0px 0px;
+float:left;
+}
+
+div.student-login {
+  display:block;
+  min-height:10px;
+  margin:0px 0px 15px;
+  padding:10px 10px;
+    border-top:1px solid #fff;
+  border-right:1px solid #ddd;
+  border-left:1px solid #fff;
+  border-bottom:1px solid #ddd;
+  background:#fff;
+}
+
+#block-search-form {
+  margin:15px 0px 10px;
+  }
+  
+ #block-user-login ul .last
+ {
+ display:none;
+ }
+ 
+.field-name-field-article-image {
+  float:right;
+  margin:0px 0px 15px 15px;
+  }
+
+.webform-component--a,
+.webform-component--b,
+.webform-component--c,
+.webform-component--d,
+.webform-component--e,
+.webform-component--f,
+.webform-component--g,
+.webform-component--h,
+.webform-component--i,
+.webform-component--j,
+.webform-component--k,
+.webform-component--l,
+.webform-component--m,
+.webform-component--n,
+.webform-component--o,
+.webform-component--p,
+.webform-component--q,
+.webform-component--r,
+.webform-component--s,
+.webform-component--t,
+.webform-component--u,
+.webform-component--v,
+.webform-component--w,
+.webform-component--x,
+.webform-component--y,
+.webform-component--z,
+.webform-component--notes
+   {
+  display:block;
+max-width:30.5%;
+  margin:0px 10px 10px 0px;
+  float:left;
+  }
+  
+.webform-component--a label, 
+.webform-component--b label,
+.webform-component--c label,
+.webform-component--d label,
+.webform-component--e label,
+.webform-component--f label,
+.webform-component--g label,
+.webform-component--h label,
+.webform-component--i label,
+.webform-component--j label,
+.webform-component--k label,
+.webform-component--l label,
+.webform-component--m label,
+.webform-component--n label,
+.webform-component--o label,
+.webform-component--p label,
+.webform-component--q label,
+.webform-component--r label,
+.webform-component--s label,
+.webform-component--t label,
+.webform-component--u label,
+.webform-component--v label,
+.webform-component--w label,
+.webform-component--x label,
+.webform-component--y label,
+.webform-component--z label
+  {
+  font-size:36px;
+  color:#f49f0b;
+  margin-top:-10px;
+  }
+ 
+ 
+.alpha-notes-wrapper {
+  margin-top:22px;
+  float:left;
+
+  }
+  
+#webform-client-form-201 .form-textarea
+{
+background:#eaf8ec;
+color:#000;
+border:solid1px #fff;
+font-size:110%;
+
+}
+
+.field-collection-container {
+display:table; 
+}
+
+
+div.field-name-field-image-picgrid {
+  display:table-cell;
+  width:auto;
+  float:left;
+  border:1px #f00 dotted;
+ } 
