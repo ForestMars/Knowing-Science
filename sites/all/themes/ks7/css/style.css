@@ -16,7 +16,7 @@ body {
   margin: 0;
   padding: 0;
   background: #FFFFFF;
-background-image: url('/sites/all/themes/ks7/images/back_tile.jpg');
+background-image: url('../images/back_tile.jpg');
 background-repeat:repeat-x;
 background-position: top center;
 line-height:140%;
@@ -157,7 +157,7 @@ border:1px #ccc solid;
 border-top:0px;
 margin:0px 0px 20px;
 padding:5px 10px 20px;
-background-image: url('images/scopeGrade.jpg');
+background-image: url('../images/scopeGrade.jpg');
 background-position:bottom center;
 background-repeat:repeat-x;
 }
@@ -207,7 +207,7 @@ text-align: left;
 border:#008acd 1px solid;
 padding:5px;
 margin:0px;
-background-image: url('images/scopeGrade.jpg');
+background-image: url(../images/scopeGrade.jpg);
 background-position:bottom center;
 background-repeat:repeat-x;
 }
@@ -216,14 +216,14 @@ td.scope25  ul li, ul.menu li, .item-list ul li, li.leaf , td.scope  ul li, ul.m
   padding: 0 0 .2em 1.5em;
   list-style-type: none;
   list-style-image: circle;
-  background: transparent url(images/scope_bullet.png) no-repeat 1px .35em; /* LTR */
+  background: transparent url(../images/scope_bullet.png) no-repeat 1px .35em; /* LTR */
 }
 
 td.scope33  ul li, ul.menu li, .item-list ul li, li.leaf , td.scope  ul li, ul.menu li, .item-list ul li, li.leaf {
   padding: 0 0 .2em 1.5em;
   list-style-type: none;
   list-style-image: circle;
-  background: transparent url(images/scope_bullet.png) no-repeat 1px .35em; /* LTR */
+  background: transparent url(../images/scope_bullet.png) no-repeat 1px .35em; /* LTR */
 }
 
 .scope25 
@@ -234,7 +234,7 @@ text-align: left;
 border:#008acd 1px solid;
 padding:5px;
 margin:0px;
-background-image: url('images/scopeGrade.jpg');
+background-image: url(../images/scopeGrade.jpg);
 background-position:bottom center;
 background-repeat:repeat-x;
 }
@@ -247,7 +247,7 @@ text-align: left;
 border:#008acd 1px solid;
 padding:5px;
 margin:0px;
-background-image: url('images/scopeGrade.jpg');
+background-image: url(../images/scopeGrade.jpg);
 background-position:bottom center;
 background-repeat:repeat-x;
 }
@@ -415,7 +415,7 @@ width:120px;
 float:none;
 padding:15px;
 margin:10px auto 0px 2px;
-background-image: url('images/white_trans_80.png');
+background-image: url(../images/white_trans_80.png);
 border:3px dotted #CE0;
 text-align: left;
 font-size:11px;
@@ -994,7 +994,7 @@ margin:0px auto 0px auto;
   padding:0px;
 border:0px #F00 dotted;
 
-background-image: url('/sites/all/themes/ks7/images/header.jpg');
+background-image: url('../images/header.jpg');
 background-repeat:no-repeat;
 background-position: top center;
 }
@@ -1021,7 +1021,7 @@ margin:auto;
 padding:8px 0px 7px 30px;
 border:0px dotted #F00;
 z-index:3;
-background-image: url('/sites/all/themes/ks7/images/nav_bar.jpg');
+background-image: url('../images/nav_bar.jpg');
 background-repeat: no-repeat;
 }
 
@@ -1040,7 +1040,7 @@ top:-140px;
 
 #main {
   padding-top:0px;
-  background-image: url('/sites/all/themes/ks7/images/white_trans_80.png');
+  background-image: url('../images/white_trans_80.png');
   }
 
 #homeTable
@@ -1089,7 +1089,7 @@ float: left;
 position:relative;
 top:-40px;
 border:#F00 0px solid;
-background-image: url('/sites/all/themes/ks7/images/white_trans_80.png');
+background-image: url('../images/white_trans_80.png');
 }
 
 #main-content {
@@ -1106,7 +1106,7 @@ background-image: url('/sites/all/themes/ks7/images/white_trans_80.png');
   clear:both;
   margin:30px auto 0px;
   border:#F00 0px solid;
-background-image: url('/sites/all/themes/ks7/images/white_trans_80.png');
+background-image: url('../images/white_trans_80.png');
 }
 
 
@@ -1370,7 +1370,7 @@ margin-right:1px;
  */
 ul.primary, ul.primary li, ul.secondary, ul.secondary li {
   border: 0;
-background-image: url('/sites/all/themes/ks7/images/white_trans_80.png');
+background-image: url('../images/white_trans_80.png');
   margin: 0;
   padding: 0;
 }
@@ -1412,7 +1412,7 @@ ul.secondary li a, ul.secondary li.active a, ul.secondary li a:hover, ul.seconda
 }
 ul.primary li.active a, ul.primary li.active a:link, ul.primary li.active a:visited, ul.primary li a:hover,
 ul.secondary li.active a, ul.secondary li.active a:link, ul.secondary li.active a:visited, ul.secondary li a:hover {
-  background: url(images/bg-tab.png) repeat-x 0 50%;
+  background: url(../images/bg-tab.png) repeat-x 0 50%;
   color: #fff;
 }
 ul.primary li.active a,
@@ -1498,7 +1498,7 @@ width:800px;
 #comments h2.comments {
   margin: 0 -25px;
   padding: .5em 25px;
-  background: #fff url(images/gradient-inner.png) repeat-x 0 0;
+  background: #fff url(../images/gradient-inner.png) repeat-x 0 0;
 }
 
 .comment {
@@ -1549,7 +1549,7 @@ width:800px;
   border: 1px solid #fff;
 }
 #palette .item-selected {
-  background: #fff url(images/gradient-inner.png) repeat-x 0 0;
+  background: #fff url(../images/gradient-inner.png) repeat-x 0 0;
   border: 1px solid #d9eaf5;
 }
 
@@ -1570,13 +1570,13 @@ tr.even td.menu-disabled {
  * Poll.module
  */
 .poll .bar {
-  background: #fff url(images/bg-bar-white.png) repeat-x 0 0;
+  background: #fff url(../images/bg-bar-white.png) repeat-x 0 0;
   border: solid #f0f0f0;
   border-width: 0 1px 1px;
 }
 
 .poll .bar .foreground {
-  background: #71a7cc url(images/bg-bar.png) repeat-x 0 100%;
+  background: #71a7cc url(../images/bg-bar.png) repeat-x 0 100%;
 }
 
 .poll .percent {
@@ -1599,7 +1599,7 @@ fieldset {
   margin: 1em 0;
   padding: 1em;
   border: 1px solid #d9eaf5;
-  background: #dee9ee url(images/gradient-inner.png) repeat-x 0 0;
+  background: #dee9ee url(../images/gradient-inner.png) repeat-x 0 0;
 }
 div.fieldset-wrapper {
   margin:0px;
@@ -1644,11 +1644,11 @@ html.js fieldset.collapsed {
 
 html.js fieldset.collapsible legend a {
   padding-left: 2em; /* LTR */
-  background: url(images/menu-expanded.gif) no-repeat 0% 50%; /* LTR */
+  background: url(../images/menu-expanded.gif) no-repeat 0% 50%; /* LTR */
 }
 
 html.js fieldset.collapsed legend a {
-  background: url(images/menu-collapsed.gif) no-repeat 0% 50%; /* LTR */
+  background: url(../images/menu-collapsed.gif) no-repeat 0% 50%; /* LTR */
 }
 
 /**
@@ -1729,7 +1729,7 @@ div.admin .right {
 }
 
 div.admin-panel {
-  background: #fff url(/sites/all/themes/ks7/images/gradient-inner.png) repeat-x 0 0;
+  background: #fff url(../images/gradient-inner.png) repeat-x 0 0;
   padding: 1em 1em 1.5em;
 }
 div.admin-panel .description {
