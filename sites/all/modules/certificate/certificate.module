@@ -27,27 +27,6 @@ function certificate_node_info() {
 }
 
 /**
- * Implements hook_node_access().
- */
-function certificate_node_access($node, $op, $account) {
-  if ($op == 'create') {
-    return user_access('create certificate content', $account);
-  }
-
-  if ($op == 'update') {
-    if (user_access('edit any certificate content', $account) || (user_access('edit own certificate content', $account) && ($account->uid == $node->uid))) {
-      return TRUE;
-    }
-  }
-
-  if ($op == 'delete') {
-    if (user_access('delete any certificate content', $account) || (user_access('delete own certificate content', $account) && ($account->uid == $node->uid))) {
-      return TRUE;
-    }
-  }
-}
-
-/**
  * Certificate node form.
  */
 function certificate_form(&$node, $form_state) {
@@ -202,26 +181,6 @@ function certificate_permission() {
       'title' => t('administer certificates'),
       'description' => t('TODO Add a description for \'administer certificates\''),
     ),
-    'create certificate content' => array(
-      'title' => t('create certificate content'),
-      'description' => t('TODO Add a description for \'create certificate content\''),
-    ),
-    'delete own certificate content' => array(
-      'title' => t('delete own certificate content'),
-      'description' => t('TODO Add a description for \'delete own certificate content\''),
-    ),
-    'delete any certificate content' => array(
-      'title' => t('delete any certificate content'),
-      'description' => t('TODO Add a description for \'delete any certificate content\''),
-    ),
-    'edit own certificate content' => array(
-      'title' => t('edit own certificate content'),
-      'description' => t('TODO Add a description for \'edit own certificate content\''),
-    ),
-    'edit any certificate content' => array(
-      'title' => t('edit any certificate content'),
-      'description' => t('TODO Add a description for \'edit any certificate content\''),
-    ),
     'view all user certificates' => array(
       'title' => t('view all user certificates'),
       'description' => t('TODO Add a description for \'view all user certificates\''),
@@ -310,7 +269,22 @@ function certificate_form_alter(&$form, &$form_state, $form_id) {
       '#description' => t('Make this content type certificate-enabled. Certificate mapping selections will show on the node form.'),
       '#default_value' => variable_get("certificate_certifiable_{$form['#node_type']->type}", 0),
     );
+
+    if ($form['#node_type']->type == 'certificate') {
+      $form['#after_build'][] = 'certificate_warn_course_content';
+    }
   }
+}
+
+/**
+ * Modify the node type form to add a warning about using a Certificate node as
+ * a course content object.
+ */
+function certificate_warn_course_content(&$form, &$form_state) {
+  if (module_exists('course_content')) {
+    $form['course']['course_content_use']['#description'] = '<span class="error">This is probably not what you want! Do not use a Certificate as a course content object.<br/>Use the "Course certificate" module which provides a "Certificate" course object.</span>';
+  }
+  return $form;
 }
 
 /**
@@ -611,6 +585,14 @@ function certificate_can_access_certificate($node, $account = NULL, $flush = FAL
   static $cert_access = array();
   $found_true = NULL;
   $found_false = NULL;
+
+  $admin = user_access('administer certificates');
+  $view_all = user_access('view all user certificates');
+
+  // Use account of a different user if allowed.
+  if (($admin || $view_all) && arg(3) > 0) {
+    $account = user_load(arg(3));
+  }
 
   if (!$account) {
     global $user;

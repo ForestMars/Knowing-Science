@@ -5,9 +5,9 @@ dependencies[] = quiz
 dependencies[] = certificate
 
 
-; Information added by  packaging script on 2013-11-07
-version = "7.x-2.0"
+; Information added by Drupal.org packaging script on 2014-09-26
+version = "7.x-2.2"
 core = "7.x"
 project = "certificate"
-datestamp = "1383803619"
+datestamp = "1411750160"
 

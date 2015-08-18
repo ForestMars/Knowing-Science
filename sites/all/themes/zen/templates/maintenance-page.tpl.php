@@ -36,18 +36,12 @@
     <![endif]-->
   <?php endif; ?>
 </head>
-<body class="<?php print $classes; ?>" <?php print $attributes;?> style="background:#f2f2f2;">
+<body class="<?php print $classes; ?>" <?php print $attributes;?>>
 
 <div id="page">
 
   <header id="header" role="banner">
-<div style="margin:100px auto; width:900px;"><img src="http://www.knowingscience.com/sites/all/themes/ks7/images/header.jpg">
- 
-    <?php if ($title): ?>
-        <h1 class="title" id="page-title"><?php print $title; ?></h1>
-      <?php endif; ?>
-       <?php print $content; ?>
-</div>
+
     <?php if ($logo): ?>
       <a href="<?php print $base_path; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
     <?php endif; ?>
@@ -75,9 +69,11 @@
     <div id="content" class="column" role="main">
       <?php print $highlighted; ?>
       <a id="main-content"></a>
-   
+      <?php if ($title): ?>
+        <h1 class="title" id="page-title"><?php print $title; ?></h1>
+      <?php endif; ?>
       <?php print $messages; ?>
-
+      <?php print $content; ?>
     </div>
 
     <div id="navigation">
