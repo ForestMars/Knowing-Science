@@ -16,7 +16,7 @@ body {
   margin: 0;
   padding: 0;
   background: #FFFFFF;
-background-image: url('../images/back_tile.jpg');
+background-image: url(../images/back_tile.jpg);
 background-repeat:repeat-x;
 background-position: top center;
 line-height:140%;
@@ -157,7 +157,7 @@ border:1px #ccc solid;
 border-top:0px;
 margin:0px 0px 20px;
 padding:5px 10px 20px;
-background-image: url('../images/scopeGrade.jpg');
+background-image: url(../images/scopeGrade.jpg);
 background-position:bottom center;
 background-repeat:repeat-x;
 }
@@ -430,7 +430,7 @@ width:120px;
 float:none;
 padding:15px;
 margin:-10px auto 0px 2px;
-background-image: url('images/trans_tan.png');
+background-image: url(../images/trans_tan.png);
 border:3px double #C90;
 text-align: center;
 }
@@ -466,7 +466,7 @@ display:block;
 width:540px;
 height:400px;
 margin:0px -20px 0px -30px;
-background-image: url('/sites/all/themes/ks7/images/cover_girl_01.png');
+background-image: url(../images/cover_girl_01.png);
 background-repeat:no-repeat;
 background-position: 0px 70px;
 padding:0px 0px 0px 30px;
@@ -496,7 +496,7 @@ position:relative;
 top:-285px;
 left:0px;
 margin:0px -20px -340px 30px;
-background-image: url('/sites/all/themes/ks7/images/home_image_2b.png');
+background-image: url(../images/home_image_2b.png);
 background-repeat:no-repeat;
 padding:0px 0px 0px 0px;
 }
@@ -517,7 +517,7 @@ border:1px #333 solid;
 {
 display:block;
 width:870px;
-background-image: url('/sites/all/themes/ks7/images/blue_trans_back.png');
+background-image: url(../images/blue_trans_back.png);
 margin:auto;
 padding:0px 20px;
 border:0px #F0F solid;
@@ -546,7 +546,7 @@ border-right:0px #00ffff solid;
 {
 
 width:155px;
-background-image: url('/sites/all/themes/ks7/images/white_trans_80.png');
+background-image: url(..//images/white_trans_80.png);
 padding:31px 0px 10px 10px;
 vertical-align: top;
 }
@@ -554,7 +554,7 @@ vertical-align: top;
 .col2
 {
 min-width:430px;
-background-image: url('/sites/all/themes/ks7/images/white_trans_90.png');
+background-image: url(../images/white_trans_90.png);
 padding:20px 5px 10px;
 vertical-align: top;
 }
@@ -563,7 +563,7 @@ vertical-align: top;
 {
 
 width:170px;
-background-image: url('/sites/all/themes/ks7/images/white_trans_80.png');
+background-image: url(..//images/white_trans_80.png);
 padding:20px 10px 10px 10px;
 vertical-align: top;
 }
@@ -730,12 +730,16 @@ ol.task-list li {
   padding: 0.5em 1em 0.5em 2em; /* LTR */
 }
 ol.task-list li.active {
-  background: transparent url(/sites/all/themes/ks7/images/task-list.png) no-repeat 3px 50%; /* LTR */
+  background: transparent url(../images/task-list.png) no-repeat 3px 50%; /* LTR */
 }
+
+/* Obvious rubbish. 
 ol.task-list li.done {
   color: #393;
-  background: transparent url(../../misc/watchdog-ok.png) no-repeat 0px 50%; /* LTR */
+  background: transparent url(../../misc/watchdog-ok.png) no-repeat 0px 50%;
 }
+*/
+
 ol.task-list li.active {
   margin-right: 1em; /* LTR */
 }
@@ -932,7 +936,7 @@ border:0px #F00 solid;
  */
 #header-region {
   min-height: 1em;
-  background: #d2e6f3 url(/sites/all/themes/ks7/images/bg-navigation.png) repeat-x 50% 100%;
+  background: #d2e6f3 url(../images/bg-navigation.png) repeat-x 50% 100%;
 }
 
 #header-region .block {
@@ -994,7 +998,7 @@ margin:0px auto 0px auto;
   padding:0px;
 border:0px #F00 dotted;
 
-background-image: url('../images/header.jpg');
+background-image: url(../images/header.jpg);
 background-repeat:no-repeat;
 background-position: top center;
 }
@@ -1021,7 +1025,7 @@ margin:auto;
 padding:8px 0px 7px 30px;
 border:0px dotted #F00;
 z-index:3;
-background-image: url('../images/nav_bar.jpg');
+background-image: url(../images/nav_bar.jpg);
 background-repeat: no-repeat;
 }
 
@@ -1040,7 +1044,7 @@ top:-140px;
 
 #main {
   padding-top:0px;
-  background-image: url('../images/white_trans_80.png');
+  background-image: url(../images/white_trans_80.png);
   }
 
 #homeTable
@@ -1089,7 +1093,7 @@ float: left;
 position:relative;
 top:-40px;
 border:#F00 0px solid;
-background-image: url('../images/white_trans_80.png');
+background-image: url(../images/white_trans_80.png);
 }
 
 #main-content {
@@ -1106,7 +1110,7 @@ background-image: url('../images/white_trans_80.png');
   clear:both;
   margin:30px auto 0px;
   border:#F00 0px solid;
-background-image: url('../images/white_trans_80.png');
+background-image: url(../images/white_trans_80.png);
 }
 
 
@@ -1370,7 +1374,7 @@ margin-right:1px;
  */
 ul.primary, ul.primary li, ul.secondary, ul.secondary li {
   border: 0;
-background-image: url('../images/white_trans_80.png');
+background-image: url(../images/white_trans_80.png);
   margin: 0;
   padding: 0;
 }

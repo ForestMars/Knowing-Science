@@ -30,7 +30,7 @@ ol li, ul li, ul.menu li, .item-list ul li, li.leaf {
 
 ul li, ul.menu li, .item-list ul li, li.leaf {
   padding: 0 1.5em .2em 0;
-  background: transparent url("../images/menu-leaf.gif") no-repeat 100% .35em;
+  background: transparent url(../images/menu-leaf.gif) no-repeat 100% .35em;
 }
 
 ol li {
@@ -39,11 +39,11 @@ ol li {
 }
 
 ul li.expanded {
-  background: transparent url("../images/menu-expanded.gif") no-repeat 100% .35em;
+  background: transparent url(../images/menu-expanded.gif) no-repeat 100% .35em;
 }
 
 ul li.collapsed {
-  background: transparent url("../images/menu-collapsed-rtl.gif") no-repeat 100% .35em;
+  background: transparent url(../images/menu-collapsed-rtl.gif) no-repeat 100% .35em;
 }
 
 ul.inline li {
@@ -94,7 +94,7 @@ dl dd {
 }
 
 #wrapper {
-  background: #edf5fa url("../images/body.png") repeat-x 50% 0;
+  background: #edf5fa url(../images/body.png) repeat-x 50% 0;
 }
 
 #wrapper #container #header h1 img {
@@ -113,7 +113,7 @@ dl dd {
 
 /* Now we add the backgrounds for the main content shading */
 #wrapper #container #center #squeeze {
-  background: #fff url("../images/bg-content.png") repeat-x 50% 0;
+  background: #fff url(../images/bg-content.png) repeat-x 50% 0;
 }
 
 #wrapper #container .breadcrumb {
@@ -208,11 +208,11 @@ ul.links li, ul.inline li {
 html.js fieldset.collapsible legend a {
   padding-left: 0;
   padding-right: 2em;
-  background: url("../images/menu-expanded.gif") no-repeat 100% 50%;
+  background: url(../images/menu-expanded.gif) no-repeat 100% 50%;
 }
 
 html.js fieldset.collapsed legend a {
-  background: url("../images/menu-collapsed-rtl.gif") no-repeat 100% 50%;
+  background: url(../images/menu-collapsed-rtl.gif) no-repeat 100% 50%;
 }
 
 /**
