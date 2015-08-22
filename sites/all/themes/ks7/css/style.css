@@ -1886,3 +1886,10 @@ border:0px #F00 dotted;
 display:block;
   min-height:300px;
   }
+
+
+.social-icons {
+  position: fixed;
+  top: 5px;
+  left: 33px;
+}

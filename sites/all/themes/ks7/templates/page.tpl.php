@@ -1,10 +1,20 @@
 <?php
+  
+$icon_facebook = path_to_theme(). '/images/facebook.png'; 
+$icon_twitter = path_to_theme(). '/images/twitter.png'; 
+
+
 if ($page['toptab']):  
 ?>
 <?php print render($page['toptab']); ?> 
 <?php
 endif;
 ?>
+
+<div class="social-icons">
+  <a href="http://facebook.com/knowingscience"><img src="<?php echo $icon_facebook; ?>" height="35px" /></a>
+  <a href="http://twitter.com/knowingscience"><img src="<?php echo $icon_twitter; ?>" height="35px" /></a>
+</div>
 
 <div id="page">
 <div id="wrapper">
