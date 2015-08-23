@@ -13,7 +13,7 @@ endif;
 
 <div class="social-icons">
   <a href="http://facebook.com/knowingscience"><img src="<?php echo $icon_facebook; ?>" height="35px" /></a>
-  <a href="http://twitter.com/knowingscience"><img src="<?php echo $icon_twitter; ?>" height="35px" /></a>
+  <a href="http://twitter.com/knowing_science"><img src="<?php echo $icon_twitter; ?>" height="35px" /></a>
 </div>
 
 <div id="page">
