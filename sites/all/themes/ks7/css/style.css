@@ -1893,3 +1893,19 @@ display:block;
   top: 5px;
   left: 33px;
 }
+
+/* Added for headers on new Scope & Sequence section on 8.27 */
+
+.heading-node {
+  color:#008ACD;font-size: 28px;
+}
+thead tr td {
+  background: #00CCFF;
+}
+table {
+  border-collapse: collapse;
+}
+.sub-heading-table {
+  background:#008ACD;color: #fff;font-size: 22px;
+}
+
