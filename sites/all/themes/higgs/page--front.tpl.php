@@ -86,7 +86,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
     	<div class="row margin-bottom-30">
         	<div class="col-md-4">
         		<div class="service">
-              <i class="fa fa-bullseye service-icon"></i>
+              <i class="fa fa-cubes service-icon"></i>
         			<div class="desc">
                 <?php print render($page['triptych1']); ?>
         			</div>
@@ -102,7 +102,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
         	</div>
         	<div class="col-md-4">
         		<div class="service">
-              <i class="fa fa-bullseye service-icon"></i>
+              <i class="fa fa-cubes service-icon"></i>
         			<div class="desc">
                 <?php print render($page['triptych3']); ?>
         			</div>
