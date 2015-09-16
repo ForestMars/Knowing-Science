@@ -5,7 +5,7 @@
         <div class="container">
             <!-- Logo -->
             <a class="logo" href="index.html">
-                <img src="assets/img/logo1-default.png" alt="Logo">
+                <img src="<?php echo path_to_theme() . '/assets/img/Knowing_Science_Logo_Blue_Horizon.gif' ?>" alt="Knowing Science Logo">
             </a>
             <!-- End Logo -->
 
