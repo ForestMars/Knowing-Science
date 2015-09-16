@@ -1,0 +1,73 @@
+name = Higgs
+description = Repsonsive Drupal 7 theme for knowingscience.com 2015.
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/style.css
+stylesheets[print][] = print.css
+
+regions[topnav] = Top nav
+regions[mainnav] = Header
+regions[hero]  =  Hero area
+regions[highlighted] = Highlighted
+regions[intro] = Intro Section
+regions[triptych1]  = Triptych left
+regions[triptych2]  = Triptych middle
+regions[triptych3]  = Triptych right
+regions[content_top] = Content top
+regions[content] = Content
+regions[content_bottom] = Content bottom
+regions[footer] = Footer
+regions[help] = Help
+ 
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+
+; bootstrap
+stylesheets[all][] = assets/plugins/bootstrap/css/bootstrap.min.css
+
+; main stylesheets
+stylesheets[all][] = assets/css/style.css
+stylesheets[all][] = assets/css/custom.css
+stylesheets[all][] = assets/css/theme-colors/blue.css
+
+
+; CSS Header and Footer
+stylesheets[all][] = assets/css/headers/header-default.css
+stylesheets[all][] = assets/css/footers/footer-v1.css
+
+; CSS Implementing Plugins -->
+stylesheets[all][] = assets/plugins/animate.css
+stylesheets[all][] = assets/plugins/line-icons/line-icons.css
+stylesheets[all][] = assets/plugins/font-awesome/css/font-awesome.min.css
+stylesheets[all][] = assets/plugins/parallax-slider/css/parallax-slider.css
+stylesheets[all][] = assets/plugins/owl-carousel/owl-carousel/owl.carousel.css
+
+
+scripts[] = assets/plugins/jquery/jquery.min.js
+scripts[] = assets/plugins/jquery/jquery-migrate.min.js
+scripts[] = assets/plugins/bootstrap/js/bootstrap.min.js
+<!-- JS Implementing Plugins -->
+scripts[] = assets/plugins/back-to-top.js
+scripts[] = assets/plugins/smoothScroll.js
+scripts[] = assets/plugins/parallax-slider/js/modernizr.js
+scripts[] = assets/plugins/parallax-slider/js/jquery.cslider.js
+scripts[] = assets/plugins/owl-carousel/owl-carousel/owl.carousel.js
+<!-- JS Customization -->
+scripts[] = assets/js/custom.js
+<!-- JS Page Level -->
+scripts[] = assets/js/app.js
+scripts[] = assets/js/plugins/owl-carousel.js
+scripts[] = assets/js/plugins/parallax-slider.js
+
+
+
+
