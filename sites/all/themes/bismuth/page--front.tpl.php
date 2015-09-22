@@ -1,4 +1,5 @@
 <?php 
+$theme_path = $base_path . drupal_get_path('theme', 'bismuth');
   ?>
 <body>
 
@@ -65,8 +66,8 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
         <div class="container">
             <div class="row">
                 <div class="col-md-9 animated fadeInLeft">
-                    <span>The ONLY 100% NGSS Approved Curriculum</span>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi  vehicula sem ut volutpat. Ut non libero magna fusce condimentum eleifend enim a feugiat corrupti quos.</p>
+<span style="color:#0056B0;">THE ONLY CURRICULUM 100% ALIGNED WITH <br />THE NEXT GENERATION SCIENCE STANDARDS<a href="#ngss-tm">*</a></span>
+                    <p>The <strong>KNOWING SCIENCE</strong> team, working with scientists, engineers, physicists, educators, and award winning teachers developed an innovative and engaging curriculum that is based entirely on the NEXT GENERATION SCIENCE STANDARDS. Starting with the first draft of the FRAMEWORK FOR K-12 SCIENCE EDUCATION the KNOWING SCIENCE curriculum has been designed to provide unique and engaging learning experiences for all students, easy-to-implement lessons for teachers, and a foundation for school districts to transition to the new approach to teaching and learning science and engineering practices. </p>
                 </div>
                 <div class="col-md-3 btn-buy animated fadeInRight">
                     <a href="#" class="btn-u btn-u-lg"><i class="fa fa-envelope-o"></i> Find Out More</a>
@@ -86,7 +87,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
     	<div class="row margin-bottom-30">
         	<div class="col-md-4">
         		<div class="service">
-              <i class="fa fa-cubes service-icon"></i>
+              <i class="fa service-icon"><img src="<?php echo $theme_path . '/assets/img/kk/kid-knowledge-blue-stars.png'; ?>"></i>
         			<div class="desc">
                 <?php print render($page['triptych1']); ?>
         			</div>
@@ -94,16 +95,14 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
         	</div>
         	<div class="col-md-4">
         		<div class="service">
-              <i class="fa fa-cubes service-icon"></i>
-        			<div class="desc">
+              <i class="fa service-icon"><img src="<?php echo $theme_path . '/assets/img/kk/kid-knowledge-blue-stars.png'; ?>"></i>        			<div class="desc">
                 <?php print render($page['triptych2']); ?>
         			</div>
         		</div>
         	</div>
         	<div class="col-md-4">
         		<div class="service">
-              <i class="fa fa-cubes service-icon"></i>
-        			<div class="desc">
+              <i class="fa service-icon"><img src="<?php echo $theme_path . '/assets/img/kk/kid-knowledge-blue-stars.png'; ?>"></i>        			<div class="desc">
                 <?php print render($page['triptych3']); ?>
         			</div>
         		</div>
@@ -409,6 +408,7 @@ New Knowing Science eBooks series with high-interest short stories that introduc
                         <p>
                             © 2015 Knowing Science LLC. All Rights Reserved. Kid Knowledge and Knowing Science are registered trademarks of Knowing Science LLC. Patents Pending
                         </p>
+                        <p><a name="ngss-tm"></a>* NEXT GENERATION SCIENCE STANDARDS is a registered trademark of Achieve. Neither Achieve nor the lead states and partners that developed the Next Generation Science Standards was involved in the production of, and does not endorse, this product.</p>
                     </div>
 
                   
