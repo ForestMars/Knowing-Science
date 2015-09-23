@@ -1673,7 +1673,7 @@ img.img-mouse {
     background: #3587cb none repeat scroll 0 0;
     display: block;
     margin: 0 auto -25px;
-    max-height: 75px;
+    max-height: 65px;
     position: relative;
     top: -14px;
     width: 100%;
@@ -1730,8 +1730,10 @@ a:link, a:visited {
     text-decoration: none;
 }
 .social-icons {
-    float: left;
-    margin-top: 5px;
-    width: 100px;
-    margin-left: 30px;
+    position: fixed;
+    left: 30px;
+    top: 0px;
+}
+.header .logo img{
+	margin:30px 40px 0 !important;
 }

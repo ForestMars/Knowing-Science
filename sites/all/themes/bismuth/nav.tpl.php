@@ -2,7 +2,7 @@
 
     <!--=== Header ===-->
     <div class="header">
-        <div class="container">
+        <div class="knowing">
             <!-- Logo -->
             <a class="logo" href="index.html">
                 <img src="<?php echo path_to_theme() . '/assets/img/Knowing_Science_Logo_Blue_Horizon.gif' ?>" alt="Knowing Science Logo" height="60px">

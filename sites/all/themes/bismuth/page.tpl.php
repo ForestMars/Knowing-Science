@@ -2,14 +2,14 @@
     <div class="toptab">
         <div class="social-icons">
             <a href="http://facebook.com/knowingscience">
-                <img height="35px" src="sites/all/themes/ks7/images/facebook.png">
+                <img height="35px" src="<?php echo drupal_get_path(theme,'bismuth');?>/images/facebook.png">
             </a>
             <a href="http://twitter.com/knowing_science">
-                <img height="35px" src="sites/all/themes/ks7/images/twitter.png">
+                <img height="35px" src="<?php echo drupal_get_path(theme,'bismuth');?>/images/twitter.png">
             </a>
         </div>
         <div class="tx-icon">
-            <img src="<?php echo drupal_get_path(theme,'ks7');?>/images/texas_flag.png">
+            <img src="<?php echo drupal_get_path(theme,'bismuth');?>/images/texas_flag.png">
         </div>
         <p>
             <a href="/samples-texas-edition">Click Here for TEXAS EDITION sample lessons</a>
@@ -19,7 +19,7 @@
 <div class="wrapper">
     <!--=== Header ===-->
     <div class="header">
-        <div class="container">
+        <div class="knowing">
             <!-- Logo -->
             <a class="logo" href="index.html">
                 <img src="assets/img/logo1-default.png" alt="Logo">
