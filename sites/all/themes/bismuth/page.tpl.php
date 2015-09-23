@@ -1,9 +1,3 @@
-
-    <!-- CSS Customization -->
-
-</head>
-
-<body>
 <div id="toptab-wrapper">
     <div class="toptab">
         <div class="social-icons">
@@ -1138,6 +1132,3 @@
     <script src="assets/plugins/html5shiv.js"></script>
     <script src="assets/plugins/placeholder-IE-fixes.js"></script>
 <![endif]-->
-
-</body>
-</html>

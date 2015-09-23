@@ -1,7 +1,6 @@
 <?php 
 $theme_path = $base_path . drupal_get_path('theme', 'bismuth');
   ?>
-<body>
 <div id="toptab-wrapper">
     <div class="toptab">
         <div class="social-icons">
@@ -452,6 +451,3 @@ New Knowing Science eBooks series with high-interest short stories that introduc
     <script src="assets/plugins/html5shiv.js"></script>
     <script src="assets/plugins/placeholder-IE-fixes.js"></script>
 <![endif]-->
-
-</body>
-</html>
