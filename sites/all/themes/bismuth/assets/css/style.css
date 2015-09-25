@@ -15,12 +15,16 @@
 /*Import CSS Plugins*/
 @import url(plugins/style-switcher.css);
 
-body { 
-   color: #333; 
-   font-size: 13px;
-   line-height: 1.6;
+body {
+    color: #333;
+    font: 12px/170% Verdana,sans-serif;
 }
-
+body {
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
 body.header-fixed-space {
   padding-top: 94px;
 }
@@ -1662,9 +1666,6 @@ img.img-mouse {
 }
 
 
-
-
-
 .loginbar > .fa { 
   color: #999;
 }
@@ -1708,8 +1709,9 @@ img, a img {
 img {
     border: 0 none;
 }
+
 p {
-    margin: 1.5em 0 1.2em;
+    margin: 0.6em 0 1.2em;
     padding: 0;
 }
 .toptab a:hover{
@@ -1736,4 +1738,82 @@ a:link, a:visited {
 }
 .header .logo img{
 	margin:30px 40px 0 !important;
+}
+
+.scope25 {
+    background-image: url("../../images/scopeGrade.jpg");
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    border: 1px solid #008acd;
+    margin: 0;
+    min-width: 25px;
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+}
+.field {
+    background: #fff none repeat scroll 0 0;
+    border: 0 solid #e9eff3;
+    margin: 0 15px 0.5em;
+    padding: 5px 15px;
+}
+
+.heading-node {
+    color: #008acd;
+    font-size: 28px;
+}
+h2 {
+	font-family: Helvetica,Arial,sans-serif;
+    color: #000080;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 130%;
+    margin: 20px 0 10px;
+    padding: 0;
+} 
+
+h1, h3, h4, h5, h6 {
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+tbody {
+    border: medium none;
+    max-width: 910px;
+}
+tbody {
+    border-top: 1px solid #ccc;
+}
+
+.sub-heading-table {
+    background: #008acd none repeat scroll 0 0;
+    color: #fff;
+    font-size: 22px;
+}
+td, th {
+    border: medium hidden;
+}
+td.scope25 ul li, ul.menu li, .item-list ul li, li.leaf, td.scope ul li, ul.menu li, .item-list ul li, li.leaf {
+    background: transparent url("../../images/scope_bullet.png") no-repeat scroll 1px 0.35em;
+    list-style-type: none;
+    padding: 0 0 0.2em 1.5em;
+}
+ul li, ul.menu li, .item-list ul li, li.leaf {
+    background: transparent none repeat scroll 0 0;
+    list-style-image: none;
+    list-style-type: none;
+    padding: 0 0 0.2em 1.5em;
+}
+ol li, ul li, ul.menu li, .item-list ul li, li.leaf {
+    float: left;
+    margin: 0.1em 0 0.15em 0.5em;
+}
+ol li, ul li {
+    margin: 0.4em 0 0.4em 0.5em;
+    width: 100%;
 }
