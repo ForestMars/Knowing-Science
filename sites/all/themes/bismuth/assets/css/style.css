@@ -1803,17 +1803,18 @@ td.scope25 ul li, ul.menu li, .item-list ul li, li.leaf, td.scope ul li, ul.menu
     list-style-type: none;
     padding: 0 0 0.2em 1.5em;
 }
-ul li, ul.menu li, .item-list ul li, li.leaf {
+/*ul li, ul.menu li, .item-list ul li, li.leaf {
     background: transparent none repeat scroll 0 0;
     list-style-image: none;
     list-style-type: none;
     padding: 0 0 0.2em 1.5em;
-}
-ol li, ul li, ul.menu li, .item-list ul li, li.leaf {
+}*/
+.scope25 ul li {
     float: left;
     margin: 0.1em 0 0.15em 0.5em;
 }
-ol li, ul li {
+.scope25 ol li, .scope25 ul li {
     margin: 0.4em 0 0.4em 0.5em;
     width: 100%;
 }
+.content-sm,.content{padding-top: 0px;}
