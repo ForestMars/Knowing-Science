@@ -1755,7 +1755,7 @@ a:link, a:visited {
     background: #fff none repeat scroll 0 0;
     border: 0 solid #e9eff3;
     margin: 0 15px 0.5em;
-    padding: 5px 15px;
+    /*padding: 5px 15px;*/
 }
 
 .heading-node {
@@ -1817,4 +1817,72 @@ td.scope25 ul li, ul.menu li, .item-list ul li, li.leaf, td.scope ul li, ul.menu
     margin: 0.4em 0 0.4em 0.5em;
     width: 100%;
 }
-.content-sm,.content{padding-top: 0px;}
+.content-sm,.content{
+	padding-top: 0px;
+}
+.display-price {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    color: #ff6a00;
+    font-weight: 600;
+    margin: 20px 0 0;
+     float: left;
+     border: 0 dotted #f00;  
+     display: inline;
+     clear: right;
+}
+.add-to-cart {
+    clear: right;
+    display: inline;
+    float: left;
+}
+.form-button, .form-submit {
+    margin: 2em 0.5em 1em 0;
+}
+input {
+    color: #494949;
+    font: 12px/100% Verdana,sans-serif;
+}
+.form-item, .form-actions {
+    margin-bottom: 1em;
+    margin-left: -70px;
+    margin-top: 5em;
+}
+.view-packages-2013 {
+    border: 0 dotted #f00;
+    display: block;
+    position: relative;
+    top: 0px;
+}
+.node h2 a{
+	font-family: Helvetica,Arial,sans-serif;
+	font-weight: bold;
+    line-height: 130%;
+    color: #000080;
+    font-size: 19px;
+    margin: 20px 0 15px 15px;
+}
+.even ul li{
+	line-height: 21px;
+}
+.field-item.even > div, .even {
+    font: 11px/170% Verdana,sans-serif;
+}
+#wrapper, .container {
+    background-image: url("../images/white_trans_80.png");
+    border: 0 solid #f00;
+    clear: both;
+    display: block;
+    margin: 30px auto 0;
+    min-height: 110px;
+    padding: 0;
+    width: 860px;
+}
+
+.view-content {
+    margin: auto;
+}
+.container{
+	padding-left:40px;
+}
