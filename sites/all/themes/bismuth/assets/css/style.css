@@ -1794,6 +1794,7 @@ tbody {
     background: #008acd none repeat scroll 0 0;
     color: #fff;
     font-size: 22px;
+    padding-bottom: 2px;
 }
 td, th {
     border: medium hidden;
@@ -1849,12 +1850,12 @@ input {
     margin-left: -70px;
     margin-top: 5em;
 }
-.view-packages-2013 {
+/*.view-packages-2013 {
     border: 0 dotted #f00;
     display: block;
     position: relative;
     top: 0px;
-}
+}*/
 .node h2 a{
 	font-family: Helvetica,Arial,sans-serif;
 	font-weight: bold;
@@ -1877,7 +1878,6 @@ input {
     margin: 30px auto 0;
     min-height: 110px;
     padding: 0;
-    width: 860px;
 }
 
 .view-content {
@@ -1886,3 +1886,55 @@ input {
 .container{
 	padding-left:40px;
 }
+			/*---------------------------NGSS Stem Curriculum----------------------*/
+.hero-unify > p {
+    background-color: #DDEA4C;
+    padding: 10px 40px;
+    text-align: center;
+}
+#line_height {
+    line-height: 32px;
+}
+#ks1{
+	color: #3486ff;
+}
+#title{
+	color: #494949;
+}
+#ks2{
+	background-color: #3486ff;
+	font-size: 200%;
+	color: white;
+}
+#title_1{
+	font-size:150%;
+	color: khaki;	
+	text-align: center;
+}
+#title_1 sup {
+    font-size: 25px;
+    margin-left: -4px;
+}
+	/*------End of NGSS Stem Curriculum------*/
+	/*---------curriculum view-----------*/
+.custom-curriculum {
+    margin: 80px 0;
+}
+.custom_heading a{
+	color: #000080;
+}
+.custom_heading	a:focus,.custom_heading a:hover,.custom_heading a:active {
+	text-decoration: none;
+    color: #000080;
+}
+.custom_body {
+    font: 11px/170% Verdana,sans-serif;
+}
+.custom_body .field{
+	margin:0;
+}
+.custom_article{
+	color: green;
+	font-size: 150%;
+}
+	/*---------End ofcurriculum view-----------*/
