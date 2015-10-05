@@ -346,7 +346,7 @@ New Knowing Science eBooks series with high-interest short stories that introduc
                 <div class="row">
                     <!-- About -->
                     <div class="col-md-3 md-margin-bottom-40">
-                        <a href="index.html"><img id="logo-footer" class="footer-logo" src="<?php echo path_to_theme() . '/assets/img/kid_knowledge/kid-knowledge-logo-stars-blue.jpg' ?>" alt="" width="200px"></a>
+                        <a href="index.html"><img id="logo-footer" class="footer-logo" src="<?php echo path_to_theme() . '/assets/img/kid_knowledge/kid-knowledge-logo-stars-trans.gif' ?>" alt="" width="200px"></a>
                     </div><!--/col-md-3-->
                     <!-- End About -->
 
