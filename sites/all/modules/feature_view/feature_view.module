@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the feature_view feature.
+ */
+
+include_once 'feature_view.features.inc';
