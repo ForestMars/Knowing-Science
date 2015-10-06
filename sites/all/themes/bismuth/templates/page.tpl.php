@@ -1,142 +1,125 @@
-<?php  /* convert html to php for Drupal ACA (Relax) template */ ?>
+<?php 
+$theme_path = $base_path . drupal_get_path('theme', 'bismuth');
+  ?>
+<!--================================================== Header ==================================================-->
 
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Top Nav ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<?php print render($page['topnav']); ?>
+
+
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End TopNav ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Main Nav ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->     
 <div class="wrapper">
+<?php include('nav.tpl.php'); ?> 
 
-    <?php
-    $theme_path = $base_path . drupal_get_path('theme', 'relax');
-    ?>
-
-
-    <header id="header">
-        <div class="container">
-            <?php if ($page['header_top']): ?>
-                <div class="header">
-                    <div id="header-top-region" class="topbar">
-                        <ul class="loginbar pull-right">
-                            <li>
-                                <?php
-                                    //language switcher custom block
-                                    $block = module_invoke('acalang_switcher', 'block_view', 'aca_custom_lang_switcher');
-                                    print render($block['content']);
-                                ?>
-                            </li>
-                            <li class="topbar-divider"></li>
-                            <li>
-                                <i class="fa fa-user"></i>
-                                <?php 
-                                    if(user_is_logged_in()):
-                                        echo '<a href="/user/logout">logout</a>';
-                                    else:
-                                        echo '<a href="/user/login">login</a>';
-                                    endif;
-                                 ?>
-                            </li>
-                            <li class="topbar-divider"></li>
-                            <li>
-                            <?php
-                                if(drupal_is_front_page()):
-                                    print '<i class="fa fa-home"></i>';
-                                else:
-                                    print '<i class="fa fa-home"></i>';
-                                    echo '<a href="/">home</a>';
-                                endif;
-                            ?>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="clr"></div>
-                </div>
-            <?php endif; ?>
-            <div class="logo-container">
-                <div class="logo-container-left">
-                    <?php if ($logo): ?>
-                        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-                            <img class="img-responsive" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/>
-                        </a>
-                        <?php
-                    else:
-                        print l("", "", array("attributes" => array("class" => "logo-link")));
-                    endif;
-                    ?>
-                </div>
-                <div class="clr"></div>
-            </div>
-
-            <?php if ($site_name || $site_slogan): ?>
-                <div id="name-and-slogan">
-
-                    <?php if ($site_name): ?>
-                        <?php if ($title): ?>
-                            <div id="site-name">
-                                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a>
-                            </div>
-                        <?php else: /* Use h1 when the content title is empty */ ?>
-                            <h1 id="site-name">
-                                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a>
-                            </h1>
-                        <?php endif; ?>
-                    <?php endif; ?>
-
-                    <?php if ($site_slogan): ?>
-                        <div id="site-slogan"><?php print $site_slogan; ?></div>
-                    <?php endif; ?>
-
-                </div>
-            <?php endif; ?>
-
-            <?php if ($page['header']): ?>
-                <div id="header-region">
-                    <?php print render($page['header']); ?>
-                </div>
-            <?php endif; ?>
-        </div>
-    </header> <!-- /header -->    
-
-    <!--=== Breadcrumbs ===-->
-    <div class="breadcrumbs clearfix">
-        <div class="container">
-            <h2 class="text-left"><a href="#"><?php print render($title);?></a></h2>
-        </div>
-        <?php if($breadcrumb): ?>
-        <div class="container">
-            <?php echo $breadcrumb;?>
-        </div>
-        <?php endif;?>
-    </div>
-    <!--=== End Breadcrumbs ===-->
-
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Hero Section ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+  
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Hero Section ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+  
+<!--============================================= End Header ==================================================-->  
     <!--=== Content Part ===-->
-    <div class="container content blog-page blog-item">
-        <!--======NODE EDIT TABS=====-->
-        <?php if ($tabs): ?>
-            <div id="tabs-wrapper" class="clearfix">
-            <?php endif; ?>
-            <?php if ($tabs): ?>
-                <?php print render($tabs); ?>
+    <div class="container content-sm">
+		 <?php print render($tabs); ?>
+        <?php if (isset($page['content'])): ?>
+            <div id="content-top">
+                <?php print render($page['content']); ?>
             </div>
-        <?php endif; ?> 
-        <!--======END OF NODE EDIT TABS=====-->    
-        <?php print render($page['messages']); ?>
+        <?php endif; ?>
+    	
+    </div><!--/container-->
+    <!-- End Content Part -->
 
-        <?php print render($page['content']); ?>
-        <?php print render($page['content_bottom']); ?>
 
-        <hr>
+    <!--=== Footer Version 1 ===-->
+    <div class="footer-v1">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- About -->
+                    <div class="col-md-3 md-margin-bottom-40">
+                        <a href="index.html"><img id="logo-footer" class="footer-logo" src="<?php echo path_to_theme() . '/assets/img/kid_knowledge/kid-knowledge-logo-stars-trans.gif' ?>" alt="" width="200px"></a>
 
-    </div>    
+                    </div><!--/col-md-3-->
+                    <!-- End About -->
 
-</div>
-<div class="footer-v1 footer">
-	<div class="container">
-		 <?php print render($page['footer']); ?>
-	</div>
-</div>
-<?php //include('footer.tpl.php'); ?> 
+                    <!-- Latest -->
+                    <div class="col-md-3 md-margin-bottom-40">
+                        <div class="posts">
+                            <div class="headline"><h2>Footer One</h2></div>
+                            <ul class="list-unstyled latest-list">
+                                <li>
+                                    <a href="#">Incredible content</a>
+                                    <small>May 8, 2014</small>
+                                </li>
+                                <li>
+                                    <a href="#">Best shoots</a>
+                                    <small>June 23, 2014</small>
+                                </li>
+                                <li>
+                                    <a href="#">New Terms and Conditions</a>
+                                    <small>September 15, 2014</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!--/col-md-3-->
+                    <!-- End Latest -->
 
-<script type="text/javascript" src="assets/js/app.js"></script>
+                    <!-- Link List -->
+                    <div class="col-md-3 md-margin-bottom-40">
+                        <div class="headline"><h2>Footer Two</h2></div>
+                        <ul class="list-unstyled link-list">
+                            <li><a href="#">About us</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="#">Portfolio</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="#">Latest jobs</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="#">Community</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="#">Contact us</a><i class="fa fa-angle-right"></i></li>
+                        </ul>
+                    </div><!--/col-md-3-->
+                    <!-- End Link List -->
+
+                    <!-- Address -->
+                    <div class="col-md-3 map-img md-margin-bottom-40">
+                        <div class="headline"><h2>Contact Us</h2></div>
+                        <address class="md-margin-bottom-40">
+                            3 Macdonald Ave<br />
+                            Armonk, New York, 10504<br />
+                            Phone: 800 123 3456 <br />
+                            Fax: 800 123 3456 <br />
+                            Email: <a href="mailto:info@anybiz.com" class="">info@knowingscience.com</a>
+                        </address>
+                    </div><!--/col-md-3-->
+                    <!-- End Address -->
+                </div>
+            </div>
+        </div><!--/footer-->
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>
+                            © 2015 Knowing Science LLC. All Rights Reserved. Kid Knowledge and Knowing Science are registered trademarks of Knowing Science LLC. Patents Pending
+                        </p>
+                        <p><a name="ngss-tm"></a>* NEXT GENERATION SCIENCE STANDARDS is a registered trademark of Achieve. Neither Achieve nor the lead states and partners that developed the Next Generation Science Standards was involved in the production of, and does not endorse, this product.</p>
+                    </div>
+
+                  
+                </div>
+            </div>
+        </div><!--/copyright-->
+    </div>
+    <!--=== End Footer Version 1 ===-->
+</div><!--/wrapper-->
+
+<!-- JS Global Compulsory -->
+
 <script type="text/javascript">
-    jQuery(document).ready(function () {
-        App.init();
+    jQuery(document).ready(function() {
+      	App.init();
+        OwlCarousel.initOwlCarousel();
+        ParallaxSlider.initParallaxSlider();
     });
 </script>
 <!--[if lt IE 9]>
@@ -144,5 +127,4 @@
     <script src="assets/plugins/html5shiv.js"></script>
     <script src="assets/plugins/placeholder-IE-fixes.js"></script>
 <![endif]-->
-</body>
-</html>
+
