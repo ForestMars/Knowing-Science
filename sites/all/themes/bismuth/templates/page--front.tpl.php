@@ -1,7 +1,26 @@
 <?php 
 $theme_path = $base_path . drupal_get_path('theme', 'bismuth');
   ?>
-<body>
+<?php /*  
+<div id="toptab-wrapper">
+    <div class="toptab">
+        <div class="social-icons">
+            <a href="http://facebook.com/knowingscience">
+                <img height="35px" src="<?php echo drupal_get_path(theme,'bismuth');?>/images/facebook.png">
+            </a>
+            <a href="http://twitter.com/knowing_science">
+                <img height="35px" src="<?php echo drupal_get_path(theme,'bismuth');?>/images/twitter.png">
+            </a>
+        </div>
+        <div class="tx-icon">
+            <img src="<?php echo drupal_get_path(theme,'bismuth');?>/images/texas_flag.png">
+        </div>
+        <p>
+            <a href="/samples-texas-edition">Click Here for TEXAS EDITION sample lessons</a>
+        </p>
+    </div>
+</div>
+*/ ?>
 
 <?php /*
 $icon_facebook = <?php echo path_to_theme() . '//images/facebook.png'; 
@@ -401,9 +420,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                 <div class="row">
                     <div class="col-md-6">
                         <p>
-                            © 2015 Knowing Science LLC. All Rights Reserved. Kid Knowledge and Knowing Science are registered trademarks of Knowing Science LLC. Patents Pending
-                        </p>
-                        <p><a name="ngss-tm"></a>* NEXT GENERATION SCIENCE STANDARDS is a registered trademark of Achieve. Neither Achieve nor the lead states and partners that developed the Next Generation Science Standards was involved in the production of, and does not endorse, this product.</p>
+                            © 2015 Knowing Science LLC. All Rights Reserved. Kid Knowledge and Knowing Science are registered trademarks of Knowing Science LLC. Patents Pending. <a name="ngss-tm"></a>*"NEXT GENERATION SCIENCE STANDARDS" is a registered trademark of Achieve. Neither Achieve nor the lead states and partners that developed the Next Generation Science Standards was involved in the production of, and does not endorse, this product.</p>
                     </div>
 
                   
