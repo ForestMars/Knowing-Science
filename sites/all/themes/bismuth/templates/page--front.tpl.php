@@ -314,14 +314,15 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
         	<!-- Welcome Block -->
     		<div class="col-md-8 md-margin-bottom-40">
     			<div class="headline"><h2>NGSS Stem Curriculum</h2></div>
-    		  <h4><p id="ks1">Knowing Science <span id="title">provides<span></p></h4>
+    		  <!-- h4><p id="ks1">Knowing Science <span id="title">provides<span></p></h4 -->
                 <div class="row">
                     <div class="col-sm-4">
                         <img class="img-responsive margin-bottom-20" src="<?php echo path_to_theme() . '/assets/img/kidknowledge/kk33.jpg' ?>" alt="">
                     </div>
                     <div class="col-sm-8">
 
-                        
+                            		  <h4><p id="ks1">Knowing Science <span id="title">provides<span></p></h4>
+
                         <ul class="list-unstyled margin-bottom-20" id="line_height">
                             <li><i class="fa fa-check color-blue"></i>
                                 100% alignment to Next Generation Science Standards
