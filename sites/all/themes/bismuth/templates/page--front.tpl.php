@@ -246,7 +246,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                     <div class="thumbnail-img">
                         <div class="overflow-hidden">
                             <!-- img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_3rd.png' ?>" alt="" -->
-                           <?php print $image['1st-grade']; ?>
+                           <?php print $image['3rd-grade']; ?>
                         </div>
                         <a class="btn-more hover-effect" href="#">read more +</a>
                     </div>
