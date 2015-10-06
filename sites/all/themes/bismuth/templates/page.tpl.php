@@ -65,22 +65,11 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
        */
 ?>   
     <!--=== Content Part ===-->
-    <div class="container content blog-page blog-item">
-        <!--======NODE EDIT TABS=====-->
-        <?php if ($tabs): ?>
-            <div id="tabs-wrapper" class="clearfix">
-            <?php endif; ?>
-            <?php if ($tabs): ?>
-                <?php print render($tabs); ?>
-            </div>
-        <?php endif; ?> 
-        <!--======END OF NODE EDIT TABS=====-->    
+    <div class="container content blog-page blog-item"> 
         <?php print render($page['messages']); ?>
 
         <?php print render($page['content']); ?>
         <?php print render($page['content_bottom']); ?>
-
-        <hr>
 
     </div>  
     <!-- End Content Part -->
