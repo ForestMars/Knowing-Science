@@ -1660,7 +1660,15 @@ img.img-mouse {
 .team-v1 li > h3 {
 	color: #555;
 }
-
+/*****New CSS add Ricky********/
+.region-triptych1 .block-views .content,
+.region-triptych2 .block-views .content,
+.region-triptych3 .block-views .content{
+   padding-top: 25px;
+}
+.footer .copyright .col-md-6{
+   width: 100%;
+}
 
 
 
