@@ -9,7 +9,7 @@
             </a>-->
             <?php if ($logo): ?>
                 <a class="logo" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-                    <img class="img-responsive" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" height="60"/>
+                    <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" height="60"/>
                 </a>
             <?php
                 else:
