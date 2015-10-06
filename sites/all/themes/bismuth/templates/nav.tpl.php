@@ -5,7 +5,7 @@
         <div class="container">
             <!-- Logo -->
             <a class="logo" href="/">
-                <img src="<?php echo path_to_theme() . '/assets/img/Knowing_Science_Logo_Blue_Horizon.gif' ?>" alt="Knowing Science Logo" height="60px">
+                <img src="<?php echo drupal_get_path('theme', $GLOBALS['theme']).'/assets/img/Knowing_Science_Logo_Blue_Horizon.gif' ?>" alt="Knowing Science Logo" height="60px">
             </a>
             <!-- End Logo -->
 
