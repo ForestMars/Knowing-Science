@@ -46,12 +46,12 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
 <?php /* This is odd because the header and the main content wrapper div overlap. 
        * The main navigation and hero slideshow divs are members both of the header area and the main content wrapper div. 
        */
+?>
 <?php 
     print "<pre>";
     print_r('test',$GLOBALS);
     print "</pre>";
 ?>
-?>       
 <div class="wrapper">
 <?php include('nav.tpl.php'); ?> 
 
