@@ -1661,6 +1661,13 @@ img.img-mouse {
 	color: #555;
 }
 /*****New CSS add Ricky********/
+.purchase .fullwidth-text{
+   width: 100%;
+}
+.fullwidth-text .fullwidth-left{
+   width: 75%;
+   float: left;
+}
 .region-triptych1 .block-views .content,
 .region-triptych2 .block-views .content,
 .region-triptych3 .block-views .content{
