@@ -108,14 +108,46 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
 
 
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Gallery: Curriculum Kits ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-        <div class="headline"><h2>Curriculum Kits</h2></div>                       
+  <?php
+    $image = array();
+    $image['pre-k'] = theme(
+      'image_style', array(
+        'path' => 'public://assets/img/covers/prek-ngss-curriculum-learning-to-think.png',
+        'style_name' => 'cover_for_home_page',
+        'class' => "img-responsive",
+       )
+    );
+    $image['kinder'] = theme(
+      'image_style', array(
+        'path' => 'public://assets/img/covers/kindergarten-ngss-curriculum-lets-compare.png',
+        'style_name' => 'cover_for_home_page',
+        'class' => "img-responsive",
+       )
+    );
+    $image['1st-grade'] = theme(
+      'image_style', array(
+        'path' => 'public://assets/img/covers/1st-grade-ngss-curriculum-movement.png',
+        'style_name' => 'cover_for_home_page',
+        'class' => "img-responsive",
+       )
+    );
+    $image['2nd-grade'] = theme(
+      'image_style', array(
+        'path' => 'public://assets/img/covers/2nd-grade-ngss-curriculum-whats-the-matter.png',
+        'style_name' => 'cover_for_home_page',
+        'class' => "img-responsive",
+       )
+    );
+ ?>
+ 
+    <div class="headline"><h2>Curriculum Kits</h2></div>                       
         <div class="row margin-bottom-20">
             <div class="col-md-3 col-sm-6">
                 <div class="thumbnails thumbnail-style thumbnail-kenburn">
                 	<div class="thumbnail-img">
                         <div class="overflow-hidden">
-                            <img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_prek.png' ?>" alt="">
-     
+                            <!-- img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_prek.png' ?>" alt="" -->
+                            <?php print $image['pre-k']; ?>
 
                         </div>
                         <a class="btn-more hover-effect" href="#">read more +</a>
