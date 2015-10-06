@@ -1,38 +1,6 @@
 <?php 
 $theme_path = $base_path . drupal_get_path('theme', 'bismuth');
   ?>
-
-<?php /*
-<div id="toptab-wrapper">
-    <div class="toptab">
-        <div class="social-icons">
-            <a href="http://facebook.com/knowingscience">
-                <img height="35px" src="/<?php echo drupal_get_path(theme,'bismuth');?>/images/facebook.png">
-            </a>
-            <a href="http://twitter.com/knowing_science">
-                <img height="35px" src="/<?php echo drupal_get_path(theme,'bismuth');?>/images/twitter.png">
-            </a>
-        </div>
-        <div class="tx-icon">
-            <img src="/<?php echo drupal_get_path(theme,'bismuth');?>/images/texas_flag.png">
-        </div>
-        <p>
-            <a href="/samples-texas-edition">Click Here for TEXAS EDITION sample lessons</a>
-        </p>
-    </div>
-</div>
-*/ ?> 
-
-
-<?php /*
-$icon_facebook = <?php echo path_to_theme() . '//images/facebook.png'; 
-$icon_twitter = <?php echo path_to_theme() . '//images/twitter.png'; 
-<div class="social-icons">
-  <a href="http://facebook.com/knowingscience"><img src="<?php echo $icon_facebook; ?>" height="35px" /></a>
-  <a href="http://twitter.com/knowing_science"><img src="<?php echo $icon_twitter; ?>" height="35px" /></a>
-</div>
-*/ ?>
-
 <!--================================================== Header ==================================================-->
 
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Top Nav ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -42,14 +10,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End TopNav ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 
-  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Main Nav ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-
-
-<?php /* This is odd because the header and the main content wrapper div overlap. 
-       * The main navigation and hero slideshow divs are members both of the header area and the main content wrapper div. 
-       */
-?>       
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Main Nav ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->     
 <div class="wrapper">
 <?php include('nav.tpl.php'); ?> 
 
@@ -57,13 +18,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
   
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Hero Section ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
   
-<!--============================================= End Header ==================================================-->
-
-
-<?php /* This is odd because the header and the main content wrapper div overlap. 
-       * The main navigation and hero slideshow divs are members both of the header area and the main content wrapper div. 
-       */
-?>   
+<!--============================================= End Header ==================================================-->  
     <!--=== Content Part ===-->
     <div class="container content-sm">
 		 <?php print render($tabs); ?>
@@ -71,7 +26,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
             <div id="content-top">
                 <?php print render($page['content']); ?>
             </div>
-        <?php endif; ?></div>
+        <?php endif; ?>
     	
     </div><!--/container-->
     <!-- End Content Part -->
