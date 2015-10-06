@@ -117,27 +117,27 @@
                           </li>
                            
                           <li class="dropdown-submenu">
-                            <a href="/ngss-curriculum/first-grade">1st Grade</a>
+                            <a href="/ngss-curriculum/grade-1">1st Grade</a>
                           </li>
                             
                           <li class="dropdown-submenu">
-                             <a href="/ngss-curriculum/second-grade">2nd Grade</a>
+                             <a href="/ngss-curriculum/grade-2">2nd Grade</a>
                           </li>
 
                           <li class="dropdown-submenu">
-                             <a href="/ngss-curriculum/third-grade">3rd Grade</a>
+                             <a href="/ngss-curriculum/grade-3">3rd Grade</a>
                           </li>
 
                           <li class="dropdown-submenu">
-                             <a href="/ngss-curriculum/fourth-grade">4th Grade</a>
+                             <a href="/ngss-curriculum/grade-4">4th Grade</a>
                           </li>
 
                           <li class="dropdown-submenu">
-                             <a href="/ngss-curriculum/fifth-grade">5th Grade</a>
+                             <a href="/ngss-curriculum/grade-5">5th Grade</a>
                           </li>
 
                           <li class="dropdown-submenu">
-                             <a href="/ngss-curriculum/sixth-grade">6th Grade</a>
+                             <a href="/ngss-curriculum/grade-6">6th Grade</a>
                           </li>
 
   
