@@ -4,7 +4,7 @@
     <div class="header">
         <div class="container">
             <!-- Logo -->
-            <a class="logo" href="index.html">
+            <a class="logo" href="/">
                 <img src="<?php echo path_to_theme() . '/assets/img/Knowing_Science_Logo_Blue_Horizon.gif' ?>" alt="Knowing Science Logo" height="60px">
             </a>
             <!-- End Logo -->
@@ -63,34 +63,34 @@
                         <ul class="dropdown-menu">
                           
                           <li class="dropdown-submenu">
-                          <a href="scope-sequence/pre-k">Pre-K</a></li>
+                          <a href="/scope-and-sequence/pre-k">Pre-K</a></li>
 
                           <li class="dropdown-submenu">
-                            <a href="scope-sequence/kindergarden">Kindergarden</a>
+                            <a href="/scope-and-sequence/kindergarten">Kindergarten</a>
                           </li>
                            
                           <li class="dropdown-submenu">
-                            <a href="scope-sequence/grade-one">1st Grade</a>
+                            <a href="/scope-and-sequence/first-grade">1st Grade</a>
                           </li>
                             
                           <li class="dropdown-submenu">
-                             <a href="scope-sequence/grade-two">2nd Grade</a>
+                             <a href="/scope-and-sequence/second-grade">2nd Grade</a>
                           </li>
 
                           <li class="dropdown-submenu">
-                             <a href="scope-sequence/grade-three">3rd Grade</a>
+                             <a href="/scope-and-sequence/third-grade">3rd Grade</a>
                           </li>
 
                           <li class="dropdown-submenu">
-                             <a href="scope-sequence/grade-four">4th Grade</a>
+                             <a href="/scope-and-sequence/fourth-grade">4th Grade</a>
                           </li>
 
                           <li class="dropdown-submenu">
-                             <a href="scope-sequence/grade-five">5th Grade</a>
+                             <a href="/scope-and-sequence/fifth-grade">5th Grade</a>
                           </li>
 
                           <li class="dropdown-submenu">
-                             <a href="scope-sequence/grade-six">6th Grade</a>
+                             <a href="/scope-and-sequence/sixth-grade">6th Grade</a>
                           </li>
 
 
@@ -109,7 +109,36 @@
                         <ul class="dropdown-menu">
 
 
-               
+                                        <li class="dropdown-submenu">
+                          <a href="ngss-curriculum/pre-k">Pre-K</a></li>
+
+                          <li class="dropdown-submenu">
+                            <a href="/ngss-curriculum/kindergarten">Kindergarten</a>
+                          </li>
+                           
+                          <li class="dropdown-submenu">
+                            <a href="/ngss-curriculum/grade-1">1st Grade</a>
+                          </li>
+                            
+                          <li class="dropdown-submenu">
+                             <a href="/ngss-curriculum/grade-2">2nd Grade</a>
+                          </li>
+
+                          <li class="dropdown-submenu">
+                             <a href="/ngss-curriculum/grade-3">3rd Grade</a>
+                          </li>
+
+                          <li class="dropdown-submenu">
+                             <a href="/ngss-curriculum/grade-4">4th Grade</a>
+                          </li>
+
+                          <li class="dropdown-submenu">
+                             <a href="/ngss-curriculum/grade-5">5th Grade</a>
+                          </li>
+
+                          <li class="dropdown-submenu">
+                             <a href="/ngss-curriculum/grade-6">6th Grade</a>
+                          </li>
 
   
 
