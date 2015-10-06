@@ -112,28 +112,28 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
     $image = array();
     $image['pre-k'] = theme(
       'image_style', array(
-        'path' => 'public://assets/img/covers/prek-ngss-curriculum-learning-to-think.png',
+        'path' => 'public://images/covers/prek-ngss-curriculum-learning-to-think.png',
         'style_name' => 'cover_for_home_page',
         'class' => "img-responsive",
        )
     );
     $image['kinder'] = theme(
       'image_style', array(
-        'path' => 'public://assets/img/covers/kindergarten-ngss-curriculum-lets-compare.png',
+        'path' => 'public://images/covers/kindergarten-ngss-curriculum-lets-compare.png',
         'style_name' => 'cover_for_home_page',
         'class' => "img-responsive",
        )
     );
     $image['1st-grade'] = theme(
       'image_style', array(
-        'path' => 'public://assets/img/covers/1st-grade-ngss-curriculum-movement.png',
+        'path' => 'public://images/covers/1st-grade-ngss-curriculum-movement.png',
         'style_name' => 'cover_for_home_page',
         'class' => "img-responsive",
        )
     );
     $image['2nd-grade'] = theme(
       'image_style', array(
-        'path' => 'public://assets/img/covers/2nd-grade-ngss-curriculum-whats-the-matter.png',
+        'path' => 'public://images/covers/2nd-grade-ngss-curriculum-whats-the-matter.png',
         'style_name' => 'cover_for_home_page',
         'class' => "img-responsive",
        )
@@ -165,7 +165,8 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                 <div class="thumbnails thumbnail-style thumbnail-kenburn">
                     <div class="thumbnail-img">
                         <div class="overflow-hidden">
-                            <img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_kindergarten.png' ?>" alt="">
+                            <!-- img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/covers/prek-ngss-curriculum-learning-to-think.png' ?>" alt="" -->
+                                 <?php print $image['kinder']; ?>
                         </div>
                         <a class="btn-more hover-effect" href="#">read more +</a>
                     </div>
