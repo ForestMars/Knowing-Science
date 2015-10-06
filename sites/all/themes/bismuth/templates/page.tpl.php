@@ -71,7 +71,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
 			<div id="tabs-wrapper" class="clearfix">
 				<?php endif; ?>
 				<?php if ($tabs): ?>
-				<?php print render($tabs); ?>
+				<?php print drupal_render($tabs); ?>
 			</div>
 		<?php endif; ?> 
         <?php if (isset($page['content'])): ?>
