@@ -1,5 +1,6 @@
 <?php 
 $theme_path = $base_path . drupal_get_path('theme', 'bismuth');
+global $theme;
   ?>
 <?php /*  
 <div id="toptab-wrapper">
@@ -46,7 +47,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
 <?php /* This is odd because the header and the main content wrapper div overlap. 
        * The main navigation and hero slideshow divs are members both of the header area and the main content wrapper div. 
        */
-?>       
+?>
 <div class="wrapper">
 <?php include('nav.tpl.php'); ?> 
 
@@ -61,13 +62,13 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
     <div class="purchase">
         <div class="container">
             <div class="row">
-                <div class="col-md-9 animated fadeInLeft">
+                <div class="col-md-9 animated fadeInLeft fullwidth-text">
 <span style="color:#0056B0;">THE ONLY CURRICULUM 100% ALIGNED WITH THE NEXT GENERATION SCIENCE STANDARDS<a href="#ngss-tm">*</a></span>
-                    <p>The <strong>KNOWING SCIENCE</strong> team, working with scientists, engineers, physicists, educators, and award winning teachers developed an innovative and engaging curriculum that is based entirely on the NEXT GENERATION SCIENCE STANDARDS. Starting with the first draft of the FRAMEWORK FOR K-12 SCIENCE EDUCATION the KNOWING SCIENCE curriculum has been designed to provide unique and engaging learning experiences for all students, easy-to-implement lessons for teachers, and a foundation for school districts to transition to the new approach to teaching and learning science and engineering practices. </p>
-                </div>
-                <div class="col-md-3 btn-buy animated fadeInRight">
-                    <a href="#" class="btn-u btn-u-lg"><i class="fa fa-envelope-o"></i> Find Out More</a>
-                </div>
+                    <div class="fullwidth-left"><p>The <strong>KNOWING SCIENCE</strong> team, working with scientists, engineers, physicists, educators, and award winning teachers developed an innovative and engaging curriculum that is based entirely on the NEXT GENERATION SCIENCE STANDARDS. Starting with the first draft of the FRAMEWORK FOR K-12 SCIENCE EDUCATION the KNOWING SCIENCE curriculum has been designed to provide unique and engaging learning experiences for all students, easy-to-implement lessons for teachers, and a foundation for school districts to transition to the new approach to teaching and learning science and engineering practices. </p></div>
+                    <div class="col-md-3 btn-buy animated fadeInRight">
+						<a href="#" class="btn-u btn-u-lg"><i class="fa fa-envelope-o"></i> Find Out More</a>
+					</div>
+				</div>
             </div>
         </div>
     </div><!--/row-->
@@ -430,7 +431,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                 <div class="row">
                     <!-- About -->
                     <div class="col-md-3 md-margin-bottom-40">
-                        <a href="index.html"><img id="logo-footer" class="footer-logo" src="<?php echo path_to_theme() . '/assets/img/kid_knowledge/kid-knowledge-logo-stars-trans.gif' ?>" alt="" width="200px"></a>
+                        <a href="index.html"><img id="logo-footer" class="footer-logo" src="<?php echo '/'.drupal_get_path('theme', $theme) . '/assets/img/kid_knowledge/kid-knowledge-logo-stars-trans.gif' ?>" alt="" width="200px"></a>
                     </div><!--/col-md-3-->
                     <!-- End About -->
 
@@ -490,7 +491,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                 <div class="row">
                     <div class="col-md-6">
                         <p>
-                            © 2015 Knowing Science LLC. All Rights Reserved. Kid Knowledge and Knowing Science are registered trademarks of Knowing Science LLC. Patents Pending. <a name="ngss-tm"></a>*"NEXT GENERATION SCIENCE STANDARDS" is a registered trademark of Achieve. Neither Achieve nor the lead states and partners that developed the Next Generation Science Standards was involved in the production of, and does not endorse, this product.</p>
+                            © 2015 Knowing Science LLC. All Rights Reserved. Kid Knowledge and Knowing Science are registered trademarks of Knowing Science LLC. Patents Pending.<br /><a name="ngss-tm"></a>*"NEXT GENERATION SCIENCE STANDARDS" is a registered trademark of Achieve. Neither Achieve nor the lead states and partners that developed the Next Generation Science Standards was involved in the production of, and does not endorse, this product.</p>
                     </div>
 
                   
