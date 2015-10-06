@@ -62,7 +62,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
         <div class="container">
             <div class="row">
                 <div class="col-md-9 animated fadeInLeft">
-<span style="color:#0056B0;">THE ONLY CURRICULUM 100% ALIGNED WITH <br />THE NEXT GENERATION SCIENCE STANDARDS<a href="#ngss-tm">*</a></span>
+<span style="color:#0056B0;">THE ONLY CURRICULUM 100% ALIGNED WITH THE NEXT GENERATION SCIENCE STANDARDS<a href="#ngss-tm">*</a></span>
                     <p>The <strong>KNOWING SCIENCE</strong> team, working with scientists, engineers, physicists, educators, and award winning teachers developed an innovative and engaging curriculum that is based entirely on the NEXT GENERATION SCIENCE STANDARDS. Starting with the first draft of the FRAMEWORK FOR K-12 SCIENCE EDUCATION the KNOWING SCIENCE curriculum has been designed to provide unique and engaging learning experiences for all students, easy-to-implement lessons for teachers, and a foundation for school districts to transition to the new approach to teaching and learning science and engineering practices. </p>
                 </div>
                 <div class="col-md-3 btn-buy animated fadeInRight">
