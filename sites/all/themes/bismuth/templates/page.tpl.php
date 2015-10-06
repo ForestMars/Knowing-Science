@@ -66,14 +66,16 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
 ?>   
     <!--=== Content Part ===-->
     <div class="container content-sm">
-		<!--======NODE EDIT TABS=====-->
-		<?php if ($tabs): ?>
-			<div id="tabs-wrapper" class="clearfix">
-				<?php endif; ?>
-				<?php if ($tabs): ?>
-				<?php print drupal_render($tabs); ?>
-			</div>
-		<?php endif; ?> 
+        <!--======NODE EDIT TABS=====-->
+        <?php if ($tabs): ?>
+            <div id="tabs-wrapper" class="clearfix">
+            <?php endif; ?>
+            <?php if ($tabs): ?>
+                <?php print render($tabs); ?>
+            </div>
+        <?php endif; ?> 
+        <!--======END OF NODE EDIT TABS=====-->    
+        <?php print render($page['messages']); ?>
         <?php if (isset($page['content'])): ?>
             <div id="content-top">
                 <?php print render($page['content']); ?>
