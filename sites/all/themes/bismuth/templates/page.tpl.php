@@ -1,5 +1,6 @@
 <?php 
 $theme_path = $base_path . drupal_get_path('theme', 'bismuth');
+global $theme;
   ?>
 <!--================================================== Header ==================================================-->
 
