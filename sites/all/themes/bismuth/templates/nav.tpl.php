@@ -8,8 +8,8 @@
                 <img src="<?php //echo drupal_get_path('theme', variable_get('theme_default', NULL)) .' /assets/img/Knowing_Science_Logo_Blue_Horizon.gif' ?>" alt="Knowing Science Logo" height="60px">
             </a>-->
             <?php if ($logo): ?>
-                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-                    <img class="img-responsive" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/>
+                <a class="logo" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
+                    <img class="img-responsive" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" height="60"/>
                 </a>
             <?php
                 else:
