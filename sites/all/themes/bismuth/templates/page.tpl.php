@@ -64,9 +64,6 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
        * The main navigation and hero slideshow divs are members both of the header area and the main content wrapper div. 
        */
 ?>   
-<div class="wrapper">
-   <?php include('nav.tpl.php'); ?> 
-
     <!--=== Content Part ===-->
     <div class="container content-sm">
     	
