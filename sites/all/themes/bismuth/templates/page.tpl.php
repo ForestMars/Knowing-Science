@@ -65,7 +65,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
        */
 ?>   
     <!--=== Content Part ===-->
-    <div class="container content-sm">
+    <div class="container content blog-page blog-item">
         <!--======NODE EDIT TABS=====-->
         <?php if ($tabs): ?>
             <div id="tabs-wrapper" class="clearfix">
@@ -76,13 +76,13 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
         <?php endif; ?> 
         <!--======END OF NODE EDIT TABS=====-->    
         <?php print render($page['messages']); ?>
-        <?php if (isset($page['content'])): ?>
-            <div id="content-top">
-                <?php print render($page['content']); ?>
-            </div>
-        <?php endif; ?></div>
-    	
-    </div><!--/container-->
+
+        <?php print render($page['content']); ?>
+        <?php print render($page['content_bottom']); ?>
+
+        <hr>
+
+    </div>  
     <!-- End Content Part -->
 
 
@@ -154,7 +154,9 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                 <div class="row">
                     <div class="col-md-6">
                         <p>
-                            © 2015 Knowing Science LLC. All Rights Reserved. Kid Knowledge and Knowing Science are registered trademarks of Knowing Science LLC. Patents Pending.<br /><a name="ngss-tm"></a>*"NEXT GENERATION SCIENCE STANDARDS" is a registered trademark of Achieve. Neither Achieve nor the lead states and partners that developed the Next Generation Science Standards was involved in the production of, and does not endorse, this product.</p>
+                            © 2015 Knowing Science LLC. All Rights Reserved. Kid Knowledge and Knowing Science are registered trademarks of Knowing Science LLC. Patents Pending
+                        </p>
+                        <p><a name="ngss-tm"></a>* NEXT GENERATION SCIENCE STANDARDS is a registered trademark of Achieve. Neither Achieve nor the lead states and partners that developed the Next Generation Science Standards was involved in the production of, and does not endorse, this product.</p>
                     </div>
 
                   
