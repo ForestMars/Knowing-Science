@@ -138,6 +138,36 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
         'class' => "img-responsive",
        )
     );
+    $image['3rd-grade'] = theme(
+      'image_style', array(
+        'path' => 'public://images/covers/3rd-grade-ngss-curriculum.png',
+        'style_name' => 'cover_for_home_page',
+        'class' => "img-responsive",
+       )
+    );
+    $image['4th-grade'] = theme(
+      'image_style', array(
+        'path' => 'public://images/covers/4th-grade-ngss-curriculum.png',
+        'style_name' => 'cover_for_home_page',
+        'class' => "img-responsive",
+       )
+    );
+    $image['5th-grade'] = theme(
+      'image_style', array(
+        'path' => 'public://images/covers/5th-grade-ngss-curriculum.png',
+        'style_name' => 'cover_for_home_page',
+        'class' => "img-responsive",
+       )
+    );
+    $image['6th-grade'] = theme(
+      'image_style', array(
+        'path' => 'public://images/covers/6th-grade-ngss-curriculum-whats-the-matter.png',
+        'style_name' => 'cover_for_home_page',
+        'class' => "img-responsive",
+       )
+    );
+    
+    
  ?>
  
     <div class="headline"><h2>Curriculum Kits</h2></div>                       
@@ -181,7 +211,8 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                 <div class="thumbnails thumbnail-style thumbnail-kenburn">
                     <div class="thumbnail-img">
                         <div class="overflow-hidden">
-                            <img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_1st.png' ?>" alt="">
+                            <!-- img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_1st.png' ?>" alt="" -->
+                           <?php print $image['1st-grade']; ?>
                         </div>
                         <a class="btn-more hover-effect" href="#">read more +</a>
                     </div>
@@ -196,7 +227,9 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                 <div class="thumbnails thumbnail-style thumbnail-kenburn">
                     <div class="thumbnail-img">
                         <div class="overflow-hidden">
-                            <img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_2nd.png' ?>" alt="">
+                            <!-- img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_2nd.png' ?>" alt="" -->
+                           <?php print $image['2nd-grade']; ?>
+
                         </div>
                         <a class="btn-more hover-effect" href="#">read more +</a>
                     </div>
@@ -212,7 +245,8 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                 <div class="thumbnails thumbnail-style thumbnail-kenburn">
                     <div class="thumbnail-img">
                         <div class="overflow-hidden">
-                            <img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_3rd.png' ?>" alt="">
+                            <!-- img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_3rd.png' ?>" alt="" -->
+                           <?php print $image['1st-grade']; ?>
                         </div>
                         <a class="btn-more hover-effect" href="#">read more +</a>
                     </div>
@@ -227,7 +261,8 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                 <div class="thumbnails thumbnail-style thumbnail-kenburn">
                     <div class="thumbnail-img">
                         <div class="overflow-hidden">
-                            <img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_4th.png' ?>" alt="">
+                            <!-- img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_4th.png' ?>" alt="" -->
+                           <?php print $image['4th-grade']; ?>
                         </div>
                         <a class="btn-more hover-effect" href="#">read more +</a>
                     </div>
@@ -242,7 +277,8 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                 <div class="thumbnails thumbnail-style thumbnail-kenburn">
                     <div class="thumbnail-img">
                         <div class="overflow-hidden">
-                            <img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_5th.png' ?>" alt="">
+                            <!-- img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_5th.png' ?>" alt="" -->
+                           <?php print $image['5th-grade']; ?>
                         </div>
                         <a class="btn-more hover-effect" href="#">read more +</a>
                     </div>
