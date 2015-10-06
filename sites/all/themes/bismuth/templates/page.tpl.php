@@ -65,13 +65,15 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
        */
 ?>   
     <!--=== Content Part ===-->
-    <div class="container content blog-page blog-item"> 
-        <?php print render($page['messages']); ?>
-
-        <?php print render($page['content']); ?>
-        <?php print render($page['content_bottom']); ?>
-
-    </div>  
+    <div class="container content-sm">
+		 <?php print render($tabs); ?>
+        <?php if (isset($page['content'])): ?>
+            <div id="content-top">
+                <?php print render($page['content']); ?>
+            </div>
+        <?php endif; ?></div>
+    	
+    </div><!--/container-->
     <!-- End Content Part -->
 
 
