@@ -63,34 +63,34 @@
                         <ul class="dropdown-menu">
                           
                           <li class="dropdown-submenu">
-                          <a href="scope-and-sequence/pre-k">Pre-K</a></li>
+                          <a href="/scope-and-sequence/pre-k">Pre-K</a></li>
 
                           <li class="dropdown-submenu">
-                            <a href="scope-and-sequence/kindergarten">Kindergarten</a>
+                            <a href="/scope-and-sequence/kindergarten">Kindergarten</a>
                           </li>
                            
                           <li class="dropdown-submenu">
-                            <a href="scope-and-sequence/first-grade">1st Grade</a>
+                            <a href="/scope-and-sequence/first-grade">1st Grade</a>
                           </li>
                             
                           <li class="dropdown-submenu">
-                             <a href="scope-and-sequence/second-grade">2nd Grade</a>
+                             <a href="/scope-and-sequence/second-grade">2nd Grade</a>
                           </li>
 
                           <li class="dropdown-submenu">
-                             <a href="scope-and-sequence/third-grade">3rd Grade</a>
+                             <a href="/scope-and-sequence/third-grade">3rd Grade</a>
                           </li>
 
                           <li class="dropdown-submenu">
-                             <a href="scope-and-sequence/fourth-grade">4th Grade</a>
+                             <a href="/scope-and-sequence/fourth-grade">4th Grade</a>
                           </li>
 
                           <li class="dropdown-submenu">
-                             <a href="scope-and-sequence/fifth-grade">5th Grade</a>
+                             <a href="/scope-and-sequence/fifth-grade">5th Grade</a>
                           </li>
 
                           <li class="dropdown-submenu">
-                             <a href="scope-and-sequence/sixth-grade">6th Grade</a>
+                             <a href="/scope-and-sequence/sixth-grade">6th Grade</a>
                           </li>
 
 
@@ -113,31 +113,31 @@
                           <a href="ngss-curriculum/pre-k">Pre-K</a></li>
 
                           <li class="dropdown-submenu">
-                            <a href="ngss-curriculum/kindergarten">Kindergarten</a>
+                            <a href="/ngss-curriculum/kindergarten">Kindergarten</a>
                           </li>
                            
                           <li class="dropdown-submenu">
-                            <a href="ngss-curriculum/first-grade">1st Grade</a>
+                            <a href="/ngss-curriculum/first-grade">1st Grade</a>
                           </li>
                             
                           <li class="dropdown-submenu">
-                             <a href="ngss-curriculum/second-grade">2nd Grade</a>
+                             <a href="/ngss-curriculum/second-grade">2nd Grade</a>
                           </li>
 
                           <li class="dropdown-submenu">
-                             <a href="ngss-curriculum/third-grade">3rd Grade</a>
+                             <a href="/ngss-curriculum/third-grade">3rd Grade</a>
                           </li>
 
                           <li class="dropdown-submenu">
-                             <a href="ngss-curriculum/fourth-grade">4th Grade</a>
+                             <a href="/ngss-curriculum/fourth-grade">4th Grade</a>
                           </li>
 
                           <li class="dropdown-submenu">
-                             <a href="ngss-curriculum/fifth-grade">5th Grade</a>
+                             <a href="/ngss-curriculum/fifth-grade">5th Grade</a>
                           </li>
 
                           <li class="dropdown-submenu">
-                             <a href="ngss-curriculum/sixth-grade">6th Grade</a>
+                             <a href="/ngss-curriculum/sixth-grade">6th Grade</a>
                           </li>
 
   
