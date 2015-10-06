@@ -130,13 +130,3 @@ function STARTERKIT_preprocess_block(&$variables, $hook) {
   //}
 }
 // */
-function bismuth_preprocess_page(&$vars) {
-
-// krumo($vars);
-// global $base_url;
-// $vars['base_url'] = $base_url;
-
-  if (!empty($vars['node']) && !empty($vars['node']->type)) {
-    $vars['theme_hook_suggestions'][] = 'page__node__' . $vars['node']->type; 
-  } 
-}
