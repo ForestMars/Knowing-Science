@@ -162,7 +162,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
     );
     $image['6th-grade'] = theme(
       'image_style', array(
-        'path' => 'public://images/covers/6th-grade-ngss-curriculum-whats-the-matter.png',
+        'path' => 'public://images/covers/6th-grade-ngss-curriculum.png',
         'style_name' => 'cover_for_home_page',
         'class' => "img-responsive",
        )
@@ -296,8 +296,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                 <div class="thumbnails thumbnail-style thumbnail-kenburn">
                     <div class="thumbnail-img">
                         <div class="overflow-hidden">
-                            <img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_6th.png' ?>" alt="">
-                        </div>
+                          <?php print $image['6th-grade']; ?>                        </div>
                         <a class="btn-more hover-effect" href="#">read more +</a>
                     </div>
                     <div class="caption">
