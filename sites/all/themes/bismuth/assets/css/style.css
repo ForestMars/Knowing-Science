@@ -19,6 +19,11 @@ body {
    color: #333; 
    font-size: 13px;
    line-height: 1.6;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body.header-fixed-space {
@@ -1660,7 +1665,22 @@ img.img-mouse {
 .team-v1 li > h3 {
 	color: #555;
 }
-
+/*****New CSS add Ricky********/
+.purchase .fullwidth-text{
+   width: 100%;
+}
+.fullwidth-text .fullwidth-left{
+   width: 75%;
+   float: left;
+}
+.region-triptych1 .block-views .content,
+.region-triptych2 .block-views .content,
+.region-triptych3 .block-views .content{
+   padding-top: 25px;
+}
+.footer-v1 .copyright .col-md-6{
+   width: 100%;
+}
 
 
 
