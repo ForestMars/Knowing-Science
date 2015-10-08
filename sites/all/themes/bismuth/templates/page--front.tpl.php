@@ -305,70 +305,73 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
 
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Info Section ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     	<div class="row margin-bottom-30">
-        	<!-- Welcome Block -->
-    		<div class="col-md-8 md-margin-bottom-40">
-    			<div class="headline"><h2>NGSS Stem Curriculum</h2></div>
+             <p id="ks2">
+                    <span id="title_1" style="padding-left:20px;">   Knowing science<sup>®</sup></span>
+                     will transition your school district to the <b>Next Generation Science Standards</b>
+                    </p>
+    		<!-- div class="col-md-8 md-margin-bottom-40" -->
+      		
+
+
+    			<!-- div class="headline"><h2>NGSS Stem Curriculum</h2></div -->
     		  <!-- h4><p id="ks1">Knowing Science <span id="title">provides<span></p></h4 -->
-                <div class="row">
-                    <div class="col-sm-4">
+                <div class="row" id="transition">
+                    <div class="col-sm-5">
                         <img class="img-responsive margin-bottom-20" src="<?php echo path_to_theme() . '/assets/img/kidknowledge/kk33.jpg' ?>" alt="">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-sm-7">
 
-                            		  <h4><p id="ks1">Knowing Science <span id="title">provides<span></p></h4>
+                        <br /><!-- h2><p id="ks1">Knowing Science <span id="title">provides:<span></p></h2 -->
 
                         <ul class="list-unstyled margin-bottom-20" id="line_height">
-                            <li><i class="fa fa-check color-blue"></i>
-                                100% alignment to Next Generation Science Standards
+                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
+                                100% alignment to Next Generation Science Standards</span</h3>
                             </li>
                             
-                            <li><i class="fa fa-check color-blue"></i>
-                                Complete lesson, easy to follow from start to finish
+                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
+                                Complete lesson, easy to follow from start to finish</h3>
                             </li>
                              
-                            <li><i class="fa fa-check color-blue"></i>
-                            Materials, manipulative, and equipment for hands-on, inquiry-based activities
+                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
+                            Materials, manipulative, and equipment for hands-on, inquiry-based activities</h3>
                             </li>
                              
-                            <li><i class="fa fa-check color-green"></i>
-                                 Connections between science and literacy through nonfiction text and leveled readers
+                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
+                                 Connections between science and literacy through nonfiction text and leveled readers</h3>
                              </li>
                              
-                            <li><i class="fa fa-check color-green"></i>
-                                    Correlation with CCSS ELA and CCSS Mathematics
+                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
+                                    Correlation with CCSS ELA and CCSS Mathematics</h3>
                              </li>
                              
-                            <li><i class="fa fa-check color-green"></i>
-                                Opportunities for extended learning
+                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
+                                Opportunities for extended learning</h3>
                              </li>
                              
-                            <li><i class="fa fa-check color-green"></i>
-                                Rubrics for formative and summative assessment
+                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
+                                Rubrics for formative and summative assessment</h3>
                             </li>
-                            <li><i class="fa fa-check color-green"></i>Professional development and support, including science background information for teachers
+                            <li><h3 class="fa fa-check color-blue"><span class="color-grey"></i>Professional development and support, including science background information for teachers</h3>
                             </li>
                              
                         </ul>
                     </div>
                 </div>
 
-                <blockquote class="hero-unify">
-                    <p>Winner of the 2014 Be the change for Kids innovation award 100% alignment to Next Generation Science Standards
-                    </p>
-                    <p id="ks2">
-                    <span id="title_1"> Knowing science<sup>®</sup></span><br>
-                     will transition your school district to the <b>Next Generation Science Standards</b>
-                    </p>
+
+     
+     
+     
                     <!-- <p>Tesseract, colonies vastness is bearable only through love quasar gathered by gravity, white dwarf culture cosmos star stuff harvesting star light, Flatland, astonishment Orion's sword dispassionate extraterrestrial observer, cosmos, corpus callosum emerged into consciousness a mote of dust suspended in a sunbeam, Drake Equation Euclid. A still more glorious dawn awaits. Not a sunrise but a galaxyrise worldlets with pretty stories for which there's little good evidence great turbulent clouds billions upon billions stirred by starlight. Light years billions upon billions cosmic fugue? Hydrogen atoms citizens of distant epochs rich in heavy atoms Apollonius of Perga, billions upon billions? Cosmic ocean! Bits of moving fluff, a billion trillion.</p>
                     <small>(this could be a quote or a summary of the main mesage)</small> -->
                 </blockquote>
-            </div><!--/col-md-8-->
+            <!-- /div --><!--/col-md-8-->
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Info ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 
 
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Mini-Gallery Block ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-            <div class="col-md-4">
+          <!-- div class="col-md-4">
     			<div class="headline"><h2>New eBooks</h2></div>
     			<div id="myCarousel" class="carousel slide carousel-v1">
                     <div class="carousel-inner">
@@ -418,26 +421,29 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
           <div class="intro-text-1 light">
             <div class="container">
                   <div class="row">
+                    
+                <div class="col-sm-6">
+                        <h4 class="animated slideInDown fa fa-certificate">  Award Winning NGSS Curriculum
+                        </h4>
+
+                <blockquote class="hero-unify">
+                    <p> Winner of the 2014 Be the change for Kids innovation award 
+                    </p>
+                    <p> 100% alignment to Next Generation Science Standards</p>
+                    
+                </blockquote>    
+                                
+                    </div>
+                    
                     <div class="col-sm-6">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/S3RkyGXJ4H0" frameborder="0" allowfullscreen></iframe>
                         <!-- img src="<?php echo path_to_theme() . '/assets/img/main/texas.png' ?>" alt="" height="150" -->
                     </div>
 
-                    <div class="col-sm-6">
-                        <h4 class="animated slideInDown">video headline here ("Knowing Science featured in..."")
-                        </h4>
-
-                        <p>
-                            text giving context to video, why it's important, why it shows knowing science is the best ngss curriculum, yada yada....
-                        </p>                   
-                    </div>
 
                   </div>
             </div>
         </div> <!--intro text end-->
-
-
-
 
         <div class="testimonials-v-2 wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="100ms">
             <div class="container">
