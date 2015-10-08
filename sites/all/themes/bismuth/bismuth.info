@@ -51,5 +51,25 @@ stylesheets[all][] = assets/plugins/font-awesome/css/font-awesome.min.css
 stylesheets[all][] = assets/plugins/parallax-slider/css/parallax-slider.css
 stylesheets[all][] = assets/plugins/owl-carousel/owl-carousel/owl.carousel.css
 
+; Assan Testimonials 
+stylesheets[all][] = assets/css/style2.css ;not needed
+
+stylesheets[all][] = assets/css/animate.css ;not needed
+stylesheets[all][] = assets/css/flexslider.css ;not needed
+
+
+
+
+; scripts
+scripts[] = assets/js/custom.js
+scripts[] = assets/js/jasny-bootstrap.min.js
+scripts[] = assets/js/jquery.counterup.min.js
+scripts[] = assets/js/jquery.flexslider-min.js
+scripts[] = assets/js/jquery.magnific-popup.min.js
+scripts[] = assets/js/jquery.min.js
+scripts[] = assets/js/jquery.stellar.min.js
+scripts[] = assets/js/owl.carousel.min.js
+scripts[] = assets/js/wow.js
+
 
 
