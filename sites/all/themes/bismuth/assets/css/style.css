@@ -1676,7 +1676,18 @@ img.img-mouse {
 .region-triptych1 .block-views .content,
 .region-triptych2 .block-views .content,
 .region-triptych3 .block-views .content{
-   padding-top: 25px;
+   padding-top: opx;
+   margin-top:25px;
+}
+.region-triptych1 .block-views .content ul,
+.region-triptych2 .block-views .content ul,
+.region-triptych3 .block-views .content ul{
+   padding: 0;
+}
+.region-triptych1 .block-views .content ul li,
+.region-triptych2 .block-views .content ul li,
+.region-triptych3 .block-views .content ul li{
+   font-size: 14px;
 }
 .footer-v1 .copyright .col-md-6{
    width: 100%;
