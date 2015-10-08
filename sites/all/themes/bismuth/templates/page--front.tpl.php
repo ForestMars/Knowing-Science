@@ -162,7 +162,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
     );
     $image['6th-grade'] = theme(
       'image_style', array(
-        'path' => 'public://images/covers/6th-grade-ngss-curriculum-whats-the-matter.png',
+        'path' => 'public://images/covers/6th-grade-ngss-curriculum.png',
         'style_name' => 'cover_for_home_page',
         'class' => "img-responsive",
        )
@@ -296,8 +296,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                 <div class="thumbnails thumbnail-style thumbnail-kenburn">
                     <div class="thumbnail-img">
                         <div class="overflow-hidden">
-                            <img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_6th.png' ?>" alt="">
-                        </div>
+                          <?php print $image['6th-grade']; ?>                        </div>
                         <a class="btn-more hover-effect" href="#">read more +</a>
                     </div>
                     <div class="caption">
@@ -422,15 +421,86 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
 
 
 
+        <div class="testimonials-v-2 wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="100ms">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="center-heading">
+                            <h2><strong>What</strong> School Districts Say</h2>
+                            <p>This is where you say something about these testimonials</p>
+                            <span class="center-line"></span>
+
+                        </div>
+                    </div>
+                </div><!--center heading end-->
+
+                <div class="row">
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="testi-slide">
+                            <ul class="slides">
+                                <li>
+                                    <img src="assets/img/testimonials/customer-1.jpg" alt="">
+                                    <p>
+                                        <i class="ion-quote"></i>
+                                        “Knowing Science and the Science Teachers Association of NYS are exemplary in suppling Professional Development and teaching resources for pre-school and early grade teachers.”
+                                    </p>
+                                    <h4 class="test-author">
+                                        PATRICIA Molloy- <em>their company or title</em>
+                                    </h4>
+                                                                        <p> citation line</p>
+                                </li><!--testi item-->
+                                <li>
+                                    <img src="assets/img/testimonials/customer-1.jpg" alt="">                                    <p>
+                                        <i class="ion-quote"></i>
+                                        “Knowing Science TESTIMONIAL #2 and the Science Teachers Association of NYS are exemplary in suppling Professional Development and teaching resources for pre-school and early grade teachers.” </p>
+                                    <h4 class="test-author">
+                                        Bruce Tolloch - <em>their title </em>                                    
+                                    </h4>
+                                    <p> citation line</p>
+                                </li><!--testi item-->
+                                <li>
+                                    <img src="assets/img/testimonials/customer-1.jpg" alt="">                                    <p>
+                                        <i class="ion-quote"></i>
+                                        “Knowing Science TESTIMONOMIAL #3 and the Science Teachers Association of NYS are exemplary in suppling Professional Development and teaching resources for pre-school and early grade teachers.”.</p>
+                                    <h4 class="test-author">
+                                        Dudley Herschbach, Ph.D. - <em>Nobel Prize –Chemistry 1986, National Medal of Science 1991</em>
+                                    </h4>
+                                                                        <p> Quoted from the STANYS Special Edition Newsletter focusing on teaching science in elementary school.</p>
+                                </li><!--testi item-->
+                            </ul>
+                        </div><!--flex slider testimonials end here-->
+                    </div>
+                </div><!--testi slider row end-->
+
+            </div>
+        </div><!--testimonials v-2 end-->
+
+
+
+
 
 
         <div class="divide40"></div>
         <div class="intro-text-1 light">
-            <div class="container">
-                <div class="row">
+<div class="container">
+                  <div class="row">
                     <div class="col-sm-8">
                         <h4 class="animated slideInDown">Texas adopts Knowing Science NGSS Curriculum
                         </h4>
+
+                        <p>
+                            The Texas State Board of Education adopted instructional materials under Proclamation 2014 at their November 2013 meeting. Proclamation 2014 includes Knowing Science K­2 Teachers Manuals, STEM kits, and Literacy Books..
+                        </p>                   
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="<?php echo path_to_theme() . '/assets/img/main/texas.png' ?>" alt="" height="150">
+                    </div>
+                  </div>
+            </div>
+        </div> <!--intro text end-->
+
+
 
 
 
@@ -442,7 +512,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                 <div class="row">
                     <!-- About -->
                     <div class="col-md-3 md-margin-bottom-40">
-                        <a href="index.html"><img id="logo-footer" class="footer-logo" src="<?php echo '/'.drupal_get_path('theme', $theme) . '/assets/img/kid_knowledge/kid-knowledge-logo-stars-trans.gif' ?>" alt="" width="200px"></a>
+                        <a href="index.html"><img id="logo-footer" class="footer-logo" src="<?php echo ''.drupal_get_path('theme', $theme) . '/assets/img/kid_knowledge/kid-knowledge-logo-stars-trans.gif' ?>" alt="" width="200px"></a>
                     </div><!--/col-md-3-->
                     <!-- End About -->
 
@@ -515,6 +585,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
 
 <!-- JS Global Compulsory -->
 
+
 <script type="text/javascript">
     jQuery(document).ready(function() {
       	App.init();
@@ -527,3 +598,43 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
     <script src="assets/plugins/html5shiv.js"></script>
     <script src="assets/plugins/placeholder-IE-fixes.js"></script>
 <![endif]-->
+
+
+   <!--scripts and plugins -->
+        <!--must need plugin jquery-->
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/jquery-migrate.min.js"></script> 
+        <!--bootstrap js plugin-->
+        <script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>       
+        <!--easing plugin for smooth scroll-->
+        <script src="../assets/js/jquery.easing.1.3.min.js" type="text/javascript"></script>
+        <!--sticky header-->
+        <script type="text/javascript" src="../assets/js/jquery.sticky.js"></script>
+        <!--flex slider plugin-->
+        <script src="../assets/js/jquery.flexslider-min.js" type="text/javascript"></script>
+        <!--parallax background plugin-->
+        <script src="../assets/js/jquery.stellar.min.js" type="text/javascript"></script>
+        <!--digit countdown plugin-->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+        <!--digit countdown plugin-->
+        <script src="../assets/js/jquery.counterup.min.js" type="text/javascript"></script>
+        <!--on scroll animation-->
+        <script src="../assets/js/wow.min.js" type="text/javascript"></script> 
+        <!--owl carousel slider-->
+        <script src="../assets/js/owl.carousel.min.js" type="text/javascript"></script>
+        <!--popup js-->
+        <script src="../assets/js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+        <!--you tube player-->
+        <script src="../assets/js/jquery.mb.YTPlayer.min.js" type="text/javascript"></script>        
+        <!--customizable plugin edit according to your needs-->
+        <script src="../assets/js/custom.js" type="text/javascript"></script>
+
+        <!--revolution slider plugins-->
+        <script src="rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+        <script src="rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+        <script src="js/revolution-custom.js" type="text/javascript"></script>
+        <!--cube portfolio plugin-->
+        <script src="cubeportfolio/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
+        <script src="js/cube-portfolio.js" type="text/javascript"></script>
+        <script src="js/pace.min.js" type="text/javascript"></script>
+
