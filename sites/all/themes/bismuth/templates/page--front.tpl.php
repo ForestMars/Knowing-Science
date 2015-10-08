@@ -424,14 +424,6 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
 
 
 
-        <div class="divide40"></div>
-        <div class="intro-text-1 light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8">
-                        <h4 class="animated slideInDown">Texas adopts Knowing Science NGSS Curriculum
-                        </h4>
-
 
 
 
