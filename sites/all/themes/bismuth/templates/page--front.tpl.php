@@ -423,6 +423,9 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
 
 
 
+
+
+
     <!--=== Footer Version 1 ===-->
     <div class="footer-v1">
         <div class="footer">
