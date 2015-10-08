@@ -1753,3 +1753,32 @@ a:link, a:visited {
 .header .logo img{
 	margin:30px 40px 0 !important;
 }
+#ks1{
+	color: #3486ff;
+}
+#title{
+	color: #494949;
+}
+#ks2{
+	background-color: #3486ff;
+	font-size: 200%;
+	color: white;
+}
+#title_1{
+	font-size:150%;
+	color: khaki;	
+	text-align: center;
+}
+#title_1 sup {
+    font-size: 13px;
+    margin-left: -4px;
+    top: -1.5em;
+}
+.hero-unify > p {
+    background-color: #DDEA4C;
+    padding: 10px 40px;
+    text-align: center;
+}
+#line_height {
+    line-height: 32px;
+}

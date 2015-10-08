@@ -362,7 +362,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                     <p>Winner of the 2014 Be the change for Kids innovation award 100% alignment to Next Generation Science Standards
                     </p>
                     <p id="ks2">
-                    <span id="title_1"> Knowing science<sup>*</sup></span><br>
+                    <span id="title_1"> Knowing science<sup>®</sup></span><br>
                      will transition your school district to the <b>Next Generation Science Standards</b>
                     </p>
                     <!-- <p>Tesseract, colonies vastness is bearable only through love quasar gathered by gravity, white dwarf culture cosmos star stuff harvesting star light, Flatland, astonishment Orion's sword dispassionate extraterrestrial observer, cosmos, corpus callosum emerged into consciousness a mote of dust suspended in a sunbeam, Drake Equation Euclid. A still more glorious dawn awaits. Not a sunrise but a galaxyrise worldlets with pretty stories for which there's little good evidence great turbulent clouds billions upon billions stirred by starlight. Light years billions upon billions cosmic fugue? Hydrogen atoms citizens of distant epochs rich in heavy atoms Apollonius of Perga, billions upon billions? Cosmic ocean! Bits of moving fluff, a billion trillion.</p>
