@@ -414,6 +414,30 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
     <!-- End Content Part -->
 
 
+        <div class="divide40"></div>
+          <div class="intro-text-1 light">
+            <div class="container">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/S3RkyGXJ4H0" frameborder="0" allowfullscreen></iframe>
+                        <!-- img src="<?php echo path_to_theme() . '/assets/img/main/texas.png' ?>" alt="" height="150" -->
+                    </div>
+
+                    <div class="col-sm-6">
+                        <h4 class="animated slideInDown">video headline here ("Knowing Science featured in..."")
+                        </h4>
+
+                        <p>
+                            text giving context to video, why it's important, why it shows knowing science is the best ngss curriculum, yada yada....
+                        </p>                   
+                    </div>
+
+                  </div>
+            </div>
+        </div> <!--intro text end-->
+
+
+
 
         <div class="testimonials-v-2 wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="100ms">
             <div class="container">
@@ -469,6 +493,8 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
 
             </div>
         </div><!--testimonials v-2 end-->
+
+
 
 
 
