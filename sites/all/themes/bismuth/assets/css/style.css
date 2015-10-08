@@ -1676,7 +1676,7 @@ img.img-mouse {
 .region-triptych1 .block-views .content,
 .region-triptych2 .block-views .content,
 .region-triptych3 .block-views .content{
-   padding-top: opx;
+   padding-top: 0px;
    margin-top:25px;
 }
 .region-triptych1 .block-views .content ul,
