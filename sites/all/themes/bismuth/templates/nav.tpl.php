@@ -118,8 +118,8 @@
                         <ul class="dropdown-menu">
 
 
-                                        <li class="dropdown-submenu">
-                          <a href="ngss-curriculum/pre-k">Pre-K</a></li>
+                          <li class="dropdown-submenu">
+                          <a href="/ngss-curriculum/pre-k">Pre-K</a></li>
 
                           <li class="dropdown-submenu">
                             <a href="/ngss-curriculum/kindergarten">Kindergarten</a>

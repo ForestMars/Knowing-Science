@@ -1693,9 +1693,103 @@ img.img-mouse {
    width: 100%;
 }
 
-
-
-
 .loginbar > .fa { 
   color: #999;
+}
+#toptab-wrapper {
+    background: #3587cb none repeat scroll 0 0;
+    display: block;
+    margin: 0 auto -25px;
+    max-height: 75px;
+    position: relative;
+    top: -14px;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.toptab {
+    display: inline;
+    font-size: 10px;
+    min-height: 20px;
+    padding: 2px 0 3px;
+    position: relative;
+    text-align: center;
+    text-shadow: 1px 0 3px #666;
+    text-transform: uppercase;
+    top: -34px;
+    vertical-align: top;
+    width: 450px;
+    z-index: 200;
+}
+.tx-icon {
+    display: block;
+    left: -190px;
+    margin: 0 auto;
+    position: relative;
+    top: 38px;
+    width: 50px;
+}
+/*img, a img {
+    border: medium none;
+}
+img {
+    border: 0 none;
+}
+*/
+.toptab > p {
+    margin: 0.6em 0 1.2em;
+    padding: 0;
+}.toptab a:hover{
+	color: #FF0!important;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	text-shadow: none;
+}
+.toptab a:link, .toptab a:visited {
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #027ac6;
+    text-decoration: none;
+}
+.social-icons {
+    position: fixed;
+    left: 30px;
+    top: 0px;
+}
+.header .logo img{
+	margin:30px 40px 0 !important;
+}
+#ks1{
+	color: #3486ff;
+}
+#title{
+	color: #494949;
+}
+#ks2{
+	background-color: #3486ff;
+	font-size: 200%;
+	color: white;
+}
+#title_1{
+	font-size:150%;
+	color: khaki;	
+	text-align: center;
+}
+#title_1 sup {
+    font-size: 13px;
+    margin-left: -4px;
+    top: -1.5em;
+}
+.hero-unify > p {
+    background-color: #DDEA4C;
+    padding: 10px 40px;
+    text-align: center;
+}
+#line_height {
+    line-height: 32px;
 }
