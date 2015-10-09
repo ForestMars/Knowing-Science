@@ -1707,6 +1707,15 @@ img.img-mouse {
     color: #333;
     font-size: 30px;
 }
+.testimonials-v-2 .col-sm-8{
+   margin-top: 4%;
+}
+.view-ks-testimonials .views-field-field-testimonial-image{
+   margin-bottom: 3%;
+}
+.view-ks-testimonials .views-slideshow-controls-bottom{
+   margin: 4% 0;
+}
 .center-heading p {
     margin-top: 10px;
 }
@@ -1742,9 +1751,13 @@ img.img-mouse {
    font-size: 16px;
    font-family: "Open Sans", sans-serif !important;
    font-style: italic;
+   color: #000;
+}
+.view-ks-testimonials .views_slideshow_cycle_slide{
+   width: 750px !important;
 }
 #views_slideshow_cycle_teaser_section_ks_testimonials-block_1{
-   height: 240px !important;
+   height: 250px !important;
 }
 .view-ks-testimonials .views-slideshow-pager-fields .active {
     background: transparent !important;
