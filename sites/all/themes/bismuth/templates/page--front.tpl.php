@@ -444,59 +444,19 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                   </div>
             </div>
         </div> <!--intro text end-->
-
         <div class="testimonials-v-2 wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="100ms">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2">
                         <div class="center-heading">
                             <h2><strong>What</strong> School Districts Say</h2>
-                            <p>This is where you say something about these testimonials</p>
-                            <span class="center-line"></span>
-
+							<?php
+								$block = module_invoke('views', 'block_view', 'ks_testimonials-block_1');
+								print render($block['content']);
+							?>
                         </div>
                     </div>
                 </div><!--center heading end-->
-
-                <div class="row">
-
-                    <div class="col-sm-8 col-sm-offset-2">
-                        <div class="testi-slide">
-                            <ul class="slides">
-                                <li>
-                                    <img src="assets/img/testimonials/customer-1.jpg" alt="">
-                                    <p>
-                                        <i class="ion-quote"></i>
-                                        “Knowing Science and the Science Teachers Association of NYS are exemplary in suppling Professional Development and teaching resources for pre-school and early grade teachers.”
-                                    </p>
-                                    <h4 class="test-author">
-                                        PATRICIA Molloy- <em>their company or title</em>
-                                    </h4>
-                                                                        <p> citation line</p>
-                                </li><!--testi item-->
-                                <li>
-                                    <img src="assets/img/testimonials/customer-1.jpg" alt="">                                    <p>
-                                        <i class="ion-quote"></i>
-                                        “Knowing Science TESTIMONIAL #2 and the Science Teachers Association of NYS are exemplary in suppling Professional Development and teaching resources for pre-school and early grade teachers.” </p>
-                                    <h4 class="test-author">
-                                        Bruce Tolloch - <em>their title </em>                                    
-                                    </h4>
-                                    <p> citation line</p>
-                                </li><!--testi item-->
-                                <li>
-                                    <img src="assets/img/testimonials/customer-1.jpg" alt="">                                    <p>
-                                        <i class="ion-quote"></i>
-                                        “Knowing Science TESTIMONOMIAL #3 and the Science Teachers Association of NYS are exemplary in suppling Professional Development and teaching resources for pre-school and early grade teachers.”.</p>
-                                    <h4 class="test-author">
-                                        Dudley Herschbach, Ph.D. - <em>Nobel Prize –Chemistry 1986, National Medal of Science 1991</em>
-                                    </h4>
-                                                                        <p> Quoted from the STANYS Special Edition Newsletter focusing on teaching science in elementary school.</p>
-                                </li><!--testi item-->
-                            </ul>
-                        </div><!--flex slider testimonials end here-->
-                    </div>
-                </div><!--testi slider row end-->
-
             </div>
         </div><!--testimonials v-2 end-->
 
