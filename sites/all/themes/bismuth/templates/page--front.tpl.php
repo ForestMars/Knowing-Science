@@ -449,8 +449,8 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                 <div class="row">
 					<div class="col-sm-8 col-sm-offset-2 col-sm-test">
 						<div class="center-heading">
-							<h2><strong>What</strong> Client’s Say</h2>
-							<p>1000+ Worldwide customers  use Assan template.</p>
+							<h2><strong>What</strong> School Districts Say</h2>
+							<p>This is where you say something about these testimonials</p>
 							<span class="center-line"></span>
 						</div>
                     </div>
