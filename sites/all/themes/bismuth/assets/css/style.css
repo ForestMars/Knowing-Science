@@ -1676,109 +1676,104 @@ img.img-mouse {
 .region-triptych1 .block-views .content,
 .region-triptych2 .block-views .content,
 .region-triptych3 .block-views .content{
-   padding-top: 25px;
+   padding-top: 0px;
+   margin-top:25px;
+}
+.region-triptych1 .block-views .content ul,
+.region-triptych2 .block-views .content ul,
+.region-triptych3 .block-views .content ul{
+   padding: 0;
+}
+.region-triptych1 .block-views .content ul li,
+.region-triptych2 .block-views .content ul li,
+.region-triptych3 .block-views .content ul li{
+   font-size: 14px;
 }
 .footer-v1 .copyright .col-md-6{
    width: 100%;
 }
-
 .loginbar > .fa { 
   color: #999;
 }
-#toptab-wrapper {
-    background: #3587cb none repeat scroll 0 0;
-    display: block;
-    margin: 0 auto -25px;
-    max-height: 75px;
-    position: relative;
-    top: -14px;
-    width: 100%;
-    padding-top: 15px;
-}
-
-.toptab {
-    display: inline;
-    font-size: 10px;
-    min-height: 20px;
-    padding: 2px 0 3px;
-    position: relative;
+.center-heading {
     text-align: center;
-    text-shadow: 1px 0 3px #666;
+    margin-bottom: 40px;
+}
+.center-heading h2 {
+    margin-bottom: 0;
+    font-weight: 700;
     text-transform: uppercase;
-    top: -34px;
-    vertical-align: top;
-    width: 450px;
-    z-index: 200;
+    letter-spacing: 1px;
+    color: #333;
+    font-size: 30px;
 }
-.tx-icon {
-    display: block;
-    left: -190px;
-    margin: 0 auto;
-    position: relative;
-    top: 38px;
-    width: 50px;
+.testimonials-v-2 .col-sm-test{
+   margin-top: 4%;
 }
-/*img, a img {
-    border: medium none;
+.view-ks-testimonials .views-field-field-testimonial-image{
+   margin-bottom: 3%;
 }
-img {
-    border: 0 none;
+.view-ks-testimonials .views-slideshow-controls-bottom{
+   margin: 4% 0;
 }
-*/
-.toptab > p {
-    margin: 0.6em 0 1.2em;
-    padding: 0;
-}.toptab a:hover{
-	color: #FF0!important;
-	font-weight: bold;
-	letter-spacing: 0.1em;
-	text-decoration: none;
-	text-shadow: none;
+.center-heading p {
+    margin-top: 10px;
 }
-.toptab a:link, .toptab a:visited {
-    color: #ffffff;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    text-decoration: none;
+.center-heading p {
+    font-size: 18px;
 }
-a:link, a:visited {
-    color: #027ac6;
-    text-decoration: none;
+.center-line {
+    display: inline-block;
+    width: 70px;
+    height: 1px;
+    border-top: 1px solid #bbb;
+    /* border-bottom: 1px solid $skincolor; */
+    margin: auto;
 }
-.social-icons {
-    position: fixed;
-    left: 30px;
-    top: 0px;
+.view-ks-testimonials{
+   text-align: center;
 }
-.header .logo img{
-	margin:30px 40px 0 !important;
+.view-ks-testimonials img {
+    width: 128px;
+    height: 128px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
 }
-#ks1{
-	color: #3486ff;
+.view-ks-testimonials .field-content {
+   font-size: 16px;
+   font-weight: 400;
+   color: #999;
 }
-#title{
-	color: #494949;
+.views-field-field-testimonial-by-whom  .field-content{
+   font-weight: 400;
+   font-size: 16px;
+   font-family: "Open Sans", sans-serif !important;
+   font-style: italic;
+   color: #000;
 }
-#ks2{
-	background-color: #3486ff;
-	font-size: 200%;
-	color: white;
+.view-ks-testimonials .views_slideshow_cycle_slide{
+   width: 750px !important;
 }
-#title_1{
-	font-size:150%;
-	color: khaki;	
-	text-align: center;
+#views_slideshow_cycle_teaser_section_ks_testimonials-block_1{
+   height: 250px !important;
 }
-#title_1 sup {
-    font-size: 13px;
-    margin-left: -4px;
-    top: -1.5em;
+.view-ks-testimonials .views-slideshow-pager-fields .active {
+    background: transparent !important;
+    border: 2px solid #4f82e9 !important;
 }
-.hero-unify > p {
-    background-color: #DDEA4C;
-    padding: 10px 40px;
-    text-align: center;
-}
-#line_height {
-    line-height: 32px;
+.view-ks-testimonials .views-slideshow-pager-fields .views-slideshow-pager-field-item {
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   -ms-box-shadow: none;
+   box-shadow: none;
+   background: transparent !important;
+   border-radius: 50%;
+   border: 2px solid #ccc;
+   width: 8px;
+   height: 8px;
+   margin: 0 6px;
+   display: inline-block;
+   zoom: 1;
 }
