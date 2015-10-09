@@ -447,7 +447,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
         <div class="testimonials-v-2 wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="100ms">
             <div class="container">
                 <div class="row">
-					<div class="col-sm-8 col-sm-offset-2">
+					<div class="col-sm-8 col-sm-offset-2 col-sm-test">
 						<div class="center-heading">
 							<h2><strong>What</strong> Client’s Say</h2>
 							<p>1000+ Worldwide customers  use Assan template.</p>
