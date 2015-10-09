@@ -1742,7 +1742,7 @@ img.img-mouse {
 }
 .view-ks-testimonials .views-slideshow-pager-fields .active {
     background: transparent !important;
-    border: 2px solid #4f82e9;
+    border: 2px solid #4f82e9 !important;
 }
 .view-ks-testimonials .views-slideshow-pager-fields .views-slideshow-pager-field-item {
    -webkit-box-shadow: none;
@@ -1750,6 +1750,7 @@ img.img-mouse {
    -ms-box-shadow: none;
    box-shadow: none;
    background: transparent !important;
+   border-radius: 50%;
    border: 2px solid #ccc;
    width: 8px;
    height: 8px;
