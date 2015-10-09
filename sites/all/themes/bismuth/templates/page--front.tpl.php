@@ -447,14 +447,16 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
         <div class="testimonials-v-2 wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="100ms">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">
-                        <div class="center-heading">
-                            <h2><strong>What</strong> School Districts Say</h2>
+					<div class="col-sm-8 col-sm-offset-2">
+						<div class="center-heading">
+						<h2><strong>What</strong> Client’s Say</h2>
+						<p>1000+ Worldwide customers  use Assan template.</p>
+						<span class="center-line"></span>
+						</div>
 							<?php
 								$block = module_invoke('views', 'block_view', 'ks_testimonials-block_1');
 								print render($block['content']);
 							?>
-                        </div>
                     </div>
                 </div><!--center heading end-->
             </div>
