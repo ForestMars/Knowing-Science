@@ -1732,10 +1732,16 @@ img.img-mouse {
     -ms-border-radius: 50%;
     border-radius: 50%;
 }
-.view-ks-testimonials p {
-    margin: 20px 0;
-    font-size: 15px;
-    font-weight: 300;
+.view-ks-testimonials .field-content {
+   font-size: 16px;
+   font-weight: 400;
+   color: #999;
+}
+.views-field-field-testimonial-by-whom  .field-content{
+   font-weight: 400;
+   font-size: 16px;
+   font-family: "Open Sans", sans-serif !important;
+   font-style: italic;
 }
 #views_slideshow_cycle_teaser_section_ks_testimonials-block_1{
    height: 240px !important;
