@@ -107,7 +107,7 @@ a:hover {
 
 .purchase .btn-buy a {
 	margin-top: 27px;
-	color: #fff;
+	color:white;
 }
 
 .purchase .btn-buy a i {
@@ -1729,7 +1729,8 @@ img {
 .toptab > p {
     margin: 0.6em 0 1.2em;
     padding: 0;
-}.toptab a:hover{
+}
+.toptab a:hover{
 	color: #FF0!important;
 	font-weight: bold;
 	letter-spacing: 0.1em;
@@ -1782,4 +1783,50 @@ a:link, a:visited {
 }
 #line_height {
     line-height: 32px;
+}
+
+.field-item.even > h2 {
+    color: #000080;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 130%;
+}
+.even h3{
+	color: #333;
+    font-size: 17px;
+    line-height: 130%;
+}
+.even hr{
+	background: #5294c1 none repeat scroll 0 0;
+    border: medium none;
+    height: 1px;
+}
+.scopeHeader33, .scopeHeader{
+    background-color: #008acd;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+.scope33, .scope{
+    background-image: url("../../images/scopeGrade.jpg");
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    border: 1px solid #008acd;;
+    padding: 5px;
+    vertical-align: top;
+    font-size: 15px;
+}
+.scope33 li , .scope li{
+    background: transparent url("../../images/scope_bullet.png") no-repeat scroll 1px 0.35em;
+    font: 12px/170% Verdana,sans-serif;
+    padding: 0 0 0.2em 1.5em;
+    list-style-type: none;
+}
+.scope33 > ul, .scope> ul {
+    padding: 5px;
+}
+.scope .scope, .scopeHeader{
+	width: 450px;
 }
