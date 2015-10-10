@@ -44,12 +44,10 @@ $output = '';
 
     <h3 class="shop-product-title">Quantity</h3>
     <div class="margin-bottom-40">
-        <form name="f1" class="product-quantity sm-margin-bottom-20">
-            <button type='button' class="quantity-button" name='subtract' onclick='javascript: subtractQty();' value='-'>-</button>
-            <input type='text' class="quantity-field" name='qty' value="1" id='qty'/>
-            <button type='button' class="quantity-button" name='add' onclick='javascript: document.getElementById("qty").value++;' value='+'>+</button>
-        </form>
-        <button type="button" class="btn-u btn-u-sea-shop btn-u-lg">Add to Cart</button>
+      <?php
+      $form_value =  drupal_get_form('uc_product_add_to_cart_form_'.$node->nid, $node);
+      print drupal_render($form_value);
+      ?>
     </div><!--/end product quantity-->    
 
     <ul class="list-inline add-to-wishlist add-to-wishlist-brd">
@@ -109,3 +107,11 @@ $output = '';
   <?php print render($content['comments']); ?>
 
 </article>
+<script>
+    jQuery(document).ready(function() {
+        App.init();
+        App.initScrollBar();        
+        OwlCarousel.initOwlCarousel();     
+        MasterSliderShowcase2.initMasterSliderShowcase2();
+    });
+</script>
