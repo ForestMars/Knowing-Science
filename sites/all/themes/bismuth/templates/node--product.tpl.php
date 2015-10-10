@@ -110,6 +110,7 @@ $output = '';
 
 <script>
     jQuery(document).ready(function() {
+      console.log('tttt');
         App.init();
         App.initScrollBar();        
         OwlCarousel.initOwlCarousel();     
