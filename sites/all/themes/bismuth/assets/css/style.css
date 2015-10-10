@@ -1811,6 +1811,7 @@ img.img-mouse {
     background: #18ba9b none repeat scroll 0 0;
      font-size: 18px;
     padding: 10px 25px;
+    border: none;
 }
 add-to-wishlist-brd {
     border-bottom: 1px solid #dedede;
