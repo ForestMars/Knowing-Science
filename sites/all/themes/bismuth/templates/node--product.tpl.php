@@ -34,8 +34,8 @@ $body = strip_tags($node->body['und'][0]['value']);
     <p><?php echo substr($body,0,126).'...';?></p><br>
 
     <ul class="list-inline shop-product-prices margin-bottom-30">
-        <li class="shop-red"><?php print '$'.$node->sell_price; ?></li>
-        <li class="line-through"><?php print '$'.$node->list_price; ?></li>
+        <li class="shop-red"><?php print '$'.substr($node->sell_price,0,-3); ?></li>
+        <li class="line-through"><?php print '$'.substr($node->list_price,0,-3); ?></li>
     </ul><!--/end shop product prices-->
 
     <h3 class="shop-product-title">Quantity</h3>
