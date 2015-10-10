@@ -13,12 +13,6 @@ global $theme;
                 <img height="35px" src="<?php echo drupal_get_path('theme','bismuth');?>/images/twitter.png">
             </a>
         </div>
-        <div class="tx-icon">
-            <img src="<?php echo drupal_get_path('theme','bismuth');?>/images/texas_flag.png">
-        </div>
-        <p>
-            <a href="/samples-texas-edition">Click Here for TEXAS EDITION sample lessons</a>
-        </p>
     </div>
 </div>
 
