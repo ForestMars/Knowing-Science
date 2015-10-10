@@ -1854,3 +1854,20 @@ img.img-mouse {
 .node-type-product .container {
    padding-top: 10px;
 }
+#comments h2.title,
+#comments h2title.comment-form{
+   display: none;
+}
+.comment-header .submitted {
+    text-align: right;
+}
+.comment-header .submitted a{
+   font-size: 17px;
+    font-weight: normal;
+    text-decoration: none;
+}
+.comment-right h3 {
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 0;
+}
