@@ -1854,7 +1854,7 @@ img.img-mouse {
 .node-type-product .container {
    padding-top: 10px;
 }
-#comments h2.title,
+/*#comments h2.title,
 #comments h2title.comment-form{
    display: none;
 }
@@ -1870,7 +1870,7 @@ img.img-mouse {
     font-size: 1.2em;
     font-weight: normal;
     margin: 0;
-}
+}*/
 .quantity-field {
     border: 1px solid #eee;
     font-size: 20px;

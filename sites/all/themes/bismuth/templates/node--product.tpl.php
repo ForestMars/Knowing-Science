@@ -67,7 +67,6 @@ $body = strip_tags($node->body['und'][0]['value']);
 <div class="tab-v5">
   <ul class="nav nav-tabs" role="tablist">
     <li class="active description"><a href="#description" role="tab" data-toggle="tab">Description</a></li>
-    <li class="reviews"><a href="#reviews" role="tab" data-toggle="tab">Reviews (<?php print $node->comment_count;?>)</a></li>
   </ul>
   
   <div class="tab-content">
@@ -89,13 +88,8 @@ $body = strip_tags($node->body['und'][0]['value']);
   </div>
   </div>
   <!-- End Description -->
-  
+   </div> 
   <!-- Reviews -->                
-  <div class="review" id="reviews" style="display: none;">
-  <div class="product-comment margin-bottom-40">
-     <?php print render($content['comments']); ?>
-    </div>    
-  </div>  
 <script>
 
   jQuery(document).ready(function () {
