@@ -91,6 +91,7 @@ $body = strip_tags($node->body['und'][0]['value']);
   <div class="product-comment margin-bottom-40">
       <?php render($content['comments']);
       print '<br />'.'test content';
+      render(drupal_get_form('comment_form', $comment));
       ?>
     </div>    
   </div>  
