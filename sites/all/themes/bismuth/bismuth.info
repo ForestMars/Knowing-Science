@@ -70,7 +70,7 @@ scripts[] = assets/js/jquery.min.js
 scripts[] = assets/js/jquery.stellar.min.js
 scripts[] = assets/js/owl.carousel.min.js
 scripts[] = assets/js/wow.js
-scripts[] = assets/js/masterslider.js
+scripts[] = assets/js/plugins/masterslider.js
 scripts[] = assets/js/plugins/masterslider.min.js
 
 
