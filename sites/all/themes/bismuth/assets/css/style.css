@@ -107,6 +107,7 @@ a:hover {
 
 .purchase .btn-buy a {
 	margin-top: 27px;
+	color:white;
 }
 
 .purchase .btn-buy a i {
@@ -1697,6 +1698,9 @@ img.img-mouse {
 }
 .center-heading {
     text-align: center;
+
+/* Merge conflict in Soni branch ?? */ 
+
     margin-bottom: 40px;
 }
 .center-heading h2 {
@@ -1776,4 +1780,132 @@ img.img-mouse {
    margin: 0 6px;
    display: inline-block;
    zoom: 1;
+
+/* Check for merge conflict */
+
+    text-shadow: 1px 0 3px #666;
+    text-transform: uppercase;
+    top: -34px;
+    vertical-align: top;
+    width: 450px;
+    z-index: 200;
+}
+.tx-icon {
+    display: block;
+    left: -190px;
+    margin: 0 auto;
+    position: relative;
+    top: 38px;
+    width: 50px;
+}
+/*img, a img {
+    border: medium none;
+}
+img {
+    border: 0 none;
+}
+*/
+.toptab > p {
+    margin: 0.6em 0 1.2em;
+    padding: 0;
+}
+.toptab a:hover{
+	color: #FF0!important;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	text-shadow: none;
+}
+.toptab a:link, .toptab a:visited {
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #027ac6;
+    text-decoration: none;
+}
+.social-icons {
+    position: fixed;
+    left: 30px;
+    top: 0px;
+}
+.header .logo img{
+	margin:30px 40px 0 !important;
+}
+#ks1{
+	color: #3486ff;
+}
+#title{
+	color: #494949;
+}
+#ks2{
+	background-color: #3486ff;
+	font-size: 200%;
+	color: white;
+}
+#title_1{
+	font-size:150%;
+	color: khaki;	
+	text-align: center;
+}
+#title_1 sup {
+    font-size: 13px;
+    margin-left: -4px;
+    top: -1.5em;
+}
+.hero-unify > p {
+    background-color: #DDEA4C;
+    padding: 10px 40px;
+    text-align: center;
+}
+#line_height {
+    line-height: 32px;
+}
+
+.field-item.even > h2 {
+    color: #000080;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 130%;
+}
+.even h3{
+	color: #333;
+    font-size: 17px;
+    line-height: 130%;
+}
+.even hr{
+	background: #5294c1 none repeat scroll 0 0;
+    border: medium none;
+    height: 1px;
+}
+.scopeHeader33, .scopeHeader{
+    background-color: #008acd;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+.scope33, .scope{
+    background-image: url("../../images/scopeGrade.jpg");
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    border: 1px solid #008acd;;
+    padding: 5px;
+    vertical-align: top;
+    font-size: 15px;
+}
+.scope33 li , .scope li{
+    background: transparent url("../../images/scope_bullet.png") no-repeat scroll 1px 0.35em;
+    font: 12px/170% Verdana,sans-serif;
+    padding: 0 0 0.2em 1.5em;
+    list-style-type: none;
+}
+.scope33 > ul, .scope> ul {
+    padding: 5px;
+}
+.scope .scope, .scopeHeader{
+	width: 450px;
 }
