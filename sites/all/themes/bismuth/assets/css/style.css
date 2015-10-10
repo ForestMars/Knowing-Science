@@ -1801,6 +1801,9 @@ img.img-mouse {
     color: #888;
     font-size: 14px !important;
 }
+.node-product img{
+   width: 100%;
+}
 .shop-product-prices li {
     font-size: 30px;
 }
