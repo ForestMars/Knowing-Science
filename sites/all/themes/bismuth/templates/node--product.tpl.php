@@ -5,12 +5,11 @@ $output = '';
   $imageInfo = $node->field_image_cache['und'];
   foreach($imageInfo as $val){
     $productImage = file_create_url($val['uri']);
-    print $productImage;
     $imageAlt = $val->field_image_cache['alt'];
     $imageBig = '';
     $output .= '<div class="ms-slide">';
-    $output .= '<img class="ms-brd" src="'. $productImage. '" data-src="' .$productImage. '" alt="'. $imageAlt. '">';
-     $output .= '<img class="ms-thumb" src="'. $productImage .'" alt="thumb">';
+    $output .= '<img class="ms-brd" width=550px height=550px src="'. $productImage. '" data-src="' .$productImage. '" alt="'. $imageAlt. '">';
+     $output .= '<img class="ms-thumb" width=180px height=180px src="'. $productImage .'" alt="thumb">';
     $output .= '</div>';
   }
 
