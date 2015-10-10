@@ -437,7 +437,6 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                     
                     <div class="col-sm-6">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/S3RkyGXJ4H0" frameborder="0" allowfullscreen></iframe>
-                        <!-- img src="<?php echo path_to_theme() . '/assets/img/main/texas.png' ?>" alt="" height="150" -->
                     </div>
 
 
@@ -473,7 +472,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
 <div class="container">
                   <div class="row">
                     <div class="col-sm-8">
-                        <h4 class="animated slideInDown">Texas adopts Knowing Science NGSS Curriculum
+                        <h4 class="animated slideInDown">Texas adopts Knowing Science Curriculum
                         </h4>
 
                         <p>
