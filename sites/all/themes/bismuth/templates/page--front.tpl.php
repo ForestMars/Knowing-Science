@@ -447,8 +447,8 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                 <div class="row">
 					<div class="col-sm-8 col-sm-offset-2 col-sm-test">
 						<div class="center-heading">
-							<h2><strong>What</strong> School Districts Say</h2>
-							<p>This is where you say something about these testimonials</p>
+							<h2><strong>Endorsements</strong></h2>
+							<p>Read what administrators, teachers and students are saying about Knowing Science</p>
 							<span class="center-line"></span>
 						</div>
                     </div>
