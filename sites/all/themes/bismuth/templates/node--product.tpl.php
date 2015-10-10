@@ -7,7 +7,7 @@ $body = strip_tags($node->body['und'][0]['value']);
   $productImage = file_create_url($imageInfo);
   $output .= '<div class="ms-slide">';
   $output .= '<img class="ms-brd" width=550px height=550px src="'. $productImage. '" data-src="' .$productImage. '" alt="'. $imageAlt. '">';
-  $output .='<br /><em>'.$imageAlt.'</em>';
+  $output .='<br /><em>Photo is representation only. Actual items may differ.</em>';
   $output .= '</div>';
 
 ?>
