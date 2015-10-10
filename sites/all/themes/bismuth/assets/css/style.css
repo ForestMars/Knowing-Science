@@ -1869,8 +1869,8 @@ a:link, a:visited {
 }
 
 .field-item.even > h2 {
-    color: #000080;
-    font-size: 20px;
+    color: #008acd;
+    font-size: 28px;
     font-weight: bold;
     line-height: 130%;
 }
@@ -1913,3 +1913,42 @@ a:link, a:visited {
 .scope .scope, .scopeHeader{
 	width: 450px;
 }
+/*------table--------*/
+.even table {
+    margin: 30px 0;
+}
+.even table, .even table p{
+  	color: #494949;
+    font: 12px/170% Verdana,sans-serif;
+}
+.even tbody {
+    border: medium none;
+}
+.sub-heading-table{
+	background: #008acd none repeat scroll 0 0;
+    color: #fff;
+    font-size: 22px;
+    padding-bottom: 2px;
+}
+.scope25 {
+    background-image: url("../../images/scopeGrade.jpg");
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    border: 1px solid #008acd;
+    padding: 5px;
+    vertical-align: top;
+}
+.scope25 ul li {
+    float: left;
+    margin: 0.1em 0 0.15em 0.5em;
+    background: transparent url("../../images/scope_bullet.png") no-repeat scroll 1px 0.35em;
+    list-style-type: none;
+    padding: 0 0 0.2em 1.5em;
+}
+.scope25 ol li, .scope25 ul li {
+    margin: 0.4em 0 0.4em 0.5em;
+    width: 100%;
+}
+
+
+/*-------End Table--------*/
