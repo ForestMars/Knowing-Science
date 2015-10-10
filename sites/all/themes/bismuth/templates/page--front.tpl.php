@@ -295,8 +295,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                     </div>
                     <div class="caption">
                         <h3><a class="hover-effect" href="#">Grade  6</a></h3>
-                        <p>In Grade 6, students delve deeply into Life Science concepts.  They <b> differentiate </b>between living things and nonliving things that have characteristics similar to living things.  Students<b> learn </b>about different types of cells, their structures and functions.  They deepen their <b> understanding </b>of how sensory receptors gather information and send it to the brain.<br/>
-                        Students <b>make connections</b> between energy requirements of living things and human made devices.  Finally, they <b>further explore</b> recycling in nature; the water, carbon, and nitrogen cycles.</p>
+                        <p>In Grade 6, the Middle School NGSS standards begin and students delve deeply into Life Science, Earth Science, and Physical Science concepts.  For example, life Science provides an in-depth study of cells, senses and the nervous system, and how matter and energy flow through the living and nonliving parts of an ecosystem.</p>
                     </div>
                 </div>
             </div>
