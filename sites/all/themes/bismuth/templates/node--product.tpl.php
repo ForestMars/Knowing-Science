@@ -44,7 +44,10 @@ $body = strip_tags($node->body['und'][0]['value']);
       $form_value =  drupal_get_form('uc_product_add_to_cart_form_'.$node->nid, $node);
       print drupal_render($form_value);
       $form_valuett =  uc_product_form($node, $form_state);
-      print $form_valuett;
+      echo"<pre>";
+      print_r($form_valuett);
+       echo"<pre>";
+      
       ?>
     </div><!--/end product quantity-->    
 
