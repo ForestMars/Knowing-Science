@@ -107,6 +107,25 @@ $output = '';
   <?php print render($content['comments']); ?>
 
 </article>
+<!-- JS Global Compulsory -->           
+<script src="assets/plugins/jquery/jquery.min.js"></script>
+<script src="assets/plugins/jquery/jquery-migrate.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- JS Implementing Plugins -->
+<script src="assets/plugins/back-to-top.js"></script>
+<script src="assets/plugins/smoothScroll.js"></script>
+<script src="assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>
+<script src="assets/plugins/scrollbar/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<!-- Master Slider -->
+<script src="assets/plugins/master-slider/quick-start/masterslider/masterslider.min.js"></script>
+<script src="assets/plugins/master-slider/quick-start/masterslider/jquery.easing.min.js"></script>
+<!-- JS Customization -->
+<script src="assets/js/custom.js"></script>
+<!-- JS Page Level -->
+<script src="assets/js/shop.app.js"></script>
+<script src="assets/js/plugins/owl-carousel.js"></script>
+<script src="assets/js/plugins/master-slider.js"></script>
+<script src="assets/js/forms/product-quantity.js"></script>
 <script>
     jQuery(document).ready(function() {
         App.init();
