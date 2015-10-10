@@ -479,7 +479,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                         </p>                   
                         <p>
                          <!-- a href="Click for Texas Edition Sample lessons">View Texas Edition Sample lessons here</a-->
-                         <a href="https://www.youtube.com/watch?v=bgCJPdsBWnA">View Texas Edition Sample lessons here</a>
+                         <a href="samples-texas-edition">View Texas Edition Sample lessons here</a>
 
                         </p>
                         
