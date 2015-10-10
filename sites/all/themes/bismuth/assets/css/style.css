@@ -1794,12 +1794,12 @@ img.img-mouse {
     font-size: 14px;
 }
 .node-product p,
-#description ul ,
+#description ul,
 #description ul li,
 #description ul li p
 {
     color: #888;
-    font-size: 14px;
+    font-size: 14px !important;
 }
 .shop-product-prices li {
     font-size: 30px;
