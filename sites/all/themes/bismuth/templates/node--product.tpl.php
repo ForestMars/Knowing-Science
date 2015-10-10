@@ -65,12 +65,12 @@ $body = strip_tags($node->body['und'][0]['value']);
   
   <div class="tab-content">
   <!-- Description -->
-  <div class="tab-pane fade in" id="description">
-  <div class="row">
-    <div class="col-md-7 pro-body">
-      <p><?php print $node->body['und'][0]['value'];?></p><br>
+  <div class="description" id="description">
+    <div class="row">
+      <div class="col-md-7">
+        <p><?php print $node->body['und'][0]['value'];?></p><br>
+      </div>
     </div>
-  </div>
   </div>
   <!-- End Description -->
    </div> 
