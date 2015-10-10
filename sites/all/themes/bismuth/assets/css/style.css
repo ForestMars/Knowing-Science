@@ -1891,3 +1891,8 @@ img.img-mouse {
     float: left;
     margin-right: 30px;
 }
+.caption-text{
+   text-align: center;
+   font-size: 14px;
+   color: #888;
+}
