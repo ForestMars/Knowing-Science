@@ -63,6 +63,7 @@ $output = '';
     <p class="wishlist-category"><strong>Categories:</strong> <a href="#">Book</a></p>
   </div>
 </div>
+</div>
 <div class="tab-v5">
   <ul class="nav nav-tabs" role="tablist">
     <li class="active"><a href="#description" role="tab" data-toggle="tab">Description</a></li>
@@ -103,7 +104,6 @@ $output = '';
       </div>
     </div>    
   </div>
-</div>
   <?php print render($content['comments']); ?>
 
 </article>
