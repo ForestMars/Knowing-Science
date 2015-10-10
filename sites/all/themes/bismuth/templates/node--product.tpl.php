@@ -87,7 +87,7 @@ $body = strip_tags($node->body['und'][0]['value']);
   <!-- End Description -->
   
   <!-- Reviews -->                
-  <div class="review" id="reviews">
+  <div class="review" id="reviews" style="display: none;">
   <div class="product-comment margin-bottom-40">
       <?php render($content['comments']);
       print '<br />'.'test content';
@@ -98,14 +98,14 @@ $body = strip_tags($node->body['und'][0]['value']);
 
   jQuery(document).ready(function () {
   	jQuery('.tab-v5 .nav-tabs .description').click(function(){
-		jQuery('.tab-content #description').show("slow");
-        jQuery('.tab-content #reviews').hide("slow");
+		jQuery('.tab-content #description').show();
+        jQuery('.tab-content #reviews').hide();
         jQuery('.tab-v5 .nav-tabs .description').addClass('active');
         jQuery('.tab-v5 .nav-tabs .reviews').removeClass('active');
 	})
       	jQuery('.tab-v5 .nav-tabs .reviews').click(function(){
-		jQuery('.tab-content #reviews').show("slow");
-        jQuery('.tab-content #description').hide("slow");
+		jQuery('.tab-content #reviews').show();
+        jQuery('.tab-content #description').hide();
         jQuery('.tab-v5 .nav-tabs .reviews').addClass('active');
         jQuery('.tab-v5 .nav-tabs .description').removeClass('active');
 	})
