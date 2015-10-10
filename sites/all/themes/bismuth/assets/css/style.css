@@ -1813,7 +1813,10 @@ img.img-mouse {
     padding: 10px 25px;
     border: none;
 }
-add-to-wishlist-brd {
+.node-add-to-cart:hover{
+   background: #2cd5b6 none repeat scroll 0 0;
+}
+.add-to-wishlist-brd {
     border-bottom: 1px solid #dedede;
     padding-bottom: 10px;
 }
@@ -1830,6 +1833,12 @@ add-to-wishlist-brd {
     color: #8bdccd;
     font-size: 16px;
     margin-right: 7px;
+}
+.add-to-wishlist i:hover{
+   color: #18ba9b
+}
+.wishlist-category a{
+   color: #18ba9b;
 }
 .add-to-wishlist a {
     color: #999;
