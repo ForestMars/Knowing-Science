@@ -31,7 +31,7 @@ $body = strip_tags($node->body['und'][0]['value']);
         </li>
     </ul><!--/end shop product ratings-->
 
-    <p><?php echo substr($body,0,20).'...';?></p><br>
+    <p><?php echo substr($body,0,126).'...';?></p><br>
 
     <ul class="list-inline shop-product-prices margin-bottom-30">
         <li class="shop-red"><?php print '$'.$node->sell_price; ?></li>
