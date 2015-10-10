@@ -27,7 +27,7 @@ $body = strip_tags($node->body['und'][0]['value']);
  
     <ul class="list-inline product-ratings margin-bottom-30">
         <li class="product-review-list">
-            <span>(<?php print $node->comment_count;?>) <a href="#">Review</a> | <a href="#"> Add Review</a></span>
+            <span>(<?php print $node->comment_count;?>) <a href="#reviews">Review</a> | <a href="#reviews"> Add Review</a></span>
         </li>
     </ul><!--/end shop product ratings-->
 
