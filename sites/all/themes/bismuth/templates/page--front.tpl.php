@@ -470,24 +470,17 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
         <div class="intro-text-1 light">
 <div class="container">
                   <div class="row">
-                    <div class="col-sm-8">
-                        <h4 class="animated slideInDown">Texas adopts Knowing Science Curriculum
-                        </h4>
-
-                        <p>
-                            The Texas State Board of Education adopted instructional materials under Proclamation 2014 at their November 2013 meeting. Proclamation 2014 includes Knowing Science K­2 Teachers Manuals, STEM kits, and Literacy Books..
-                        </p>                   
-                        <p>
-                         <!-- a href="Click for Texas Edition Sample lessons">View Texas Edition Sample lessons here</a-->
-                         <a href="samples-texas-edition">View Texas Edition Sample lessons here</a>
-
-                        </p>
-                        
-                        
-                    </div>
                     <div class="col-sm-4">
-                        <img src="<?php echo path_to_theme() . '/assets/img/main/texas.png' ?>" alt="" height="150">
+                      <img src="<?php echo path_to_theme() . '/assets/img/main/texas.png' ?>" alt="" height="150">
                     </div>
+                    
+                    <div class="col-sm-8">
+                      <h4 class="animated slideInDown">Texas adopts Knowing Science Curriculum</h4>
+                      <p>The Texas State Board of Education adopted instructional materials under Proclamation 2014 at their November 2013 meeting. Proclamation 2014 includes Knowing Science K­2 Teachers Manuals, STEM kits, and Literacy Books..
+                      </p>                   
+                      <p><a href="samples-texas-edition">View Texas Edition Sample lessons here</a></p>
+                    </div>
+
                   </div>
             </div>
         </div> <!--intro text end-->
