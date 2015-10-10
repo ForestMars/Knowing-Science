@@ -41,8 +41,8 @@ $body = strip_tags($node->body['und'][0]['value']);
     <h3 class="shop-product-title">Quantity</h3>
     <div class="margin-bottom-40">
       <?php
-      //$form_value =  drupal_get_form('uc_product_add_to_cart_form_'.$node->nid, $node);
-      //print drupal_render($form_value);
+      $form_value =  drupal_get_form('uc_product_add_to_cart_form_'.$node->nid, $node);
+      print drupal_render($form_value);
       ?>
     </div><!--/end product quantity-->    
 
