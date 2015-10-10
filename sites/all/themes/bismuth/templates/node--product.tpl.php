@@ -97,6 +97,7 @@ $body = strip_tags($node->body['und'][0]['value']);
 <script>
 
   jQuery(document).ready(function () {
+    jQuery(".node-product ,margin-bottom-40 input").first().prop("type", "text");
   	jQuery('.tab-v5 .nav-tabs .description').click(function(){
 		jQuery('.tab-content #description').show();
         jQuery('.tab-content #reviews').hide();
