@@ -1871,3 +1871,16 @@ img.img-mouse {
     font-weight: normal;
     margin: 0;
 }
+.quantity-field {
+    border: 1px solid #eee;
+    font-size: 20px;
+    height: 50px;
+    margin: 0 -4px;
+    outline: medium none;
+    text-align: center;
+    width: 55px;
+}
+.qty {
+    float: left;
+    margin-right: 30px;
+}
