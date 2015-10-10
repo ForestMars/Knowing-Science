@@ -89,10 +89,7 @@ $body = strip_tags($node->body['und'][0]['value']);
   <!-- Reviews -->                
   <div class="review" id="reviews" style="display: none;">
   <div class="product-comment margin-bottom-40">
-      <?php render($content['comments']);
-      print '<br />'.'test content';
-      print drupal_get_form('comment_form', $comment);
-      ?>
+      <?php print render($node['comments']); ?>
     </div>    
   </div>  
 <script>
