@@ -477,6 +477,13 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                         <p>
                             The Texas State Board of Education adopted instructional materials under Proclamation 2014 at their November 2013 meeting. Proclamation 2014 includes Knowing Science K­2 Teachers Manuals, STEM kits, and Literacy Books..
                         </p>                   
+                        <p>
+                         <!-- a href="Click for Texas Edition Sample lessons">View Texas Edition Sample lessons here</a-->
+                         <a href="https://www.youtube.com/watch?v=bgCJPdsBWnA">View Texas Edition Sample lessons here</a>
+
+                        </p>
+                        
+                        
                     </div>
                     <div class="col-sm-4">
                         <img src="<?php echo path_to_theme() . '/assets/img/main/texas.png' ?>" alt="" height="150">
