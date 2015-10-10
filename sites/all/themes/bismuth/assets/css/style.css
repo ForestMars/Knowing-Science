@@ -1812,6 +1812,13 @@ img.img-mouse {
      font-size: 18px;
     padding: 10px 25px;
     border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
 }
 .node-add-to-cart:hover{
    background: #2cd5b6 none repeat scroll 0 0;

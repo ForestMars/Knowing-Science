@@ -62,8 +62,8 @@ $body = strip_tags($node->body['und'][0]['value']);
 </div>
 <div class="tab-v5">
   <ul class="nav nav-tabs" role="tablist">
-    <li class="active"><a href="#description" role="tab" data-toggle="tab">Description</a></li>
-    <li><a href="#reviews" role="tab" data-toggle="tab">Reviews (<?php print $node->comment_count;?>)</a></li>
+    <li class="active description"><a href="#description" role="tab" data-toggle="tab">Description</a></li>
+    <li class="reviews"><a href="#reviews" role="tab" data-toggle="tab">Reviews (<?php print $node->comment_count;?>)</a></li>
   </ul>
   
   <div class="tab-content">
@@ -94,5 +94,21 @@ $body = strip_tags($node->body['und'][0]['value']);
       ?>
     </div>    
   </div>  
+<script>
 
+  jQuery(document).ready(function () {
+  	jQuery('.tab-v5 .nav-tabs .description').click(function(){
+		jQuery('.tab-content #description').show("slow");
+        jQuery('.tab-content #reviews').hide("slow");
+        jQuery('.tab-v5 .nav-tabs .description').addClass('active');
+        jQuery('.tab-v5 .nav-tabs .reviews').removeClass('active');
+	})
+      	jQuery('.tab-v5 .nav-tabs .reviews').click(function(){
+		jQuery('.tab-content #reviews').show("slow");
+        jQuery('.tab-content #description').hide("slow");
+        jQuery('.tab-v5 .nav-tabs .reviews').addClass('active');
+        jQuery('.tab-v5 .nav-tabs .description').removeClass('active');
+	})
+  });
+</script>
 </article>
