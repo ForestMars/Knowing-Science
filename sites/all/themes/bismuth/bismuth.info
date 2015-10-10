@@ -50,7 +50,7 @@ stylesheets[all][] = assets/plugins/line-icons/line-icons.css
 stylesheets[all][] = assets/plugins/font-awesome/css/font-awesome.min.css
 stylesheets[all][] = assets/plugins/parallax-slider/css/parallax-slider.css
 stylesheets[all][] = assets/plugins/owl-carousel/owl-carousel/owl.carousel.css
-
+stylesheets[all][] = assets/plugins/masterslider.css
 ; Assan Testimonials 
 stylesheets[all][] = assets/css/style2.css ;not needed
 
@@ -70,6 +70,7 @@ scripts[] = assets/js/jquery.min.js
 scripts[] = assets/js/jquery.stellar.min.js
 scripts[] = assets/js/owl.carousel.min.js
 scripts[] = assets/js/wow.js
-
+scripts[] = assets/js/masterslider.js
+scripts[] = assets/js/plugins/masterslider.min.js
 
 
