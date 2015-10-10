@@ -1,11 +1,12 @@
 name = Testimonials
 core = 7.x
 package = Knowing Science
-version = 7.x-0.1
+version = 7.x-0.2
 dependencies[] = features
 dependencies[] = image
 dependencies[] = text
 dependencies[] = views
+dependencies[] = views_slideshow
 features[ctools][] = views:views_default:3.0
 features[features_api][] = api:2
 features[field_base][] = body
