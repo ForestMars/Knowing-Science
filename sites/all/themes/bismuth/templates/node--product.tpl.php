@@ -30,7 +30,7 @@ $output = '';
         </li>
     </ul><!--/end shop product ratings-->
 
-    <p><?php print substr(strip_tags($node->body['und'][0]['value'], 0, 25));?></p><br>
+    <p><?php print $node->body['und'][0]['value'];?></p><br>
 
     <ul class="list-inline shop-product-prices margin-bottom-30">
         <li class="shop-red"><?php print '$'.$node->sell_price; ?></li>
