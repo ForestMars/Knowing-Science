@@ -60,7 +60,7 @@ $body = strip_tags($node->body['und'][0]['value']);
 </div>
 <div class="tab-v5">
   <ul class="nav nav-tabs" role="tablist">
-    <li class="active description"><a href="#description" role="tab" data-toggle="tab">Description</a></li>
+    <li class="description"><a href="#description" role="tab" data-toggle="tab">Description</a></li>
   </ul>
   
   <div class="tab-content">

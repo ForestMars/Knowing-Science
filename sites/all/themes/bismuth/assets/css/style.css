@@ -1793,12 +1793,16 @@ img.img-mouse {
     color: #999;
     font-size: 14px;
 }
-.node-product p,
-.node-product #description ul ,
-.node-product #description ul li,
-.node-product #description ul li p{
+.node-product p
+{
     color: #888;
     font-size: 14px;
+}
+#description ul ,
+#description ul li,
+#description ul li p{
+    font-size: 15px;
+   
 }
 .shop-product-prices li {
     font-size: 30px;
