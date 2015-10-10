@@ -89,7 +89,7 @@ $body = strip_tags($node->body['und'][0]['value']);
   <!-- Reviews -->                
   <div class="review" id="reviews" style="display: none;">
   <div class="product-comment margin-bottom-40">
-      <?php print render($node['comments']); ?>
+     <?php print render($content['comments']); ?>
     </div>    
   </div>  
 <script>
