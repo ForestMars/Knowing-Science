@@ -2,23 +2,18 @@
 
 <?php
 $output = '';
-  $imageInfo = $node->field_image_cache['und'];
-  foreach($imageInfo as $val){
-    $productImage = file_create_url($val['uri']);
-    $imageAlt = $val->field_image_cache['alt'];
-    $imageBig = '';
-    $output .= '<div class="ms-slide">';
-    $output .= '<img class="ms-brd" width=550px height=550px src="'. $productImage. '" data-src="' .$productImage. '" alt="'. $imageAlt. '">';
-     $output .= '<img class="ms-thumb" width=180px height=180px src="'. $productImage .'" alt="thumb">';
-    $output .= '</div>';
-  }
+  $imageInfo = $node->field_image_cache['und'][0]['uri'];
+  $productImage = file_create_url($imageInfo);
+  $output .= '<div class="ms-slide">';
+  $output .= '<img class="ms-brd" width=550px height=550px src="'. $productImage. '" data-src="' .$productImage. '" alt="'. $imageAlt. '">';
+  $output .= '</div>';
 
 ?>
 <div class="row">
   <div class="col-md-6 md-margin-bottom-50">
     <div class="ms-showcase2-template">
     <!-- Master Slider -->
-      <div class="master-slider ms-skin-default" id="masterslider">
+      <div class="master-sliders ms-skin-default" id="mastersliderdd">
         <?php print $output ;?>
       </div>
     <!-- End Master Slider -->
