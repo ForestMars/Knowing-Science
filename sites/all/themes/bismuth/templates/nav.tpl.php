@@ -160,7 +160,7 @@
 
                     <!-- Blog -->
                     <li class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                        <a href="home-school" class="dropdown-toggle" data-toggle="dropdown">
                             Home School
                         </a>
 
@@ -173,11 +173,13 @@
                     <!-- Misc Pages -->
                     <li class="dropdown">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                            Publications
+                            Media
                         </a>
                         <ul class="dropdown-menu pull-right">
-                            <li><a href="page_misc_blank.html">Blank page</a></li>
-                            <li><a href="page_misc_boxed.html">Boxed Page</a></li>
+                            <li><a href="publications">Publications</a></li>
+                            <li><a href="intro-video">Introduction to Knowing Science</a></li>
+                            <li><a href="mineola-be-the-change-for-kids-innovation-award">Be the Change Innovation Award</a></li>
+                            <li><a href="be-the-change-for-kids-innovative-award">2014 Innovation Awards Ceremony</a></li>
                         </ul>
                     </li>
                     <!-- End Misc Pages -->
