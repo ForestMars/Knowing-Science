@@ -1777,3 +1777,15 @@ img.img-mouse {
    display: inline-block;
    zoom: 1;
 }
+.ms-showcase2-template .ms-slide{
+   position: relative !important;
+}
+.tab-v5{
+   clear: both;
+   margin-top: 5%;
+}
+.shop-product-heading {
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
