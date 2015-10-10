@@ -24,12 +24,6 @@ $body = strip_tags($node->body['und'][0]['value']);
     <div class="shop-product-heading">
         <h2><?php print $node->title; ?></h2>
     </div><!--/end shop product social-->
- 
-    <ul class="list-inline product-ratings margin-bottom-30">
-        <li class="product-review-list">
-            <span>(<?php print $node->comment_count;?>) <a href="#reviews">Review</a> | <a href="#reviews"> Add Review</a></span>
-        </li>
-    </ul><!--/end shop product ratings-->
 
     <p><?php echo substr($body,0,126).'...';?></p><br>
 
@@ -71,41 +65,14 @@ $body = strip_tags($node->body['und'][0]['value']);
   
   <div class="tab-content">
   <!-- Description -->
-  <div class="tab-pane fade in active" id="description">
+  <div class="tab-pane fade in" id="description">
   <div class="row">
-    <div class="col-md-7">
+    <div class="col-md-7 pro-body">
       <p><?php print $node->body['und'][0]['value'];?></p><br>
-      
-      <h3 class="heading-md margin-bottom-20">Specifies</h3>
-      <div class="row">
-        <div class="col-sm-6">
-          <ul class="list-unstyled specifies-list">
-            <li><i class="fa fa-caret-right"></i>Product Type: <span><?php print $node->field_product_type['und'][0]['value'];?></span></li>
-          </ul>
-        </div>
-      </div>
     </div>
   </div>
   </div>
   <!-- End Description -->
    </div> 
   <!-- Reviews -->                
-<script>
-
-  jQuery(document).ready(function () {
-    jQuery(".node-product ,margin-bottom-40 input").first().prop("type", "text");
-  	jQuery('.tab-v5 .nav-tabs .description').click(function(){
-		jQuery('.tab-content #description').show();
-        jQuery('.tab-content #reviews').hide();
-        jQuery('.tab-v5 .nav-tabs .description').addClass('active');
-        jQuery('.tab-v5 .nav-tabs .reviews').removeClass('active');
-	})
-      	jQuery('.tab-v5 .nav-tabs .reviews').click(function(){
-		jQuery('.tab-content #reviews').show();
-        jQuery('.tab-content #description').hide();
-        jQuery('.tab-v5 .nav-tabs .reviews').addClass('active');
-        jQuery('.tab-v5 .nav-tabs .description').removeClass('active');
-	})
-  });
-</script>
 </article>

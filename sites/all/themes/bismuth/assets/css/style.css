@@ -1782,7 +1782,7 @@ img.img-mouse {
 }
 .tab-v5{
    clear: both;
-   margin-top: 5%;
+   margin-top: 1%;
 }
 .shop-product-heading {
     border-bottom: 1px solid #dedede;
@@ -1793,7 +1793,10 @@ img.img-mouse {
     color: #999;
     font-size: 14px;
 }
-.node-product p {
+.node-product p,
+.node-product #description ul ,
+.node-product #description ul li,
+.node-product #description ul li p{
     color: #888;
     font-size: 14px;
 }
