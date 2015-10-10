@@ -87,29 +87,11 @@ $body = strip_tags($node->body['und'][0]['value']);
   <!-- End Description -->
   
   <!-- Reviews -->                
-  <div class="tab-pane fade" id="reviews">
+  <div class="review" id="reviews">
   <div class="product-comment margin-bottom-40">
-    <div class="product-comment-in">
-      <img class="product-comment-img rounded-x" src="assets/img/team/01.jpg" alt="">
-      <div class="product-comment-dtl">
-      <h4>Mickel <small>22 days ago</small></h4>
-      <p>I like the green colour, it's very likeable and reminds me of Hollister. A little loose though but I am very skinny</p>
-        <ul class="list-inline product-ratings">
-        <li class="reply"><a href="#">Reply</a></li>  
-      </ul>
-      </div>
+<?php render($content['comments']);?>
     </div>    
   </div>
   <?php print render($content['comments']); ?>
 
 </article>
-
-<script>
-    jQuery(document).ready(function() {
-      console.log('tttt');
-        App.init();
-        App.initScrollBar();        
-        OwlCarousel.initOwlCarousel();     
-        MasterSliderShowcase2.initMasterSliderShowcase2();
-    });
-</script>
