@@ -2,6 +2,7 @@
 
 <?php
 $output = '';
+$body = strip_tags($node->body['und'][0]['value']);
   $imageInfo = $node->field_image_cache['und'][0]['uri'];
   $productImage = file_create_url($imageInfo);
   $output .= '<div class="ms-slide">';
@@ -30,7 +31,7 @@ $output = '';
         </li>
     </ul><!--/end shop product ratings-->
 
-    <p><?php echo substr($node->body['und'][0]['value'],0,20).'...';?></p><br>
+    <p><?php echo substr($body,0,20).'...';?></p><br>
 
     <ul class="list-inline shop-product-prices margin-bottom-30">
         <li class="shop-red"><?php print '$'.$node->sell_price; ?></li>
