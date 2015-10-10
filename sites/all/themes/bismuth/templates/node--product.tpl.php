@@ -4,7 +4,8 @@
 $output = '';
   $imageInfo = $node->field_image_cache['und'];
   foreach($imageInfo as $val){
-    $productImage = file_create_url($val->field_image_cache['uri']);
+    $productImage = file_create_url($val['uri']);
+    print $productImage;
     $imageAlt = $val->field_image_cache['alt'];
     $imageBig = '';
     $output .= '<div class="ms-slide">';
