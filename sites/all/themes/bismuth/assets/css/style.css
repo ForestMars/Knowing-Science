@@ -1945,6 +1945,11 @@ a:link, a:visited {
     margin: 0.4em 0 0.4em 0.5em;
     width: 100%;
 }
-
-
 /*-------End Table--------*/
+#block-views-triptych-block .content,#block-views-triptych-block-2 .content,#block-views-triptych-block-1 .content{
+	margin-top: 0px;
+}
+.fa.fa-certificate{
+	line-height: 20px;
+	font-size: 17px !important;
+}
