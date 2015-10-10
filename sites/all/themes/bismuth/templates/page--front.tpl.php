@@ -432,7 +432,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                     <p> 100% alignment to Next Generation Science Standards</p>
                     
                 </blockquote>    
-                          <br /><a href="media"><h3 class="color-blue">See more videos about the Knowing Science curriculum</h3></a>      
+                                
                     </div>
                     
                     <div class="col-sm-6">
