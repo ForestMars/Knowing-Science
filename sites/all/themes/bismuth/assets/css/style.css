@@ -26,6 +26,12 @@ body {
    font-size: 1.75em;
 }
 
+#transition li {
+   font-size: .75em;
+
+  }
+
+
 p {
     font-family: 'Source Sans Pro', sans-serif;
 }
