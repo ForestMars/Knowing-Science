@@ -368,7 +368,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                     
                     
                     
-                    
+                </div></div>
                     
                     
                     
@@ -377,6 +377,37 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
 
                     <!-- small>(this could be a quote or a summary of the main mesage)</small> -->
                 </blockquote>
+                
+                        <div class="divide40"></div>
+          <div class="intro-text-1 light">
+            <div class="container">
+
+                  
+                  
+                  
+                
+                <div class="row">      
+					        <div class="col-sm-8 col-sm-offset-2 col-sm-test">  					
+						        <div class="center-heading">
+							        <h2><strong>Endorsements</strong></h2>
+							        <p>Read what administrators, teachers and students are saying about Knowing Science</p>
+							        <span class="center-line"></span>
+						        </div>
+                  </div>
+                </div>
+                
+				        <div class="row">
+					        <div class="col-sm-8 col-sm-offset-2">
+						        <?php
+							      $block = module_invoke('views', 'block_view', 'ks_testimonials-block_1');
+							      print render($block['content']);
+						        ?>
+                  </div>
+                </div>
+                        
+
+            </div>
+                
             <!-- /div --><!--/col-md-8-->
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Info ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
@@ -421,13 +452,30 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
     			</div>
                 <p>New Knowin Science eBooks series with high-interest short stories that introduce concepts and vocabulary; explanations and summaries written with language that directly relates to student daily experiences; interactive video game-style activities that reinforce learning; and self-checking review questions.</p>
             </div><!--/col-md-4-->
-             <hr>
             
-                        
-              <div class="row">      
+            
+            
+            
+   
+            
+    	</div>
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Mini-Gallery ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    </div><!--/container-->
+    <!-- End Content Part -->
+
+
+
+        
+<div>          
+  
+  <div class="container">
+            
+             
+                                    
+              <div class="row margin-top-40" style="margin-top:40px;">      
                 <div class="col-sm-6">
-                        <h4 class="animated slideInDown fa fa-certificate">  Award Winning NGSS Curriculum
-                        </h4>
+                        <h2 class="animated slideInDown">  Award Winning NGSS Curriculum
+                        </h2>
 
                 <div class="hero-unify">
                     <p> Winner of the 2014 Be the change for Kids innovation award 
@@ -442,45 +490,9 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                     </div>
                   </div>
 
-            
-            
-            
-            
-    	</div>
-  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Mini-Gallery ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    </div><!--/container-->
-    <!-- End Content Part -->
+                <hr>
 
-
-        <div class="divide40"></div>
-          <div class="intro-text-1 light">
-            <div class="container">
-
-                  
-                  
-                  
-                  
-                <div class="row">      
-					        <div class="col-sm-8 col-sm-offset-2 col-sm-test">  					
-						        <div class="center-heading">
-							        <h2><strong>Endorsements</strong></h2>
-							        <p>Read what administrators, teachers and students are saying about Knowing Science</p>
-							        <span class="center-line"></span>
-						        </div>
-                  </div>
-                </div>
-                
-				        <div class="row">
-					        <div class="col-sm-8 col-sm-offset-2">
-						        <?php
-							      $block = module_invoke('views', 'block_view', 'ks_testimonials-block_1');
-							      print render($block['content']);
-						        ?>
-                  </div>
-                </div>
-      
-                  
-                                    <div class="row">
+                                    <div class="row margin-bottom-40">
                     <div class="col-sm-2"></div>
                     <div class="col-sm-2">
                       <img src="<?php echo path_to_theme() . '/assets/img/main/texas.png' ?>" alt="" height="150">
@@ -493,21 +505,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                       <p><a href="samples-texas-edition">View Texas Edition Sample lessons here</a></p>
                     </div>
 
-                  </div>
-                  
-                  
-            </div>
-        </div> <!--intro text end-->
-        
-      <div class="testimonials-v-2 wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="100ms">
-          <div class="container">
-            
-             
-                
-                
-
-                
-                
+                  </div>                
                 
     
                 
@@ -521,7 +519,9 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
           <div class="intro-text-1 light">
             <div class="container">
               
-
+<div class="col-sm-4"></div>
+<div class="col-sm-4"><p>Would you like to know more? </p></div>
+<div class="col-sm-4"></div>
                   
                   
             </div>
