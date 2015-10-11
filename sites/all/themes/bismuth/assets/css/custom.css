@@ -112,3 +112,31 @@
 .color-grey {
   color: #334
 }
+
+.triptych:before {
+    float:left;
+    content:url(../img/kk/kid-knowledge-blue-stars.png);
+    padding-bottom: 0;
+    vertical-align: baseline;
+    padding-right: 10px;
+
+}
+.triptych li:before {
+  content: "\00a0\00a0\f140";
+  vertical-align: bottom;
+  font-family: FontAwesome;
+  font-size: 1em;
+  padding-right: 5px;
+}
+.triptych h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.triptych li {
+  text-decoration: none;
+  list-style-type: none;
+  padding-top: 10px;
+  font-size: 1.1em !important;
+}
+
+

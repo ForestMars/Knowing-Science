@@ -70,7 +70,6 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
 
 <?php print render($page['highlighted']); ?>
 
-
 <!--================================================== Main Content ==================================================-->
     <div class="container content-sm">
       
@@ -78,22 +77,22 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
     	<div class="row margin-bottom-30">
         	<div class="col-md-4">
         		<div class="service">
-              <i class="fa service-icon"><img src="<?php echo $theme_path . '/assets/img/kk/kid-knowledge-blue-stars.png'; ?>"></i>
-        			<div class="desc">
+        			<div class="triptych">
                 <?php print render($page['triptych1']); ?>
         			</div>
+
         		</div>
         	</div>
         	<div class="col-md-4">
         		<div class="service">
-              <i class="fa service-icon"><img src="<?php echo $theme_path . '/assets/img/kk/kid-knowledge-blue-stars.png'; ?>"></i>        			<div class="desc">
+              <div class="triptych">
                 <?php print render($page['triptych2']); ?>
         			</div>
         		</div>
         	</div>
         	<div class="col-md-4">
-        		<div class="service">
-              <i class="fa service-icon"><img src="<?php echo $theme_path . '/assets/img/kk/kid-knowledge-blue-stars.png'; ?>"></i>        			<div class="desc">
+        		<div class="service"> 			
+              <div class="triptych">
                 <?php print render($page['triptych3']); ?>
         			</div>
         		</div>
