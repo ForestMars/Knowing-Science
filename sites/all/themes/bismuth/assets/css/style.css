@@ -2156,8 +2156,8 @@ a:link, a:visited {
    padding-top: 0;
 }
 .sample-lessons {
-    display: inline;
-    margin: 2% 1% 2% 0;
+    display: inline-block;
+    margin: 2% 2% 2% 0;
 }
 @media (max-width: 768px) {
    .header .logo img  { 
