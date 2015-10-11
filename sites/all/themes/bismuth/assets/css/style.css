@@ -2152,3 +2152,14 @@ a:link, a:visited {
     padding: 10px;
     width: 120px;
 }
+@media (max-width: 768px) {
+   .header .logo img  { 
+   width: 100%;    
+   } 
+}
+
+@media (max-width: 450px) { 
+   .header .logo img  { 
+   width: 100%;    
+   } 
+} 
