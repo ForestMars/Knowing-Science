@@ -2080,10 +2080,10 @@ a:link, a:visited {
       background-color: #ffffff !important;
 }
 #uc-cart-view-form table tr td{
-  vertical-align: middle;
+  vertical-align: top;
   padding: 20px;
 }
-#uc-cart-view-form table input.form-submit{
+#uc-cart-view-form input.form-submit{
     background: #18ba9b none repeat scroll 0 0;
      font-size: 18px;
     padding: 10px 25px;
@@ -2099,7 +2099,20 @@ a:link, a:visited {
 #uc-cart-view-form table input.form-submit:hover{
    background: #2cd5b6 none repeat scroll 0 0;
 }
-#uc-cart-view-form .desc a {
+#uc-cart-view-form .desc a,
+#uc-cart-view-form .price span{
     font-size: 16px;
     margin-bottom: 5px;
+    color: #687074;
+}
+#uc-cart-view-form .price span,
+#uc-cart-view-form .uc-price{
+   color: #c9253c !important;
+   font-size: 16px;
+}
+#uc-cart-view-form .form-type-uc-quantity.element-invisible{
+   display: none;
+}
+#uc-cart-view-form .form-type-uc-quantity input{
+   margin-top: -5px;
 }
