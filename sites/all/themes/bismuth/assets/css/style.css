@@ -26,6 +26,18 @@ body {
    font-size: 1.75em;
 }
 
+#transition li {
+   font-size: .75em;
+
+  }
+
+.purchase p {
+  width: 85% !important;
+  margin-left: 10%;
+  font-size: 1.2em !important;
+
+  }
+
 p {
     font-family: 'Source Sans Pro', sans-serif;
 }
