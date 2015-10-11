@@ -68,8 +68,6 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
     </div><!--/row-->
 <!--================================================== End Intro Block ==================================================-->
 
-<?php print render($page['highlighted']); ?>
-
 <!--================================================== Main Content ==================================================-->
     <div class="container content-sm">
       
@@ -319,7 +317,11 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                     </div>
                     <div class="col-sm-7">
 
-                        <br /><!-- h2><p id="ks1">Knowing Science <span id="title">provides:<span></p></h2 -->
+                        <!-- br /><h2><p id="ks1">Knowing Science <span id="title">provides:<span></p></h2 -->
+
+<?php print render($page['highlighted']); ?>
+
+<?php /*
 
                         <ul class="list-unstyled margin-bottom-20" id="line_height">
                             <li><h3 class="fa fa-check color-blue"><span class="color-grey">
@@ -353,7 +355,24 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                             </li>
                              
                         </ul>
+                  */ ?>      
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                     </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
                 </div>
 
                     <!-- small>(this could be a quote or a summary of the main mesage)</small> -->
@@ -402,6 +421,31 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
     			</div>
                 <p>New Knowin Science eBooks series with high-interest short stories that introduce concepts and vocabulary; explanations and summaries written with language that directly relates to student daily experiences; interactive video game-style activities that reinforce learning; and self-checking review questions.</p>
             </div><!--/col-md-4-->
+             <hr>
+            
+                        
+              <div class="row">      
+                <div class="col-sm-6">
+                        <h4 class="animated slideInDown fa fa-certificate">  Award Winning NGSS Curriculum
+                        </h4>
+
+                <div class="hero-unify">
+                    <p> Winner of the 2014 Be the change for Kids innovation award 
+                    </p>
+                    <p> 100% alignment to Next Generation Science Standards</p>
+                    
+                </div>    
+            
+                    </div>
+                    <div class="col-sm-6">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/S3RkyGXJ4H0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+
+            
+            
+            
+            
     	</div>
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Mini-Gallery ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     </div><!--/container-->
@@ -411,59 +455,33 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
         <div class="divide40"></div>
           <div class="intro-text-1 light">
             <div class="container">
-                  <div class="row">
-                    
-                <div class="col-sm-6">
-                        <h4 class="animated slideInDown fa fa-certificate">  Award Winning NGSS Curriculum
-                        </h4>
 
-                <blockquote class="hero-unify">
-                    <p> Winner of the 2014 Be the change for Kids innovation award 
-                    </p>
-                    <p> 100% alignment to Next Generation Science Standards</p>
-                    
-                </blockquote>    
-                                
-                    </div>
-                    
-                    <div class="col-sm-6">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/S3RkyGXJ4H0" frameborder="0" allowfullscreen></iframe>
-                    </div>
-
-
+                  
+                  
+                  
+                  
+                <div class="row">      
+					        <div class="col-sm-8 col-sm-offset-2 col-sm-test">  					
+						        <div class="center-heading">
+							        <h2><strong>Endorsements</strong></h2>
+							        <p>Read what administrators, teachers and students are saying about Knowing Science</p>
+							        <span class="center-line"></span>
+						        </div>
                   </div>
-            </div>
-        </div> <!--intro text end-->
-        <div class="testimonials-v-2 wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="100ms">
-            <div class="container">
-                <div class="row">
-					<div class="col-sm-8 col-sm-offset-2 col-sm-test">
-						<div class="center-heading">
-							<h2><strong>Endorsements</strong></h2>
-							<p>Read what administrators, teachers and students are saying about Knowing Science</p>
-							<span class="center-line"></span>
-						</div>
-                    </div>
                 </div>
-				<div class="row">
-					<div class="col-sm-8 col-sm-offset-2">
-						<?php
-							$block = module_invoke('views', 'block_view', 'ks_testimonials-block_1');
-							print render($block['content']);
-						?>
-                    </div>
+                
+				        <div class="row">
+					        <div class="col-sm-8 col-sm-offset-2">
+						        <?php
+							      $block = module_invoke('views', 'block_view', 'ks_testimonials-block_1');
+							      print render($block['content']);
+						        ?>
+                  </div>
                 </div>
-            </div>
-        </div><!--testimonials v-2 end-->
-
-
-
-        <div class="divide40"></div>
-        <div class="intro-text-1 light">
-<div class="container">
-                  <div class="row">
+      
+                  
+                                    <div class="row">
                     <div class="col-sm-2"></div>
-
                     <div class="col-sm-2">
                       <img src="<?php echo path_to_theme() . '/assets/img/main/texas.png' ?>" alt="" height="150">
                     </div>
@@ -476,90 +494,44 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                     </div>
 
                   </div>
+                  
+                  
+            </div>
+        </div> <!--intro text end-->
+        
+      <div class="testimonials-v-2 wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="100ms">
+          <div class="container">
+            
+             
+                
+                
+
+                
+                
+                
+    
+                
+                
+            </div>
+        </div><!--testimonials v-2 end-->
+
+
+
+        <div class="divide40"></div>
+          <div class="intro-text-1 light">
+            <div class="container">
+              
+
+                  
+                  
             </div>
         </div> <!--intro text end-->
 
 
-
-
-
-
-    <!--=== Footer Version 1 ===-->
-    <div class="footer-v1">
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <!-- About -->
-                    <div class="col-md-3 md-margin-bottom-40">
-                        <a href="index.html"><img id="logo-footer" class="footer-logo" src="<?php echo ''.drupal_get_path('theme', $theme) . '/assets/img/kid_knowledge/kid-knowledge-logo-stars-trans.gif' ?>" alt="" width="200px"></a>
-                    </div><!--/col-md-3-->
-                    <!-- End About -->
-
-                    <!-- Latest -->
-                    <div class="col-md-3 md-margin-bottom-40">
-                        <div class="posts">
-                            <div class="headline"><h2>Footer One</h2></div>
-                            <ul class="list-unstyled latest-list">
-                                <li>
-                                    <a href="#">Incredible content</a>
-                                    <small>May 8, 2014</small>
-                                </li>
-                                <li>
-                                    <a href="#">Best shoots</a>
-                                    <small>June 23, 2014</small>
-                                </li>
-                                <li>
-                                    <a href="#">New Terms and Conditions</a>
-                                    <small>September 15, 2014</small>
-                                </li>
-                            </ul>
-                        </div>
-                    </div><!--/col-md-3-->
-                    <!-- End Latest -->
-
-                    <!-- Link List -->
-                    <div class="col-md-3 md-margin-bottom-40">
-                        <div class="headline"><h2>Footer Two</h2></div>
-                        <ul class="list-unstyled link-list">
-                            <li><a href="#">About us</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="#">Portfolio</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="#">Latest jobs</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="#">Community</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="#">Contact us</a><i class="fa fa-angle-right"></i></li>
-                        </ul>
-                    </div><!--/col-md-3-->
-                    <!-- End Link List -->
-
-                    <!-- Address -->
-                    <div class="col-md-3 map-img md-margin-bottom-40">
-                        <div class="headline"><h2>Contact Us</h2></div>
-                        <address class="md-margin-bottom-40">
-                            3 Macdonald Ave<br />
-                            Armonk, New York, 10504<br />
-                            Phone: 800 123 3456 <br />
-                            Fax: 800 123 3456 <br />
-                            Email: <a href="mailto:info@anybiz.com" class="">info@knowingscience.com</a>
-                        </address>
-                    </div><!--/col-md-3-->
-                    <!-- End Address -->
-                </div>
-            </div>
-        </div><!--/footer-->
-
-        <div class="copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>
-                            © 2015 Knowing Science LLC. All Rights Reserved. Kid Knowledge and Knowing Science are registered trademarks of Knowing Science LLC. Patents Pending.<br /><a name="ngss-tm"></a>*"NEXT GENERATION SCIENCE STANDARDS" is a registered trademark of Achieve. Neither Achieve nor the lead states and partners that developed the Next Generation Science Standards was involved in the production of, and does not endorse, this product.</p>
-                    </div>
-
-                  
-                </div>
-            </div>
-        </div><!--/copyright-->
-    </div>
-    <!--=== End Footer Version 1 ===-->
+<?php include('footer.tpl.php'); ?> 
+    
+    
+    
 </div><!--/wrapper-->
 
 <!-- JS Global Compulsory -->

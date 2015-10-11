@@ -125,7 +125,7 @@
   content: "\00a0\00a0\f140";
   vertical-align: bottom;
   font-family: FontAwesome;
-  font-size: 1em;
+  font-size: .85em;
   padding-right: 5px;
 }
 .triptych h2 {
@@ -138,5 +138,15 @@
   padding-top: 10px;
   font-size: 1.1em !important;
 }
-
-
+#transition li {
+  text-decoration: none;
+  list-style-type: none;
+  padding-top: 10px;
+}
+#transition li:before {
+  content: "\00a0\00a0\f00c";
+  font-family: FontAwesome;
+  font-size: 1.75em;
+  color: blue;
+  padding-right: 5px;
+}
