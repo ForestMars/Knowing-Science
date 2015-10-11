@@ -2070,6 +2070,14 @@ a:link, a:visited {
     margin: 0.4em 0 0.4em 0.5em;
     width: 100%;
 }
+#uc-cart-view-form table thead th{
+   text-align: center;
+    color: #687074;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
 #uc-cart-view-form table tr{
    border: none !important;
 }
@@ -2083,7 +2091,8 @@ a:link, a:visited {
   vertical-align: top;
   padding: 20px;
 }
-#uc-cart-view-form input.form-submit{
+#uc-cart-view-form input.form-submit,
+#uc-cart-view-form .form-actions a{
     background: #18ba9b none repeat scroll 0 0;
      font-size: 18px;
     padding: 10px 25px;
@@ -2095,6 +2104,9 @@ a:link, a:visited {
     position: relative;
     text-decoration: none;
     white-space: nowrap;
+}
+#uc-cart-view-form  input#edit-update{
+   margin-right: 12px;
 }
 #uc-cart-view-form table input.form-submit:hover{
    background: #2cd5b6 none repeat scroll 0 0;
@@ -2115,4 +2127,7 @@ a:link, a:visited {
 }
 #uc-cart-view-form .form-type-uc-quantity input{
    margin-top: -5px;
+}
+#uc-cart-view-form .qty{
+   margin: 0;
 }
