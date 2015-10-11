@@ -350,24 +350,17 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                             <li><h3 class="fa fa-check color-blue"><span class="color-grey">
                                 Rubrics for formative and summative assessment</h3>
                             </li>
-                            <li><h3 class="fa fa-check color-blue"><span class="color-grey"></i>Professional development and support, including science background information for teachers</h3>
+                            <li><h3 class="fa fa-check color-blue"><span class="color-grey"></i> Professional development and support, including science background information for teachers</h3>
                             </li>
                              
                         </ul>
                     </div>
                 </div>
 
-
-     
-     
-     
-                    <!-- <p>Tesseract, colonies vastness is bearable only through love quasar gathered by gravity, white dwarf culture cosmos star stuff harvesting star light, Flatland, astonishment Orion's sword dispassionate extraterrestrial observer, cosmos, corpus callosum emerged into consciousness a mote of dust suspended in a sunbeam, Drake Equation Euclid. A still more glorious dawn awaits. Not a sunrise but a galaxyrise worldlets with pretty stories for which there's little good evidence great turbulent clouds billions upon billions stirred by starlight. Light years billions upon billions cosmic fugue? Hydrogen atoms citizens of distant epochs rich in heavy atoms Apollonius of Perga, billions upon billions? Cosmic ocean! Bits of moving fluff, a billion trillion.</p>
-                    <small>(this could be a quote or a summary of the main mesage)</small> -->
+                    <!-- small>(this could be a quote or a summary of the main mesage)</small> -->
                 </blockquote>
             <!-- /div --><!--/col-md-8-->
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Info ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-
 
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Mini-Gallery Block ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
           <!-- div class="col-md-4">
