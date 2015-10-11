@@ -31,6 +31,12 @@ body {
 
   }
 
+.purchase p {
+  width: 85% !important;
+  margin-left: 10%;
+  font-size: 1.2em !important;
+
+  }
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
