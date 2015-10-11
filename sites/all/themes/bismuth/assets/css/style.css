@@ -1906,14 +1906,14 @@ img.img-mouse {
    color: #888;
 }
 /* Check for merge conflict */
-
+/*
     text-shadow: 1px 0 3px #666;
     text-transform: uppercase;
     top: -34px;
     vertical-align: top;
     width: 450px;
     z-index: 200;
-}
+}*/
 .tx-icon {
     display: block;
     left: -190px;
@@ -2079,5 +2079,6 @@ a:link, a:visited {
       background-color: #ffffff !important;
 }
 #uc-cart-view-form table tr td{
-  vertical-align: middle; 
+  vertical-align: middle;
+  padding: 20px;
 }
