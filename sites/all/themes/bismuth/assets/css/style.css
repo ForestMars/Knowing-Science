@@ -1784,7 +1784,6 @@ img.img-mouse {
    margin: 0 6px;
    display: inline-block;
    zoom: 1;
-<<<<<<< HEAD
 }
 .ms-showcase2-template .ms-slide{
    position: relative !important;
@@ -1906,8 +1905,6 @@ img.img-mouse {
    font-size: 14px;
    color: #888;
 }
-=======
-
 /* Check for merge conflict */
 
     text-shadow: 1px 0 3px #666;
@@ -2072,7 +2069,15 @@ a:link, a:visited {
     margin: 0.4em 0 0.4em 0.5em;
     width: 100%;
 }
-
-
-/*-------End Table--------*/
->>>>>>> master
+#uc-cart-view-form table tr{
+   border: none !important;
+}
+#uc-cart-view-form table tr.odd{
+     background-color: #f9f9f9 !important;
+}
+#uc-cart-view-form table tr.even{
+      background-color: #ffffff !important;
+}
+#uc-cart-view-form table tr td{
+  vertical-align: middle; 
+}
