@@ -138,16 +138,23 @@
   padding-top: 10px;
   font-size: 1.1em !important;
 }
+#transition {
+  margin-bottom: 0;
+}
 #transition li {
   text-decoration: none;
   list-style-type: none;
-  font-size: .75em;
+  font-size: 1.35em;
   padding-top: 10px;
 }
 #transition li:before {
   content: "\00a0\00a0\f00c";
   font-family: FontAwesome;
   font-size: 1.75em;
-  color: blue;
+  color: #3498DB;
   padding-right: 5px;
 }
+#ks2 {
+  font-size: 1.85em;
+}
+

@@ -300,9 +300,9 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Gallery ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Info Section ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    	<div class="row margin-bottom-30">
+    	<div class="row margin-bottom-10">
              <p id="ks2">
-                    <span id="title_1" style="padding-left:20px;">   Knowing science<sup>®</sup></span>
+                    <span id="title_1" style="padding-left:20px;">   Knowing Science<span class="ks2-tm">®</span></span>
                      will transition your school district to the <b>Next Generation Science Standards</b>
                     </p>
     		<!-- div class="col-md-8 md-margin-bottom-40" -->
@@ -312,90 +312,31 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
     			<!-- div class="headline"><h2>NGSS Stem Curriculum</h2></div -->
     		  <!-- h4><p id="ks1">Knowing Science <span id="title">provides<span></p></h4 -->
                 <div class="row" id="transition">
-                    <div class="col-sm-5">
-                        <img class="img-responsive margin-bottom-20" src="<?php echo path_to_theme() . '/assets/img/kidknowledge/kk33.jpg' ?>" alt="">
+                    <div class="col-sm-4">
+                        <img class="img-responsive margin-bottom-0" src="<?php echo path_to_theme() . '/assets/img/kidknowledge/kk33.jpg' ?>" alt="">
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-sm-8">
 
                         <!-- br /><h2><p id="ks1">Knowing Science <span id="title">provides:<span></p></h2 -->
 
-<?php print render($page['highlighted']); ?>
-
-<?php /*
-
-                        <ul class="list-unstyled margin-bottom-20" id="line_height">
-                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
-                                100% alignment to Next Generation Science Standards</span</h3>
-                            </li>
-                            
-                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
-                                Complete lesson, easy to follow from start to finish</h3>
-                            </li>
-                             
-                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
-                            Materials, manipulative, and equipment for hands-on, inquiry-based activities</h3>
-                            </li>
-                             
-                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
-                                 Connections between science and literacy through nonfiction text and leveled readers</h3>
-                             </li>
-                             
-                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
-                                    Correlation with CCSS ELA and CCSS Mathematics</h3>
-                             </li>
-                             
-                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
-                                Opportunities for extended learning</h3>
-                             </li>
-                             
-                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
-                                Rubrics for formative and summative assessment</h3>
-                            </li>
-                            <li><h3 class="fa fa-check color-blue"><span class="color-grey"></i> Professional development and support, including science background information for teachers</h3>
-                            </li>
-                             
-                        </ul>
-                  */ ?>      
+<?php print render($page['highlighted']); ?>    
                         
-                        
-                        
-                        
-                        
-                        
-                        
-                    </div>
-                    
-                    
-                    
-                    
-                </div></div>
-                    
-                    
-                    
-                    
+                    </div>  
+                  </div>
                 </div>
+              </div>
+              
+              <!-- small>(this could be a quote or a summary of the main mesage)</small> -->
 
-                    <!-- small>(this could be a quote or a summary of the main mesage)</small> -->
-                </blockquote>
-                
-                        <div class="divide40"></div>
+        <div class="divide40"></div>
           <div class="intro-text-1 light">
             <div class="container">
 
-                  
-                  
-                  
-                
                 <div class="row">      
 					        <div class="col-sm-8 col-sm-offset-2 col-sm-test">  					
-						        <div class="center-heading">
-							        <h2><strong>Endorsements</strong></h2>
-							        <p>Read what administrators, teachers and students are saying about Knowing Science</p>
-							        <span class="center-line"></span>
-						        </div>
+						        
                   </div>
-                </div>
-                
+                </div>    
 				        <div class="row">
 					        <div class="col-sm-8 col-sm-offset-2">
 						        <?php
@@ -404,8 +345,6 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
 						        ?>
                   </div>
                 </div>
-                        
-
             </div>
                 
             <!-- /div --><!--/col-md-8-->
@@ -453,17 +392,13 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                 <p>New Knowin Science eBooks series with high-interest short stories that introduce concepts and vocabulary; explanations and summaries written with language that directly relates to student daily experiences; interactive video game-style activities that reinforce learning; and self-checking review questions.</p>
             </div><!--/col-md-4-->
             
-            
-            
-            
-   
-            
     	</div>
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Mini-Gallery ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     </div><!--/container-->
     <!-- End Content Part -->
 
 
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Awards Block ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
         
 <div>          
@@ -511,8 +446,9 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                 
                 
             </div>
-        </div><!--testimonials v-2 end-->
+        </div><!--awards v-2 end-->
 
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Awards ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 
         <div class="divide40"></div>
