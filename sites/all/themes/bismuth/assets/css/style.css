@@ -1964,12 +1964,13 @@ a:link, a:visited {
     text-decoration: none;
 }
 .social-icons {
-    position: fixed;
-    left: 30px;
-    top: 0px;
+   left: 10px;
+   position: absolute;
+   top: 0;
+   z-index: 99999;
 }
 .header .logo img{
-	margin:30px 40px 0 !important;
+	margin: 0 0 0 40px !important;
 }
 #ks1{
 	color: #3486ff;
@@ -2158,6 +2159,12 @@ a:link, a:visited {
 .sample-lessons {
     display: inline-block;
     margin: 2% 2% 2% 0;
+}
+.header .topbar{
+   padding: 0;
+}
+.header .mega-menu {
+   margin-top: 20px;
 }
 @media (max-width: 768px) {
    .header .logo img  { 
