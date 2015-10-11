@@ -1887,7 +1887,8 @@ img.img-mouse {
     font-weight: normal;
     margin: 0;
 }*/
-.quantity-field {
+.quantity-field ,
+.form-type-uc-quantity input{
     border: 1px solid #eee;
     font-size: 20px;
     height: 50px;
@@ -2081,4 +2082,24 @@ a:link, a:visited {
 #uc-cart-view-form table tr td{
   vertical-align: middle;
   padding: 20px;
+}
+#uc-cart-view-form table input.form-submit{
+    background: #18ba9b none repeat scroll 0 0;
+     font-size: 18px;
+    padding: 10px 25px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+}
+#uc-cart-view-form table input.form-submit:hover{
+   background: #2cd5b6 none repeat scroll 0 0;
+}
+#uc-cart-view-form .desc a {
+    font-size: 16px;
+    margin-bottom: 5px;
 }
