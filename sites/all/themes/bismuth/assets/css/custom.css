@@ -141,6 +141,7 @@
 #transition li {
   text-decoration: none;
   list-style-type: none;
+  font-size: .75em;
   padding-top: 10px;
 }
 #transition li:before {
