@@ -103,7 +103,8 @@
   font-style: normal;
 }
 
-/* ******************** */
+
+/* Front page */
 
 #transition h3 {
   font-size: 1.8em;
@@ -156,5 +157,19 @@
 }
 #ks2 {
   font-size: 1.85em;
+  background: #3498DB !important;
 }
+
+
+
+/*  Pseudo-element goodness */ 
+
+/* Show URL's of links in printed web pages */ 
+@media print {
+  a[href]:after {
+    content: " (" attr(href) ") ";
+  }
+}
+
+
 
