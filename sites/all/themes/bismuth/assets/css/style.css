@@ -2196,6 +2196,13 @@ a:link, a:visited {
 #views_slideshow_cycle_teaser_section_ks_testimonials-block_1 .views-slideshow-cycle-main-frame-row{
    width: 100% !important;
 }
+.responsive-menus.responsive-menus-0-0 absolute responsified{
+   background: url("../imag/dot.png") no-repeat;
+}
+.responsive-menus.responsive-menus-0-0 absolute responsified span{
+   font-size: 0;
+   display: block;
+}
 @media (max-width: 450px) { 
    .header .logo img  { 
    width: 100%;    
