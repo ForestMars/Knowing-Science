@@ -58,18 +58,15 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
             <div class="row">
                 <div class="col-md-9 animated fadeInLeft fullwidth-text">
 <span style="color:#0056B0;">THE ONLY CURRICULUM 100% ALIGNED WITH THE NEXT GENERATION SCIENCE STANDARDS<a href="#ngss-tm">*</a></span>
-                    <div class="fullwidth-left"><p>The <strong>KNOWING SCIENCE</strong> team, working with scientists, engineers, physicists, educators, and award winning teachers developed an innovative and engaging curriculum that is based entirely on the NEXT GENERATION SCIENCE STANDARDS. Starting with the first draft of the FRAMEWORK FOR K-12 SCIENCE EDUCATION the KNOWING SCIENCE curriculum has been designed to provide unique and engaging learning experiences for all students, easy-to-implement lessons for teachers, and a foundation for school districts to transition to the new approach to teaching and learning science and engineering practices. </p></div>
+                    <div class="fullwidth-left"><p>The <strong>KNOWING SCIENCE</strong> team, working with scientists, engineers, physicists, educators, and award-winning teachers developed an innovative and engaging curriculum that is based entirely on the NEXT GENERATION SCIENCE STANDARDS. Starting with the first draft of the FRAMEWORK FOR K-12 SCIENCE EDUCATION the KNOWING SCIENCE curriculum has been designed to provide unique and engaging learning experiences for all students, easy-to-implement lessons for teachers, and a foundation for school districts to transition to the new approach to teaching and learning science and engineering practices. </p></div>
                     <div class="col-md-3 btn-buy animated fadeInRight">
-						<a href="#" class="btn-u btn-u-lg"><i class="fa fa-envelope-o"></i> Find Out More</a>
+						<a href="contact" class="btn-u btn-u-lg"><i class="fa fa-envelope-o"></i> Find Out More</a>
 					</div>
 				</div>
             </div>
         </div>
     </div><!--/row-->
 <!--================================================== End Intro Block ==================================================-->
-
-<?php print render($page['highlighted']); ?>
-
 
 <!--================================================== Main Content ==================================================-->
     <div class="container content-sm">
@@ -78,22 +75,22 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
     	<div class="row margin-bottom-30">
         	<div class="col-md-4">
         		<div class="service">
-              <i class="fa service-icon"><img src="<?php echo $theme_path . '/assets/img/kk/kid-knowledge-blue-stars.png'; ?>"></i>
-        			<div class="desc">
+        			<div class="triptych">
                 <?php print render($page['triptych1']); ?>
         			</div>
+
         		</div>
         	</div>
         	<div class="col-md-4">
         		<div class="service">
-              <i class="fa service-icon"><img src="<?php echo $theme_path . '/assets/img/kk/kid-knowledge-blue-stars.png'; ?>"></i>        			<div class="desc">
+              <div class="triptych">
                 <?php print render($page['triptych2']); ?>
         			</div>
         		</div>
         	</div>
         	<div class="col-md-4">
-        		<div class="service">
-              <i class="fa service-icon"><img src="<?php echo $theme_path . '/assets/img/kk/kid-knowledge-blue-stars.png'; ?>"></i>        			<div class="desc">
+        		<div class="service"> 			
+              <div class="triptych">
                 <?php print render($page['triptych3']); ?>
         			</div>
         		</div>
@@ -295,8 +292,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                     </div>
                     <div class="caption">
                         <h3><a class="hover-effect" href="#">Grade  6</a></h3>
-                        <p>In Grade 6, students delve deeply into Life Science concepts.  They <b> differentiate </b>between living things and nonliving things that have characteristics similar to living things.  Students<b> learn </b>about different types of cells, their structures and functions.  They deepen their <b> understanding </b>of how sensory receptors gather information and send it to the brain.<br/>
-                        Students <b>make connections</b> between energy requirements of living things and human made devices.  Finally, they <b>further explore</b> recycling in nature; the water, carbon, and nitrogen cycles.</p>
+                        <p>In Grade 6, the Middle School NGSS standards begin and students delve deeply into Life Science, Earth Science, and Physical Science concepts.  For example, life Science provides an in-depth study of cells, senses and the nervous system, and how matter and energy flow through the living and nonliving parts of an ecosystem.</p>
                     </div>
                 </div>
             </div>
@@ -304,9 +300,9 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Gallery ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Info Section ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    	<div class="row margin-bottom-30">
+    	<div class="row margin-bottom-10">
              <p id="ks2">
-                    <span id="title_1" style="padding-left:20px;">   Knowing science<sup>®</sup></span>
+                    <span id="title_1" style="padding-left:20px;">   Knowing Science<span class="ks2-tm">®</span></span>
                      will transition your school district to the <b>Next Generation Science Standards</b>
                     </p>
     		<!-- div class="col-md-8 md-margin-bottom-40" -->
@@ -316,59 +312,43 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
     			<!-- div class="headline"><h2>NGSS Stem Curriculum</h2></div -->
     		  <!-- h4><p id="ks1">Knowing Science <span id="title">provides<span></p></h4 -->
                 <div class="row" id="transition">
-                    <div class="col-sm-5">
-                        <img class="img-responsive margin-bottom-20" src="<?php echo path_to_theme() . '/assets/img/kidknowledge/kk33.jpg' ?>" alt="">
+                    <div class="col-sm-4">
+                        <img class="img-responsive margin-bottom-0" src="<?php echo path_to_theme() . '/assets/img/kidknowledge/kk33.jpg' ?>" alt="">
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-sm-8">
 
-                        <br /><!-- h2><p id="ks1">Knowing Science <span id="title">provides:<span></p></h2 -->
+                        <!-- br /><h2><p id="ks1">Knowing Science <span id="title">provides:<span></p></h2 -->
 
-                        <ul class="list-unstyled margin-bottom-20" id="line_height">
-                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
-                                100% alignment to Next Generation Science Standards</span</h3>
-                            </li>
-                            
-                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
-                                Complete lesson, easy to follow from start to finish</h3>
-                            </li>
-                             
-                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
-                            Materials, manipulative, and equipment for hands-on, inquiry-based activities</h3>
-                            </li>
-                             
-                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
-                                 Connections between science and literacy through nonfiction text and leveled readers</h3>
-                             </li>
-                             
-                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
-                                    Correlation with CCSS ELA and CCSS Mathematics</h3>
-                             </li>
-                             
-                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
-                                Opportunities for extended learning</h3>
-                             </li>
-                             
-                            <li><h3 class="fa fa-check color-blue"><span class="color-grey">
-                                Rubrics for formative and summative assessment</h3>
-                            </li>
-                            <li><h3 class="fa fa-check color-blue"><span class="color-grey"></i>Professional development and support, including science background information for teachers</h3>
-                            </li>
-                             
-                        </ul>
-                    </div>
+<?php print render($page['highlighted']); ?>    
+                        
+                    </div>  
+                  </div>
                 </div>
+              </div>
+              
+              <!-- small>(this could be a quote or a summary of the main mesage)</small> -->
 
+        <div class="divide40"></div>
+          <div class="intro-text-1 light">
+            <div class="container">
 
-     
-     
-     
-                    <!-- <p>Tesseract, colonies vastness is bearable only through love quasar gathered by gravity, white dwarf culture cosmos star stuff harvesting star light, Flatland, astonishment Orion's sword dispassionate extraterrestrial observer, cosmos, corpus callosum emerged into consciousness a mote of dust suspended in a sunbeam, Drake Equation Euclid. A still more glorious dawn awaits. Not a sunrise but a galaxyrise worldlets with pretty stories for which there's little good evidence great turbulent clouds billions upon billions stirred by starlight. Light years billions upon billions cosmic fugue? Hydrogen atoms citizens of distant epochs rich in heavy atoms Apollonius of Perga, billions upon billions? Cosmic ocean! Bits of moving fluff, a billion trillion.</p>
-                    <small>(this could be a quote or a summary of the main mesage)</small> -->
-                </blockquote>
+                <div class="row">      
+					        <div class="col-sm-8 col-sm-offset-2 col-sm-test">  					
+						        
+                  </div>
+                </div>    
+				        <div class="row">
+					        <div class="col-sm-8 col-sm-offset-2">
+						        <?php
+							      $block = module_invoke('views', 'block_view', 'ks_testimonials-block_1');
+							      print render($block['content']);
+						        ?>
+                  </div>
+                </div>
+            </div>
+                
             <!-- /div --><!--/col-md-8-->
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Info ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-
 
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Mini-Gallery Block ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
           <!-- div class="col-md-4">
@@ -411,163 +391,89 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
     			</div>
                 <p>New Knowin Science eBooks series with high-interest short stories that introduce concepts and vocabulary; explanations and summaries written with language that directly relates to student daily experiences; interactive video game-style activities that reinforce learning; and self-checking review questions.</p>
             </div><!--/col-md-4-->
+            
     	</div>
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Mini-Gallery ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     </div><!--/container-->
     <!-- End Content Part -->
 
 
-        <div class="divide40"></div>
-          <div class="intro-text-1 light">
-            <div class="container">
-                  <div class="row">
-                    
-                <div class="col-sm-6">
-                        <h4 class="animated slideInDown fa fa-certificate">  Award Winning NGSS Curriculum
-                        </h4>
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Awards Block ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-                <blockquote class="hero-unify">
+        
+<div>          
+  
+  <div class="container">
+            
+             
+                                    
+              <div class="row margin-top-40" style="margin-top:40px;">      
+                <div class="col-sm-6">
+                        <h2 class="animated slideInDown">  Award Winning NGSS Curriculum
+                        </h2>
+
+                <div class="hero-unify">
                     <p> Winner of the 2014 Be the change for Kids innovation award 
                     </p>
                     <p> 100% alignment to Next Generation Science Standards</p>
                     
-                </blockquote>    
-                          <br /><a href="media"><h3 class="color-blue">See more videos about the Knowing Science curriculum</h3></a>      
+                </div>    
+            
                     </div>
-                    
                     <div class="col-sm-6">
                       <iframe width="560" height="315" src="https://www.youtube.com/embed/S3RkyGXJ4H0" frameborder="0" allowfullscreen></iframe>
-                        <!-- img src="<?php echo path_to_theme() . '/assets/img/main/texas.png' ?>" alt="" height="150" -->
                     </div>
-
-
                   </div>
-            </div>
-        </div> <!--intro text end-->
-        <div class="testimonials-v-2 wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="100ms">
-            <div class="container">
-                <div class="row">
-					<div class="col-sm-8 col-sm-offset-2 col-sm-test">
-						<div class="center-heading">
-							<h2><strong>What</strong> School Districts Say</h2>
-							<p>This is where you say something about these testimonials</p>
-							<span class="center-line"></span>
-						</div>
-                    </div>
-                </div>
-				<div class="row">
-					<div class="col-sm-8 col-sm-offset-2">
-						<?php
-							$block = module_invoke('views', 'block_view', 'ks_testimonials-block_1');
-							print render($block['content']);
-						?>
-                    </div>
-                </div>
-            </div>
-        </div><!--testimonials v-2 end-->
 
+                <hr>
+
+                                    <div class="row margin-bottom-40">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-2">
+                      <img src="<?php echo path_to_theme() . '/assets/img/main/texas.png' ?>" alt="" height="150">
+                    </div>
+                    
+                    <div class="col-sm-7">
+                      <h4 class="animated slideInDown">Texas adopts Knowing Science Curriculum</h4>
+                      <p>The Texas State Board of Education adopted instructional materials under Proclamation 2014 at their November 2013 meeting. Proclamation 2014 includes Knowing Science K­2 Teachers Manuals, STEM kits, and Literacy Books..
+                      </p>                   
+                      <p><a href="samples-texas-edition">View Texas Edition Sample lessons here</a></p>
+                    </div>
+
+                  </div>                
+                
+    
+                
+                
+            </div>
+        </div><!--awards v-2 end-->
+
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Awards ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 
         <div class="divide40"></div>
-        <div class="intro-text-1 light">
-<div class="container">
-                  <div class="row">
-                    <div class="col-sm-8">
-                        <h4 class="animated slideInDown">Texas adopts Knowing Science NGSS Curriculum
-                        </h4>
+          <div class="intro-text-1 light">
+            <div class="container">
+              
+<div class="col-sm-4"></div>
 
-                        <p>
-                            The Texas State Board of Education adopted instructional materials under Proclamation 2014 at their November 2013 meeting. Proclamation 2014 includes Knowing Science K­2 Teachers Manuals, STEM kits, and Literacy Books..
-                        </p>                   
-                    </div>
-                    <div class="col-sm-4">
-                        <img src="<?php echo path_to_theme() . '/assets/img/main/texas.png' ?>" alt="" height="150">
-                    </div>
-                  </div>
+
+<div class="col-sm-4">
+                      <div class="col-md-3 btn-buy animated fadeInRight">
+						<a href="contact" class="btn-u btn-u-lg"><i class="fa fa-envelope-o"></i> Find Out More</a>
+					</div>
+</div>
+<div class="col-sm-4"></div>
+                  
+                  
             </div>
         </div> <!--intro text end-->
 
 
-
-
-
-
-    <!--=== Footer Version 1 ===-->
-    <div class="footer-v1">
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <!-- About -->
-                    <div class="col-md-3 md-margin-bottom-40">
-                        <a href="index.html"><img id="logo-footer" class="footer-logo" src="<?php echo ''.drupal_get_path('theme', $theme) . '/assets/img/kid_knowledge/kid-knowledge-logo-stars-trans.gif' ?>" alt="" width="200px"></a>
-                    </div><!--/col-md-3-->
-                    <!-- End About -->
-
-                    <!-- Latest -->
-                    <div class="col-md-3 md-margin-bottom-40">
-                        <div class="posts">
-                            <div class="headline"><h2>Footer One</h2></div>
-                            <ul class="list-unstyled latest-list">
-                                <li>
-                                    <a href="#">Incredible content</a>
-                                    <small>May 8, 2014</small>
-                                </li>
-                                <li>
-                                    <a href="#">Best shoots</a>
-                                    <small>June 23, 2014</small>
-                                </li>
-                                <li>
-                                    <a href="#">New Terms and Conditions</a>
-                                    <small>September 15, 2014</small>
-                                </li>
-                            </ul>
-                        </div>
-                    </div><!--/col-md-3-->
-                    <!-- End Latest -->
-
-                    <!-- Link List -->
-                    <div class="col-md-3 md-margin-bottom-40">
-                        <div class="headline"><h2>Footer Two</h2></div>
-                        <ul class="list-unstyled link-list">
-                            <li><a href="#">About us</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="#">Portfolio</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="#">Latest jobs</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="#">Community</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="#">Contact us</a><i class="fa fa-angle-right"></i></li>
-                        </ul>
-                    </div><!--/col-md-3-->
-                    <!-- End Link List -->
-
-                    <!-- Address -->
-                    <div class="col-md-3 map-img md-margin-bottom-40">
-                        <div class="headline"><h2>Contact Us</h2></div>
-                        <address class="md-margin-bottom-40">
-                            3 Macdonald Ave<br />
-                            Armonk, New York, 10504<br />
-                            Phone: 800 123 3456 <br />
-                            Fax: 800 123 3456 <br />
-                            Email: <a href="mailto:info@anybiz.com" class="">info@knowingscience.com</a>
-                        </address>
-                    </div><!--/col-md-3-->
-                    <!-- End Address -->
-                </div>
-            </div>
-        </div><!--/footer-->
-
-        <div class="copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>
-                            © 2015 Knowing Science LLC. All Rights Reserved. Kid Knowledge and Knowing Science are registered trademarks of Knowing Science LLC. Patents Pending.<br /><a name="ngss-tm"></a>*"NEXT GENERATION SCIENCE STANDARDS" is a registered trademark of Achieve. Neither Achieve nor the lead states and partners that developed the Next Generation Science Standards was involved in the production of, and does not endorse, this product.</p>
-                    </div>
-
-                  
-                </div>
-            </div>
-        </div><!--/copyright-->
-    </div>
-    <!--=== End Footer Version 1 ===-->
+<?php include('footer.tpl.php'); ?> 
+    
+    
+    
 </div><!--/wrapper-->
 
 <!-- JS Global Compulsory -->

@@ -103,7 +103,8 @@
   font-style: normal;
 }
 
-/* ******************** */
+
+/* Front page */
 
 #transition h3 {
   font-size: 1.8em;
@@ -112,3 +113,63 @@
 .color-grey {
   color: #334
 }
+
+.triptych:before {
+    float:left;
+    content:url(../img/kk/kid-knowledge-blue-stars.png);
+    padding-bottom: 0;
+    vertical-align: baseline;
+    padding-right: 10px;
+
+}
+.triptych li:before {
+  content: "\00a0\00a0\f140";
+  vertical-align: bottom;
+  font-family: FontAwesome;
+  font-size: .85em;
+  padding-right: 5px;
+}
+.triptych h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.triptych li {
+  text-decoration: none;
+  list-style-type: none;
+  padding-top: 10px;
+  font-size: 1.1em !important;
+}
+#transition {
+  margin-bottom: 0;
+}
+#transition li {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 1.35em;
+  padding-top: 10px;
+}
+#transition li:before {
+  content: "\00a0\00a0\f00c";
+  font-family: FontAwesome;
+  font-size: 1.75em;
+  color: #3498DB;
+  padding-right: 5px;
+}
+#ks2 {
+  font-size: 1.85em;
+  background: #3498DB !important;
+}
+
+
+
+/*  Pseudo-element goodness */ 
+
+/* Show URL's of links in printed web pages */ 
+@media print {
+  a[href]:after {
+    content: " (" attr(href) ") ";
+  }
+}
+
+
+
