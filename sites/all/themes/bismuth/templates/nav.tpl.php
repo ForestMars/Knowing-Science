@@ -19,7 +19,7 @@
             <!-- End Logo -->
 
             <!-- Topbar -->
-            <div class="topbar">
+            <div class="topbar user-responsive-menu">
  
                 <?php /* @FIXME: Friends don't let friends put fa classes on empty i tags. */ ?>             
                 <ul class="loginbar pull-right hoverSelector">
