@@ -2187,7 +2187,7 @@ a:link, a:visited {
    display: none;
 }
 .col-sm-6 iframe,
-.views-slideshow-cycle-main-frame-row{
+#views_slideshow_cycle_teaser_section_ks_testimonials-block_1 .views-slideshow-cycle-main-frame-row{
    width: 100% !important;
 }
 @media (max-width: 450px) { 
