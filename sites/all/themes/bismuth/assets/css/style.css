@@ -1969,9 +1969,6 @@ a:link, a:visited {
    top: 0;
    z-index: 99999;
 }
-.front .header .logo img{
-	margin: 0 0 0 40px !important;
-}
 .header .logo img{
    margin: 16px 0 0 40px !important;
 }
