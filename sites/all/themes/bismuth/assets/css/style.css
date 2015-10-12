@@ -29,14 +29,12 @@ body {
 #transition li {
    font-size: .75em;
 
-  }
+}
 
 .purchase p {
-  width: 85% !important;
-  margin-left: 10%;
   font-size: 1.2em !important;
-
-  }
+  text-align: justify;
+}
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -1970,8 +1968,8 @@ a:link, a:visited {
    z-index: 99999;
 }
 .header .logo img{
-   margin: 16px 0 0 40px !important;
-}
+	margin:30px 40px 0 0!important;
+
 #ks1{
 	color: #3486ff;
 }
