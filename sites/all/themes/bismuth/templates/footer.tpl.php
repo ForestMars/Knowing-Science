@@ -13,19 +13,19 @@
                     <!-- Latest -->
                     <div class="col-md-3 md-margin-bottom-40">
                         <div class="posts">
-                            <div class="headline"><h2>Footer One</h2></div>
+                            <div class="headline"><h2>Curricula</h2></div>
                             <ul class="list-unstyled latest-list">
                                 <li>
-                                    <a href="#">Incredible content</a>
-                                    <small>May 8, 2014</small>
+                                    <a href="#">Scope & Sequence</a>
+                                    <small>something about scope & seq</small>
                                 </li>
                                 <li>
-                                    <a href="#">Best shoots</a>
-                                    <small>June 23, 2014</small>
+                                    <a href="#">STEM Curricula</a>
+                                    <small>something about stem curriculum</small>
                                 </li>
                                 <li>
-                                    <a href="#">New Terms and Conditions</a>
-                                    <small>September 15, 2014</small>
+                                    <a href="#">Media</a>
+                                    <small>Knowing Science in the News</small>
                                 </li>
                             </ul>
                         </div>
@@ -34,13 +34,13 @@
 
                     <!-- Link List -->
                     <div class="col-md-3 md-margin-bottom-40">
-                        <div class="headline"><h2>Footer Two</h2></div>
+                        <div class="headline"><h2>Links</h2></div>
                         <ul class="list-unstyled link-list">
-                            <li><a href="#">About us</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="#">Portfolio</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="#">Latest jobs</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="#">Community</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="#">Contact us</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="/about">About Us</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="ngss-stem-curriculum">STEM kits</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="terms-of-service">Terms of Use</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="privacy-policy">Privacy Policy</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="/sitemap">Site Map</a><i class="fa fa-angle-right"></i></li>
                         </ul>
                     </div><!--/col-md-3-->
                     <!-- End Link List -->
