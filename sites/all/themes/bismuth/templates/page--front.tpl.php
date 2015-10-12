@@ -12,8 +12,6 @@ global $theme;
                 <img height="35px" src="/sites/all/themes/bismuth/images/twitter.png">
             </a>
         </div>
-        <p>
-        </p>
     </div>
 </div>
 
