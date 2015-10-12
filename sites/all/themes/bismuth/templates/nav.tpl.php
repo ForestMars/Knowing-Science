@@ -159,10 +159,11 @@
                     <!-- End Pages -->
 
                     <!-- Blog -->
-                    <li class="dropdown">
+                    <!-- li class="dropdown">
                         <a href="/home-school" class="dropdown-toggle" data-toggle="dropdown">
                             Home School
                         </a>
+                    </li -->
 
                     <!-- End Blog -->
 
