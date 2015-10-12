@@ -118,12 +118,10 @@ a:hover {
 .purchase .btn-buy {
 	text-align: center;
 }
-
 .purchase .btn-buy a {
-	margin-top: 27px;
-	color:white;
+    color: white;
+    margin-top: 35%;
 }
-
 .purchase .btn-buy a i {
 	margin-right: 5px;
 }
@@ -2113,3 +2111,15 @@ a:link, a:visited {
     padding-top: 5px;
 }
 /*--------end of triptych------*/
+.btn-u-lg, a.btn-u-lg {
+    font-size: 18px;
+    padding: 10px 25px;
+}
+.btn-u {
+    border: 0 none;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    position: relative;
+    white-space: nowrap;
+}
