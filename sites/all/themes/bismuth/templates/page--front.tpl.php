@@ -6,10 +6,10 @@ global $theme;
     <div class="toptab">
         <div class="social-icons">
             <a href="http://facebook.com/knowingscience">
-                <img height="35px" src="<?php echo drupal_get_path('theme','bismuth');?>/images/facebook.png">
+                <img height="35px" src="/sites/all/themes/bismuth/images/facebook.png">
             </a>
             <a href="http://twitter.com/knowing_science">
-                <img height="35px" src="<?php echo drupal_get_path('theme','bismuth');?>/images/twitter.png">
+                <img height="35px" src="/sites/all/themes/bismuth/images/twitter.png">
             </a>
         </div>
         <p>
