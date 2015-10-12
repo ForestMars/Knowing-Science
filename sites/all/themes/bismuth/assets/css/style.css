@@ -2182,6 +2182,12 @@ a:link, a:visited {
       min-height: 0.01%;
       overflow-x: auto;
    }
+      #views_slideshow_cycle_teaser_section_ks_testimonials-block_1{
+         height: 275px !important;
+   }
+   .header .logo img {
+    margin: 62px 0 0 40px !important;
+}
 }
 .slider-inner .da-arrows{
    display: none;
@@ -2193,6 +2199,9 @@ a:link, a:visited {
 @media (max-width: 450px) { 
    .header .logo img  { 
    width: 100%;    
+   }
+   #views_slideshow_cycle_teaser_section_ks_testimonials-block_1{
+      height: 350px !important;
    }
    #cart-form-pane{
       overflow-y: hidden;
