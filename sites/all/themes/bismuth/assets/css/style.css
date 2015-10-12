@@ -2109,7 +2109,7 @@ a:link, a:visited {
 
 /*-------triptych-------*/
 .field-item.even li:first-child {
-    padding-top: 40px;
+    padding-top: 20px;
 }
 #node-241 > header h2, #node-242 > header h2, #node-243 > header h2 {
     padding-top: 5px;
