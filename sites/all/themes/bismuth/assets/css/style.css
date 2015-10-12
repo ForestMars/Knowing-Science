@@ -2186,6 +2186,10 @@ a:link, a:visited {
 .slider-inner .da-arrows{
    display: none;
 }
+.col-sm-6 iframe,
+.views-slideshow-cycle-main-frame-row{
+   width: 100% !important;
+}
 @media (max-width: 450px) { 
    .header .logo img  { 
    width: 100%;    
