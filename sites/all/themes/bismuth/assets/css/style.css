@@ -1,4 +1,4 @@
-/*
+
  * Template Name: Unify - Responsive Bootstrap Template
  * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
  * Version: 1.8
@@ -2093,3 +2093,16 @@ a:link, a:visited {
 
 
 /*-------End Table--------*/
+
+/*-------testimonials-------*/
+.views-field.views-field-field-testimonial-by-whom .field-content{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.views-field-field-testimonial-organisation .field-content::before{
+    content: "\201C";
+}
+.views-field-field-testimonial-citation .field-content::after {
+    content: "\201D";
+}
+/*-------End testimonials--------*/
