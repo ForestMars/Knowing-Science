@@ -2197,9 +2197,22 @@ a:link, a:visited {
    width: 100% !important;
 }
 .responsive-menus.responsive-menus-0-0 span{
-   background: url("../img/dot.png") no-repeat;
-   width: 10px;
+   background: url("../img/dot.png") no-repeat !important;
+   width: 28px;
    height: 29px;
+   box-shadow: none !important;
+}
+.responsive-menus.responsified .responsive-menus-simple{
+   background-color: #fff !important;
+}
+.responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple{
+   right: -16px !important;
+   top: 28px !important;
+   width: 300px;
+   background: #fff;
+   box-shadow: none;
+   border-radius: 5px;
+   border: 1px solid #DDD;
 }
 .responsive-menus.responsive-menus-0-0 span{
    font-size: 0;

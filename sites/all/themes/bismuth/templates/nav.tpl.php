@@ -23,17 +23,10 @@
  
                 <?php /* @FIXME: Friends don't let friends put fa classes on empty i tags. */ ?>             
                 <ul class="loginbar pull-right hoverSelector">
-                    <i class="fa fa-globe"></i>
-                    <li><a href="/about-us">about</a></li></li>
-                    <li class="topbar-devider"></li>
-
-                    <i class="fa fa-shopping-cart"></i>
-                    <li><a href="/cart">cart</a></li>
-                    <li class="topbar-devider"></li>
                     
-                    <i class="fa fa-envelope-o"></i>
-                    <li><a href="/contact">contact</a></li>
-                    <li class="topbar-devider"></li>
+                    <li><i class="fa fa-globe"></i><a href="/about-us">about</a></li>
+                    <li><i class="fa fa-shopping-cart"></i><a href="/cart">cart</a></li>
+                    <li><i class="fa fa-envelope-o"></i><a href="/contact">contact</a></li>
 
 <?php global $user; ?>
 <?php if ($user->uid): ?>
