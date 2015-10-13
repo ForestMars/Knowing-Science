@@ -2198,6 +2198,8 @@ a:link, a:visited {
 }
 .responsive-menus.responsive-menus-0-0 span{
    background: url("../img/dot.png") no-repeat;
+   width: 10px;
+   height: 29px;
 }
 .responsive-menus.responsive-menus-0-0 span{
    font-size: 0;
