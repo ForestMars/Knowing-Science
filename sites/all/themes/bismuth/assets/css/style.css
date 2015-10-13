@@ -2219,6 +2219,13 @@ a:link, a:visited {
 .responsive-menus.responsive-menus-0-0 span{
    font-size: 0px !important;
 }
+
+.header .topbar ul.loginbar > li{
+       margin-right: 10px;
+}
+.header .topbar ul.loginbar > li >a{
+       padding-left: 5px;
+}
 .responsive-menus.responsified .responsive-menus-simple li a{
     color: #027ac6 !important;
     display: inline !important;
