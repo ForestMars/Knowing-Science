@@ -2198,6 +2198,7 @@ a:link, a:visited {
 }
 .responsive-menus.responsive-menus-0-0 span{
    background: url("../img/dot.png") no-repeat !important;
+   font-size: 0px !important;
    width: 28px;
    height: 29px;
    box-shadow: none !important;
@@ -2213,6 +2214,22 @@ a:link, a:visited {
    box-shadow: none;
    border-radius: 5px;
    border: 1px solid #DDD;
+}
+.responsive-menus.responsified .responsive-menus-simple li a{
+    color: #027ac6 !important;
+    display: inline !important;
+    padding: 5px 0 5px 10px !important;
+    border: none !important;
+   font-size: 15px;
+}
+.responsive-menus.responsified .responsive-menus-simple li {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #DDD !important;
+    padding: 7px !important;
+    margin: 0;
+    clear: both;
+    list-style: none;
 }
 .responsive-menus.responsive-menus-0-0 span{
    font-size: 0;

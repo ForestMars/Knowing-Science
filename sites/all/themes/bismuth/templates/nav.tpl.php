@@ -33,8 +33,8 @@
                     <?php print '<li>' . l('logout', 'user/logout') . '</li>'; ?>&nbsp;|&nbsp;<?php print l('account', 'user'. $user->uid); ?> 
 
 <?php else: ?>
-                  <i class="fa fa-user"></i>
-                   <li><?php print l('Login', 'user'); ?></li>       
+                  
+                   <li><i class="fa fa-user"></i><?php print l('Login', 'user'); ?></li>       
 <?php endif; ?>
                 </ul>
             </div>
