@@ -170,7 +170,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                             <?php print $image['pre-k']; ?>
 
                         </div>
-                        <a class="btn-more hover-effect" href="#">read more +</a>
+                        <a class="btn-more hover-effect" href="ngss-curriculum/pre-k">read more +</a>
                     </div>
                     <div class="caption">
                         <h3><a class="hover-effect" href="#">Pre-K</a></h3>
@@ -188,7 +188,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                             <!-- img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/covers/prek-ngss-curriculum-learning-to-think.png' ?>" alt="" -->
                                  <?php print $image['kinder']; ?>
                         </div>
-                        <a class="btn-more hover-effect" href="#">read more +</a>
+                        <a class="btn-more hover-effect" href="ngss-curriculum/kindergarten">read more +</a>
                     </div>
                     <div class="caption">
                         <h3><a class="hover-effect" href="#">Kindergarden</a></h3>
@@ -204,7 +204,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                             <!-- img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_1st.png' ?>" alt="" -->
                            <?php print $image['1st-grade']; ?>
                         </div>
-                        <a class="btn-more hover-effect" href="#">read more +</a>
+                        <a class="btn-more hover-effect" href="ngss-curriculum/grade-1">read more +</a>
                     </div>
                     <div class="caption">
                         <h3><a class="hover-effect" href="#">Grade 1</a></h3>
@@ -221,7 +221,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                            <?php print $image['2nd-grade']; ?>
 
                         </div>
-                        <a class="btn-more hover-effect" href="#">read more +</a>
+                        <a class="btn-more hover-effect" href="ngss-curriculum/grade-2">read more +</a>
                     </div>
                     <div class="caption">
                         <h3><a class="hover-effect" href="#">Grade 2</a></h3>
@@ -241,7 +241,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                         <a class="btn-more hover-effect" href="#">read more +</a>
                     </div>
                     <div class="caption">
-                        <h3><a class="hover-effect" href="#">Grade 3</a></h3>
+                        <h3><a class="hover-effect" href="ngss-curriculum/grade-3">Grade 3</a></h3>
                         <p>In Grade 3, students <b> expand </B>their knowledge of life cycles and how variations of traits in organisms affect survival over time.  They deepen their<b> understanding</b> of weather and how its components combine to produce extreme weather. Students <b>investigate</b> the effects of balanced and unbalanced forces.</p>
                     </div>
                 </div>
@@ -254,7 +254,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                             <!-- img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_4th.png' ?>" alt="" -->
                            <?php print $image['4th-grade']; ?>
                         </div>
-                        <a class="btn-more hover-effect" href="#">read more +</a>
+                        <a class="btn-more hover-effect" href="ngss-curriculum/grade-4">read more +</a>
                     </div>
                     <div class="caption">
                         <h3><a class="hover-effect" href="#">Grade 4</a></h3>
@@ -270,7 +270,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                             <!-- img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_5th.png' ?>" alt="" -->
                            <?php print $image['5th-grade']; ?>
                         </div>
-                        <a class="btn-more hover-effect" href="#">read more +</a>
+                        <a class="btn-more hover-effect" href="ngss-curriculum/grade-5">read more +</a>
                     </div>
                     <div class="caption">
                         <h3><a class="hover-effect" href="#">Grade 5</a></h3>
@@ -286,7 +286,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                     <div class="thumbnail-img">
                         <div class="overflow-hidden">
                           <?php print $image['6th-grade']; ?>                        </div>
-                        <a class="btn-more hover-effect" href="#">read more +</a>
+                        <a class="btn-more hover-effect" href="ngss-curriculum/grade-6">read more +</a>
                     </div>
                     <div class="caption">
                         <h3><a class="hover-effect" href="#">Grade  6</a></h3>
