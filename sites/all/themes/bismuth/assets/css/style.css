@@ -2268,7 +2268,7 @@ a:link, a:visited {
 } 
 /*-------End testimonials--------*/
 
-/*-------triptych-------*/
+/*-------triptych-------  HMM THIS DOES NOT SEEM TO BE WORKING   */
 .field-item.even li:first-child {
     padding-top: 40px;
 }
