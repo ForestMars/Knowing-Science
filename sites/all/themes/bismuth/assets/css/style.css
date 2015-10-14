@@ -1710,9 +1710,6 @@ img.img-mouse {
 }
 .center-heading {
     text-align: center;
-
-/* Merge conflict in Soni branch ?? */ 
-
     margin-bottom: 40px;
 }
 .center-heading h2 {
@@ -1895,7 +1892,8 @@ img.img-mouse {
     font-weight: normal;
     margin: 0;
 }*/
-.quantity-field {
+.quantity-field ,
+.form-type-uc-quantity input{
     border: 1px solid #eee;
     font-size: 20px;
     height: 50px;
@@ -1915,14 +1913,14 @@ img.img-mouse {
 }
 
 /* Check for merge conflict */
-
+/*
     text-shadow: 1px 0 3px #666;
     text-transform: uppercase;
     top: -34px;
     vertical-align: top;
     width: 450px;
     z-index: 200;
-}
+}*/
 .tx-icon {
     display: block;
     left: -190px;
@@ -1960,13 +1958,16 @@ a:link, a:visited {
     text-decoration: none;
 }
 .social-icons {
-    position: fixed;
-    left: 30px;
-    top: 0px;
+   left: 10px;
+   position: absolute;
+   top: 0;
+   z-index: 99999;
 }
 .header .logo img{
 	margin:30px 40px 0 0!important;
+
 }
+
 #ks1{
 	color: #3486ff;
 }
@@ -2086,7 +2087,192 @@ a:link, a:visited {
 	line-height: 20px;
 	font-size: 17px !important;
 }
+#uc-cart-view-form table thead th{
+   text-align: center;
+    color: #687074;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+#uc-cart-view-form table tr{
+   border: none !important;
+}
+#uc-cart-view-form table tr.odd{
+     background-color: #f9f9f9 !important;
+}
+#uc-cart-view-form table tr.even{
+      background-color: #ffffff !important;
+}
+#uc-cart-view-form table tr td{
+  vertical-align: top;
+  padding: 20px;
+}
+#uc-cart-view-form input.form-submit,
+#uc-cart-view-form .form-actions a{
+    background: #18ba9b none repeat scroll 0 0;
+     font-size: 18px;
+    padding: 10px 25px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+}
+#uc-cart-view-form  input#edit-update{
+   margin-right: 12px;
+}
+#uc-cart-view-form table input.form-submit:hover{
+   background: #2cd5b6 none repeat scroll 0 0;
+}
+#uc-cart-view-form .desc a,
+#uc-cart-view-form .price span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #687074;
+}
+#uc-cart-view-form .price span,
+#uc-cart-view-form .uc-price{
+   color: #c9253c !important;
+   font-size: 16px;
+}
+#uc-cart-view-form .form-type-uc-quantity.element-invisible{
+   display: none;
+}
+#uc-cart-view-form .form-type-uc-quantity input{
+   margin-top: -5px;
+}
+#uc-cart-view-form .qty{
+   margin: 0;
+}
+#uc-cart-view-form img{
+      background: #fff none repeat scroll 0 0;
+    border: 1px solid #eee;
+    float: left;
+    height: 120px;
+    margin-right: 15px;
+    padding: 10px;
+    width: 120px;
+}
+.page-node-195 #block-system-main .content{
+   padding-top: 0;
+}
+.sample-lessons {
+    display: inline-block;
+    margin: 2% 2% 2% 0;
+}
+.header .topbar{
+   padding: 0;
+}
+.header .mega-menu {
+   margin-top: 20px;
+}
+.logged-in .social-icons{
+   top: 32px;
+}
+.logged-in .header{
+   margin-top: 45px;
+}
+@media (max-width: 768px) {
+   .header .logo img  { 
+   width: 100%;    
+   }
+   #cart-form-pane{
+      overflow-y: hidden;
+      width: 100%;
+      min-height: 0.01%;
+      overflow-x: auto;
+   }
+      #views_slideshow_cycle_teaser_section_ks_testimonials-block_1{
+         height: 275px !important;
+   }
+   .header .logo img {
+    margin: 62px 0 0 40px !important;
+   }
+   .responsive-menus.responsive-menus-0-0 span{
+      background: url("../img/dot.png") no-repeat !important;
+      font-size: 0px !important;
+      width: 28px;
+      height: 29px;
+      box-shadow: none !important;
+   }
+}
+.slider-inner .da-arrows{
+   display: none;
+}
+.col-sm-6 iframe,
+#views_slideshow_cycle_teaser_section_ks_testimonials-block_1 .views-slideshow-cycle-main-frame-row{
+   width: 100% !important;
+}
 
+.responsive-menus.responsified .responsive-menus-simple{
+   background-color: #fff !important;
+}
+.responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple{
+   right: -16px !important;
+   top: 28px !important;
+   width: 300px;
+   background: #fff;
+   box-shadow: none;
+   border-radius: 5px;
+   border: 1px solid #DDD;
+}
+.responsive-menus.responsive-menus-0-0 span{
+   font-size: 0px !important;
+}
+
+.header .topbar ul.loginbar > li{
+       margin-right: 10px;
+}
+.header .topbar ul.loginbar > li >a{
+       padding-left: 5px;
+}
+.responsive-menus.responsified .responsive-menus-simple li a{
+    color: #027ac6 !important;
+    display: inline !important;
+    padding: 5px 0 5px 10px !important;
+    border: none !important;
+   font-size: 15px;
+}
+.responsive-menus.responsified .responsive-menus-simple li {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #DDD !important;
+    padding: 7px !important;
+    margin: 0;
+    clear: both;
+    list-style: none;
+}
+.responsive-menus.responsive-menus-0-0 span{
+   font-size: 0;
+   display: block;
+}
+
+@media (max-width: 450px) { 
+   .header .logo img  { 
+   width: 100%;    
+   }
+   #views_slideshow_cycle_teaser_section_ks_testimonials-block_1{
+      height: 350px !important;
+   }
+   #cart-form-pane{
+      overflow-y: hidden;
+      width: 100%;
+      min-height: 0.01%;
+      overflow-x: auto;
+   }
+   .responsive-menus.responsive-menus-0-0 span{
+      background: url("../img/dot.png") no-repeat !important;
+      font-size: 0px !important;
+      width: 28px;
+      height: 29px;
+      box-shadow: none !important;
+   }
+} 
+/*-------End testimonials--------*/
 
 /*-------End Table--------*/
 
@@ -2107,9 +2293,15 @@ a:link, a:visited {
 .field-item.even li:first-child {
     padding-top: 20px;
 }
+/*-------triptych-------  HMM THIS DOES NOT SEEM TO BE WORKING   */
+.field-item.even li:first-child {
+    padding-top: 40px;
+
+}
 #node-241 > header h2, #node-242 > header h2, #node-243 > header h2 {
     padding-top: 5px;
 }
+
 /*--------end of triptych------*/
 .btn-u-lg, a.btn-u-lg {
     font-size: 18px;
@@ -2123,3 +2315,6 @@ a:link, a:visited {
     position: relative;
     white-space: nowrap;
 }
+
+/*--------end of triptych------*/
+

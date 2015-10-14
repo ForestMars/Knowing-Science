@@ -19,29 +19,22 @@
             <!-- End Logo -->
 
             <!-- Topbar -->
-            <div class="topbar">
+            <div class="topbar user-responsive-menu">
  
                 <?php /* @FIXME: Friends don't let friends put fa classes on empty i tags. */ ?>             
                 <ul class="loginbar pull-right hoverSelector">
-                    <i class="fa fa-globe"></i>
-                    <li><a href="/about-us">about</a></li></li>
-                    <li class="topbar-devider"></li>
-
-                    <i class="fa fa-shopping-cart"></i>
-                    <li><a href="/cart">cart</a></li>
-                    <li class="topbar-devider"></li>
                     
-                    <i class="fa fa-envelope-o"></i>
-                    <li><a href="/contact">contact</a></li>
-                    <li class="topbar-devider"></li>
+                    <li><i class="fa fa-globe"></i><a href="/about-us">about</a></li>
+                    <li><i class="fa fa-shopping-cart"></i><a href="/cart">cart</a></li>
+                    <li><i class="fa fa-envelope-o"></i><a href="/contact">contact</a></li>
 
 <?php global $user; ?>
 <?php if ($user->uid): ?>
                     <?php print '<li>' . l('logout', 'user/logout') . '</li>'; ?>&nbsp;|&nbsp;<?php print l('account', 'user'. $user->uid); ?> 
 
 <?php else: ?>
-                  <i class="fa fa-user"></i>
-                   <li><?php print l('Login', 'user'); ?></li>       
+                  
+                   <li><i class="fa fa-user"></i><?php print l('Login', 'user'); ?></li>       
 <?php endif; ?>
                 </ul>
             </div>
