@@ -1,4 +1,4 @@
-
+/*
  * Template Name: Unify - Responsive Bootstrap Template
  * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
  * Version: 1.8
@@ -1712,6 +1712,9 @@ img.img-mouse {
 }
 .center-heading {
     text-align: center;
+
+/* Merge conflict in Soni branch ?? */ 
+
     margin-bottom: 40px;
 }
 .center-heading h2 {
@@ -1913,7 +1916,6 @@ img.img-mouse {
    font-size: 14px;
    color: #888;
 }
-
 /* Check for merge conflict */
 /*
     text-shadow: 1px 0 3px #666;
@@ -1967,8 +1969,6 @@ a:link, a:visited {
 }
 .header .logo img{
 	margin:30px 40px 0 0!important;
-
-}
 
 #ks1{
 	color: #3486ff;
@@ -2080,14 +2080,6 @@ a:link, a:visited {
 .scope25 ol li, .scope25 ul li {
     margin: 0.4em 0 0.4em 0.5em;
     width: 100%;
-}
-/*-------End Table--------*/
-#block-views-triptych-block .content,#block-views-triptych-block-2 .content,#block-views-triptych-block-1 .content{
-	margin-top: 0px;
-}
-.fa.fa-certificate{
-	line-height: 20px;
-	font-size: 17px !important;
 }
 #uc-cart-view-form table thead th{
    text-align: center;
@@ -2276,48 +2268,11 @@ a:link, a:visited {
 } 
 /*-------End testimonials--------*/
 
-/*-------End Table--------*/
-
-/*-------testimonials-------*/
-.views-field.views-field-field-testimonial-by-whom .field-content{
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-.views-field-field-testimonial-organisation .field-content::before{
-    content: "\201C";
-}
-.views-field-field-testimonial-citation .field-content::after {
-    content: "\201D";
-}
-/*-------End testimonials--------*/
-
-/*-------triptych-------*/
-.field-item.even li:first-child {
-    padding-top: 20px;
-}
 /*-------triptych-------  HMM THIS DOES NOT SEEM TO BE WORKING   */
 .field-item.even li:first-child {
     padding-top: 40px;
-
 }
 #node-241 > header h2, #node-242 > header h2, #node-243 > header h2 {
     padding-top: 5px;
 }
-
-
 /*--------end of triptych------*/
-.btn-u-lg, a.btn-u-lg {
-    font-size: 18px;
-    padding: 10px 25px;
-}
-.btn-u {
-    border: 0 none;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 400;
-    position: relative;
-    white-space: nowrap;
-}
-
-/*--------end of triptych------*/
-
