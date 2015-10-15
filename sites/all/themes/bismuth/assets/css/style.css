@@ -1969,7 +1969,7 @@ a:link, a:visited {
 }
 .header .logo img{
 	margin:30px 40px 0 0!important;
-
+}
 #ks1{
 	color: #3486ff;
 }
@@ -2045,6 +2045,7 @@ a:link, a:visited {
 .scope .scope, .scopeHeader{
 	width: 450px;
 }
+
 /*------table--------*/
 .even table {
     margin: 30px 0;
@@ -2170,6 +2171,7 @@ a:link, a:visited {
 .logged-in .header{
    margin-top: 45px;
 }
+
 @media (max-width: 768px) {
    .header .logo img  { 
    width: 100%;    
@@ -2267,12 +2269,9 @@ a:link, a:visited {
    }
 } 
 /*-------End testimonials--------*/
-
-/*-------triptych-------  HMM THIS DOES NOT SEEM TO BE WORKING   */
-.field-item.even li:first-child {
-    padding-top: 40px;
+.triptych .view-id-triptych header h2 {
+    margin-top: 25px;
 }
-#node-241 > header h2, #node-242 > header h2, #node-243 > header h2 {
-    padding-top: 5px;
+.intro-text-1 .btn-u.btn-u-lg{
+	color: white;
 }
-/*--------end of triptych------*/
