@@ -285,7 +285,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                 <div class="thumbnails thumbnail-style thumbnail-kenburn">
                     <div class="thumbnail-img">
                         <div class="overflow-hidden">
-                          <?php print $image['6th-grade']; ?>                        </div>
+                          <?php print $image['6th-grade']; ?></div>
                         <a class="btn-more hover-effect" href="ngss-curriculum/grade-6">read more +</a>
                     </div>
                     <div class="caption">
@@ -458,6 +458,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
 
 <div class="col-sm-4">
                       <div class="col-md-3 btn-buy animated fadeInRight">
+						<a href="contact" class="btn-u btn-u-lg"><i class="fa fa-envelope-o"></i> Find Out More</a>
 						<a href="contact" class="btn-u btn-u-lg"><i class="fa fa-envelope-o"></i> Find Out More</a>
 					</div>
 </div>
