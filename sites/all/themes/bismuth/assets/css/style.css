@@ -1804,7 +1804,9 @@ img.img-mouse {
    clear: both;
    margin-top: 1%;
 }
-.shop-product-heading {
+.shop-product-heading,
+.node-type-product-kit .field-name-title,
+.node-type-product .field-name-title{
     border-bottom: 1px solid #dedede;
     margin-bottom: 12px;
     overflow: hidden;
@@ -2341,4 +2343,11 @@ a:link, a:visited {
 .node-type-product .row .col-sm-6:last-child,
 .node-type-product-kit .row .col-sm-6:last-child{
        margin-bottom: 35px;
+}
+.node-type-product .field-name-title h2,
+.node-type-product-kit .field-name-title h2{
+    color: #687074;
+    float: left;
+    font-size: 26px;
+    text-transform: uppercase;
 }
