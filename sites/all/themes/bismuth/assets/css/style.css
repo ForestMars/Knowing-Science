@@ -2266,4 +2266,29 @@ a:link, a:visited {
       height: 29px;
       box-shadow: none !important;
    }
-} 
+}
+.node-type-kits .col-sm-7 {
+   width: auto;
+   display: inline-block;
+}
+.node-type-kits .col-sm-5  {
+   width: 70%;
+   display: inline-block;
+}
+.node-type-kits .field-name-field-product-page-link a{
+   border: 0;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px 25px;
+    position: relative;
+    background: #3498db;
+    white-space: nowrap;
+    display: inline-block;
+    text-decoration: none;
+}
+.node-type-kits .field-name-field-product-page-link a:hover{
+   background: #2980b0;
+   }
