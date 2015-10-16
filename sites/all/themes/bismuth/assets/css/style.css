@@ -2275,3 +2275,7 @@ a:link, a:visited {
 .intro-text-1 .btn-u.btn-u-lg{
 	color: white;
 }
+
+/*scope and sequences */
+.field-item.even > h2.sequence-title{font-size: 28px;color: #000080;}
+.field-item.even > h2{font-size: 22px}
