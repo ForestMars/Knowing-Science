@@ -16,11 +16,11 @@
                             <div class="headline"><h2>Curricula</h2></div>
                             <ul class="list-unstyled latest-list">
                                 <li>
-                                    <a href="#">Scope & Sequence</a>
+                                    <a href="/scope-and-sequence">Scope & Sequence</a>
                                     <small>something about scope & seq</small>
                                 </li>
                                 <li>
-                                    <a href="#">STEM Curricula</a>
+                                    <a href="/scope-and-sequence">STEM Curricula</a>
                                     <small>something about stem curriculum</small>
                                 </li>
                                 <li>
@@ -37,7 +37,7 @@
                         <div class="headline"><h2>Links</h2></div>
                         <ul class="list-unstyled link-list">
                             <li><a href="/about">About Us</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="ngss-stem-curriculum">STEM kits</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="/scope-and-sequence">STEM kits</a><i class="fa fa-angle-right"></i></li>
                             <li><a href="terms-of-service">Terms of Use</a><i class="fa fa-angle-right"></i></li>
                             <li><a href="privacy-policy">Privacy Policy</a><i class="fa fa-angle-right"></i></li>
                             <li><a href="/sitemap">Site Map</a><i class="fa fa-angle-right"></i></li>
