@@ -2319,5 +2319,11 @@ a:link, a:visited {
 }
 .node-type-product .row {
    border-bottom: 1px solid #DDD;
-    margin: 10px 0 35px 0;
+   margin: 20px 0;
+}
+.node-type-product .row:last-child{
+   border: none;
+}
+.node-type-product .row .col-sm-6:last-child{
+       margin-bottom: 35px;
 }
