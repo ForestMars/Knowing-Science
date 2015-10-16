@@ -2176,6 +2176,9 @@ a:link, a:visited {
    .header .logo img  { 
    width: 100%;    
    }
+   .node-type-product .row .col-sm-6 im{
+      width: 350px;   
+   }
    #cart-form-pane{
       overflow-y: hidden;
       width: 100%;
@@ -2249,6 +2252,9 @@ a:link, a:visited {
 @media (max-width: 450px) { 
    .header .logo img  { 
    width: 100%;    
+   }
+   .node-type-product .row .col-sm-6 im{
+      width: 320px;   
    }
    #views_slideshow_cycle_teaser_section_ks_testimonials-block_1{
       height: 350px !important;
