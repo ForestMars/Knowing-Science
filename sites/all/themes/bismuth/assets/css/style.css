@@ -2279,3 +2279,4 @@ a:link, a:visited {
 /*scope and sequences */
 .field-item.even > h2.sequence-title{font-size: 28px;color: #000080;}
 .field-item.even > h2{font-size: 22px}
+table{width: 100%;}
