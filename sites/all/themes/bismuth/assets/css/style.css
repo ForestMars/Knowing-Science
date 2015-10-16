@@ -2276,7 +2276,8 @@ a:link, a:visited {
    display: inline-block;
 }
 .node-type-kits .field-name-field-product-page-link{
-   text-align: right;
+    text-align: center;
+    margin-top: 25px;
 }
 .node-type-kits .field-name-field-product-page-link a{
    border: 0;
