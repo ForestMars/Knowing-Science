@@ -2300,7 +2300,7 @@ a:link, a:visited {
 .node-type-product .col-sm-6:first-child{
    width: 30%;
 }
-.node-type-product .col-sm-6:first-child{
+.node-type-product .col-sm-6{
    width: 70%;
 }
 .node-type-product .add-to-cart{
