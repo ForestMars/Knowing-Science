@@ -238,7 +238,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
                             <!-- img class="img-responsive" src="<?php echo path_to_theme() . '/assets/img/main/sm_covers_3rd.png' ?>" alt="" -->
                            <?php print $image['3rd-grade']; ?>
                         </div>
-                        <a class="btn-more hover-effect" href="#">read more +</a>
+                        <a class="btn-more hover-effect" href="ngss-curriculum/grade-3">read more +</a>
                     </div>
                     <div class="caption">
                         <h3><a class="hover-effect" href="ngss-curriculum/grade-3">Grade 3</a></h3>
