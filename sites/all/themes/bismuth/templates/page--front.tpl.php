@@ -459,7 +459,6 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
 <div class="col-sm-4">
                       <div class="col-md-3 btn-buy animated fadeInRight">
 						<a href="contact" class="btn-u btn-u-lg"><i class="fa fa-envelope-o"></i> Find Out More</a>
-						<a href="contact" class="btn-u btn-u-lg"><i class="fa fa-envelope-o"></i> Find Out More</a>
 					</div>
 </div>
 <div class="col-sm-4"></div>
