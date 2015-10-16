@@ -53,7 +53,7 @@
                             Armonk, New York, 10504<br />
                             Phone: 800 123 3456 <br />
                             Fax: 800 123 3456 <br />
-                            Email: <a href="mailto:info@anybiz.com" class="">info@knowingscience.com</a>
+                            Email: <a href="mailto:info@knowingscience.com" class="">info@knowingscience.com</a>
                         </address>
                     </div><!--/col-md-3-->
                     <!-- End Address -->
