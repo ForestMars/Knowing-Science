@@ -2296,4 +2296,28 @@ a:link, a:visited {
 }
 .node-type-kits .field-name-field-product-page-link a:hover{
    background: #2980b0;
-   }
+}
+.node-type-product .col-sm-6:first-child{
+   width: 30%;
+}
+.node-type-product .col-sm-6:first-child{
+   width: 70%;
+}
+.node-type-product .add-to-cart{
+   width: 70%;
+   display: inline-block;
+}
+.node-type-product .col-sm-6 .product-info{
+    font-size: 30px;
+    font-weight: bold;
+   color: #c9253c;
+    display: inline-block;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    width: 30%;
+    text-align: right;
+}
+.node-type-product .row {
+   border-bottom: 1px solid #DDD;
+    margin: 10px 0 35px 0;
+}
