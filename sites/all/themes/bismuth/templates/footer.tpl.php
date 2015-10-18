@@ -5,7 +5,7 @@
                 <div class="row">
                     <!-- About -->
                     <div class="col-md-3 md-margin-bottom-40">
-                        <a href="index.html"><img id="logo-footer" class="footer-logo" src="<?php echo '/'.drupal_get_path('theme',$theme) . '/assets/img/stem-kit-logo-bad.png' ?>" alt="" width="200px"></a>
+                        <a href="index.html"><img id="logo-footer" class="footer-logo" src="<?php echo '/'.drupal_get_path('theme',$theme) . '/assets/img/stem-kit-logo-OLD.png' ?>" alt="" width="200px"></a>
 
                     </div><!--/col-md-3-->
                     <!-- End About -->
