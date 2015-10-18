@@ -42,10 +42,11 @@ $(document).ready(function () {
          verticalOffset: 0*/
     });
 });
-
+jQuery(document).ready(function(){
+   jQuery(".col-md-4 .service header h2 a").removeAttr("href");
+});
 //owl carousel for work
 $(document).ready(function () {
-$(".col-md-4 .service header h2 a").removeAttr("href");
     $("#work-carousel").owlCarousel({
         // Most important owl features
         items: 4,
