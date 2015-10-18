@@ -43,7 +43,8 @@ $(document).ready(function () {
     });
 });
 jQuery(document).ready(function(){
-   jQuery(".col-md-4 .service header h2 a").removeAttr("href");
+   alert('DDDD');
+   jQuery(".col-md-4 .service .triptych a").removeAttr("href");
 });
 //owl carousel for work
 $(document).ready(function () {
