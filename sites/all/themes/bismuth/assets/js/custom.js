@@ -3,7 +3,10 @@
  * Version : V1.8
  *
  */
-
+jQuery(document).ready(function(){
+   alert('DDDD');
+   jQuery(".col-md-4 .service .triptych a").removeAttr("href");
+});
  $( window ).resize(function() {
     $(".navbar-collapse").css({ maxHeight: $(window).height() - $(".navbar-header").height() + "px" });
 });
@@ -42,10 +45,7 @@ $(document).ready(function () {
          verticalOffset: 0*/
     });
 });
-$(document).ready(function(){
-   alert('DDDD');
-   $(".col-md-4 .service .triptych a").removeAttr("href");
-});
+
 //owl carousel for work
 $(document).ready(function () {
     $("#work-carousel").owlCarousel({
