@@ -2354,3 +2354,9 @@ a:link, a:visited {
 .view-ks-testimonials .views-slideshow-controls-bottom{
    display: none;
 }
+.node-type-kits .field-name-field-kit-cover .field-item{
+   margin-bottom: 10px;
+}
+.content-sm .triptych{
+     height: 465px;
+}
