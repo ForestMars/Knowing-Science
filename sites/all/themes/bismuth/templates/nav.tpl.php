@@ -58,7 +58,7 @@
             <div class="container">
                 <ul class="nav navbar-nav">
                     <!-- Home -->
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
                         Scope & Sequence</a>
                         
