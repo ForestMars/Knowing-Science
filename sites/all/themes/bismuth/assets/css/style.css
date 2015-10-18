@@ -2393,3 +2393,6 @@ a:link, a:visited {
 .btn-u {
     background: #3498db none repeat scroll 0 0 !important;
 }
+.thumbnail-style a.btn-more {
+    background: #3498db none repeat scroll 0 0 !important;
+}
