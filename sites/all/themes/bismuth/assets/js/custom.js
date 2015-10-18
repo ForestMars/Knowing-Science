@@ -3,6 +3,8 @@
 
 jQuery(document).ready(function () {
    jQuery(".col-md-4 .service .triptych a").removeAttr("href");
+   jQuery(".node-type-product .col-sm-6 .field-type-image img").after("<div class='caption'><i>Photo is representation only. Actual items may differ</i></div>");
+    jQuery(".node-type-product-kit .col-sm-6 .field-type-image img").after("<div class='caption'><i>Photo is representation only. Actual items may differ</i></div>");
     //customize the drupal 7 search form
     var searchboxdefault = 'Search';
     jQuery("#search-block-form input#edit-search-block-form--2").val(searchboxdefault);
