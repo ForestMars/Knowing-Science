@@ -2,6 +2,7 @@
 
 
 jQuery(document).ready(function () {
+   jQuery(".col-md-4 .service .triptych a").removeAttr("href");
     //customize the drupal 7 search form
     var searchboxdefault = 'Search';
     jQuery("#search-block-form input#edit-search-block-form--2").val(searchboxdefault);
