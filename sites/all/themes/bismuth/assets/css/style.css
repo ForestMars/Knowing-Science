@@ -2362,6 +2362,7 @@ a:link, a:visited {
 }
 .col-md-4 .service .triptych a{
    text-decoration: none;
+   color: #027ac6 !important;
 }
 .btn-buy .btn-u{
    color: #FFFFFF;
