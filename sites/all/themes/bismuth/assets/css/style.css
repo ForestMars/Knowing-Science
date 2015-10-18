@@ -2396,3 +2396,10 @@ a:link, a:visited {
 .thumbnail-style a.btn-more {
     background: #3498db none repeat scroll 0 0 !important;
 }
+.caption{
+   text-align: center;
+}
+.caption i{
+       color: #888;
+    font-size: 13px;
+}
