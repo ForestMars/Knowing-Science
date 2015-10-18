@@ -2360,6 +2360,9 @@ a:link, a:visited {
 .content-sm .triptych{
      height: 470px;
 }
+.col-md-4 .service .triptych a{
+   text-decoration: none;
+}
 .btn-buy .btn-u{
    color: #FFFFFF;
 }

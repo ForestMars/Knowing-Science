@@ -4,7 +4,6 @@
  *
  */
 jQuery(document).ready(function(){
-   alert('DDDD');
    jQuery(".col-md-4 .service .triptych a").removeAttr("href");
 });
  $( window ).resize(function() {
