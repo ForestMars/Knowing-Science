@@ -62,6 +62,7 @@ stylesheets[all][] = assets/css/flexslider.css ;not needed
 
 ; scripts
 scripts[] = assets/js/custom.js
+scripts[] = assets/js/app.js
 scripts[] = assets/js/jasny-bootstrap.min.js
 scripts[] = assets/js/jquery.counterup.min.js
 scripts[] = assets/js/jquery.flexslider-min.js

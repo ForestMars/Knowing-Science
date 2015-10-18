@@ -2366,3 +2366,6 @@ a:link, a:visited {
 .btn-buy .btn-u{
    color: #FFFFFF;
 }
+.header .nav > li > .search{
+  border-bottom: solid 2px #eee !important;
+}
