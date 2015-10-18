@@ -24,7 +24,7 @@
                 <?php /* @FIXME: Friends don't let friends put fa classes on empty i tags. */ ?>             
                 <ul class="loginbar pull-right hoverSelector">
                     
-                    <li><i class="fa fa-globe"></i><a href="/about-us">about</a></li>
+                    <li><i class="fa fa-globe"></i><a href="/about">about</a></li>
                     <li><i class="fa fa-shopping-cart"></i><a href="/cart">cart</a></li>
                     <li><i class="fa fa-envelope-o"></i><a href="/contact">contact</a></li>
 
@@ -58,7 +58,7 @@
             <div class="container">
                 <ul class="nav navbar-nav">
                     <!-- Home -->
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
                         Scope & Sequence</a>
                         

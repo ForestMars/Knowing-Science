@@ -50,7 +50,7 @@
 }
 .da-slide h2{
 	font-family: 'Open Sans', sans-serif;
-	color: #f9f9f9 !important;
+	color: #eee;
 	line-height:50px;
 	top: 100px;
 	z-index: 10;
@@ -63,7 +63,7 @@
 	font-style:normal;
 	padding:0 5px;
 	text-transform:uppercase;
-	background-color: rgba(46, 98, 0, 0.8);
+	background-color: #72C02C;
 }
 .da-slide p {
 	font-family: 'Open Sans', sans-serif;
@@ -81,15 +81,16 @@
 	padding:0 10px;
 	font-style:normal;
 }
-.da-slide .da-img{
+.da-slide .da-img {
 	text-align: center;
 	width: 50%;
-	top: 80px;
+	top: 50px;
 	height: 328px;
 	line-height: 320px;
 	left: 110%; /*60%*/
 	margin-left:-16%;
 }
+
 .da-slide-current .da-img{
 	left: 60%;
 	opacity: 1;
@@ -721,4 +722,9 @@
 	.da-slide .da-img{
 		margin-left:-22%;
 	}
+}
+.da-slide0 .da-img {
+
+	top: 0px;
+
 }

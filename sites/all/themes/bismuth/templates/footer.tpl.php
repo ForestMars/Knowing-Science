@@ -11,7 +11,7 @@
                     <!-- End About -->
 
                     <!-- Latest -->
-                    <div class="col-md-3 md-margin-bottom-40">
+                    <!-- div class="col-md-3 md-margin-bottom-40">
                         <div class="posts">
                             <div class="headline"><h2>Curricula</h2></div>
                             <ul class="list-unstyled latest-list">
@@ -29,7 +29,7 @@
                                 </li>
                             </ul>
                         </div>
-                    </div><!--/col-md-3-->
+                    </div --><!--/col-md-3-->
                     <!-- End Latest -->
 
                     <!-- Link List -->
