@@ -440,7 +440,7 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
 
                   </div>                
                 
-    
+         <hr>
                 
                 
             </div>
@@ -449,14 +449,72 @@ $icon_twitter = <?php echo path_to_theme() . '//images/twitter.png';
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Awards ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ New eBooks ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+        <div class="divide40"></div>
+
+
+    <div class="container">
+<div class="col-sm-1"></div>
+<div class="col-sm-10">        
+  <h4> New Knowing Science eBooks series with high-interest short stories that introduce concepts and vocabulary; explanations and summaries written with language that directly relates to student daily experiences; interactive video game-style activities that reinforce learning; and self-checking review questions. </h4>
+<div class="col-sm-1"></div>  
+</div>
+
+
+<div class="container">
+
+<div class="col-sm-2">
+<a href="https://itunes.apple.com/us/book/physics/id990012481?mt=11"><img src="http://www.knowingscience.com/sites/default/files/PS.png"></a>
+</div>
+<div class="col-sm-1"></div>
+
+<div class="col-sm-2">
+<a href="https://itunes.apple.com/us/book/life-science/id989783450?mt=11"><img src="http://www.knowingscience.com/sites/default/files/LS.png"></a>
+</div>
+<div class="col-sm-1"></div>
+
+<div class="col-sm-2">
+<a href="https://itunes.apple.com/us/book/earth-science/id989875715?mt=11"><img src="http://www.knowingscience.com/sites/default/files/ES.png"></a>
+</div>
+<div class="col-sm-1"></div>
+
+<div class="col-sm-1">
+<a href="https://itunes.apple.com/us/book/data-and-experiments/id988240696?ls=1&mt=11"><img src="http://www.knowingscience.com/sites/default/files/Data.png"></a>
+</div>
+<div class="col-sm-1"></div>
+  </div> 
+  </div> 
+
+<div class="container">
+<h4>
+NEW! Hard copies of the interactive Knowing Science eBooks are available through Amazon.com. Click on the link to buy them: <a href="http://www.amazon.com/Physics-Knowing-Science-eBooks-Capasso/dp/1511961244">Physics</a>, <a href="http://www.amazon.com/Earth-Science-Knowing-eBooks/dp/151221633X">Earth Science</a>, <a href="http://www.amazon.com/Life-Science-Knowing-eBooks/dp/1512175773">Life Science</a>, and <a href="http://www.amazon.com/Data-Experiments-Knowing-Science-eBooks/dp/1512078808/">Data and Experiments</a>
+</h4>
+</div>
+
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End eBooks ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+
+  <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FINAL CTA ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
         <div class="divide40"></div>
           <div class="intro-text-1 light">
+
+
+
             <div class="container">
               
 <div class="col-sm-4"></div>
 
 
 <div class="col-sm-4">
+  
+
+  <p>Knowing Science is the most advanced and only 100% NGSS aligned Pre-K to Grade-6 STEM Curriculum. Contact us to find out how to use Knowing Science in your school or classroom today.</p>
+  
+  
                       <div class="col-md-3 btn-buy animated fadeInRight">
 						<a href="contact" class="btn-u btn-u-lg"><i class="fa fa-envelope-o"></i> Find Out More</a>
 					</div>
