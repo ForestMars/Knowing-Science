@@ -42,9 +42,9 @@ $(document).ready(function () {
          verticalOffset: 0*/
     });
 });
-jQuery(document).ready(function(){
+$(document).ready(function(){
    alert('DDDD');
-   jQuery(".col-md-4 .service .triptych a").removeAttr("href");
+   $(".col-md-4 .service .triptych a").removeAttr("href");
 });
 //owl carousel for work
 $(document).ready(function () {
