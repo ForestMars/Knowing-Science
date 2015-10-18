@@ -2375,16 +2375,17 @@ a:link, a:visited {
 .header .dropdown-menu{
     min-width: 215px !important;
 }
-a:link, a:visited {
+.triptych a:link,.triptych a:visited {
     color: #027ac6 !important;
     text-decoration: none;
 }
-a:focus, 
-a:hover, 
-a:active {
+.triptych a:focus, 
+.triptych a:hover, 
+.triptych a:active {
 	color: #3498db !important;
 }
-h2 {
+.triptych h2 {
     font-size: 24px !important;
     line-height: 33px;
+    font-weight: normal;
 }
