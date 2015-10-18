@@ -154,27 +154,27 @@ var App = function () {
     }    
 
     //Bootstrap Tooltips and Popovers
-    function handleBootstrap() {
-        /*Bootstrap Carousel*/
-        jQuery('.carousel').carousel({
-            interval: 15000,
-            pause: 'hover'
-        });
-
-        /*Tooltips*/
-        jQuery('.tooltips').tooltip();
-        jQuery('.tooltips-show').tooltip('show');      
-        jQuery('.tooltips-hide').tooltip('hide');       
-        jQuery('.tooltips-toggle').tooltip('toggle');       
-        jQuery('.tooltips-destroy').tooltip('destroy');       
-
-        /*Popovers*/
-        jQuery('.popovers').popover();
-        jQuery('.popovers-show').popover('show');
-        jQuery('.popovers-hide').popover('hide');
-        jQuery('.popovers-toggle').popover('toggle');
-        jQuery('.popovers-destroy').popover('destroy');
-    }
+    //function handleBootstrap() {
+    //    /*Bootstrap Carousel*/
+    //    jQuery('.carousel').carousel({
+    //        interval: 15000,
+    //        pause: 'hover'
+    //    });
+    //
+    //    /*Tooltips*/
+    //    jQuery('.tooltips').tooltip();
+    //    jQuery('.tooltips-show').tooltip('show');      
+    //    jQuery('.tooltips-hide').tooltip('hide');       
+    //    jQuery('.tooltips-toggle').tooltip('toggle');       
+    //    jQuery('.tooltips-destroy').tooltip('destroy');       
+    //
+    //    /*Popovers*/
+    //    jQuery('.popovers').popover();
+    //    jQuery('.popovers-show').popover('show');
+    //    jQuery('.popovers-hide').popover('hide');
+    //    jQuery('.popovers-toggle').popover('toggle');
+    //    jQuery('.popovers-destroy').popover('destroy');
+    //}
 
     return {
         init: function () {
