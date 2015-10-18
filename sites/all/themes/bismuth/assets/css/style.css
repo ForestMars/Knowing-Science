@@ -2369,3 +2369,9 @@ a:link, a:visited {
 .header .nav > li > .search{
   border-bottom: solid 2px #eee !important;
 }
+.header .nav > li > .search:hover{
+   border-bottom: solid 2px #3498db !important;
+}
+.header .dropdown-menu{
+    min-width: 215px !important;
+}
