@@ -11,9 +11,9 @@
                     <!-- End About -->
 
                     <!-- Latest -->
-                    <!-- div class="col-md-3 md-margin-bottom-40">
+                    <div class="col-md-3 md-margin-bottom-40">
                         <div class="posts">
-                            <div class="headline"><h2>Curricula</h2></div>
+                            <!-- div class="headline"><h2>Curricula</h2></div>
                             <ul class="list-unstyled latest-list">
                                 <li>
                                     <a href="/scope-and-sequence">Scope & Sequence</a>
@@ -27,9 +27,9 @@
                                     <a href="#">Media</a>
                                     <small>Knowing Science in the News</small>
                                 </li>
-                            </ul>
+                            </ul -->
                         </div>
-                    </div --><!--/col-md-3-->
+                    </div><!--/col-md-3-->
                     <!-- End Latest -->
 
                     <!-- Link List -->
@@ -37,7 +37,7 @@
                         <div class="headline"><h2>Links</h2></div>
                         <ul class="list-unstyled link-list">
                             <li><a href="/about">About Us</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="/scope-and-sequence">STEM kits</a><i class="fa fa-angle-right"></i></li>
+                            <!-- li><a href="/scope-and-sequence">STEM kits</a><i class="fa fa-angle-right"></i></li -->
                             <li><a href="terms-of-service">Terms of Use</a><i class="fa fa-angle-right"></i></li>
                             <li><a href="privacy-policy">Privacy Policy</a><i class="fa fa-angle-right"></i></li>
                             <li><a href="/sitemap">Site Map</a><i class="fa fa-angle-right"></i></li>
