@@ -2189,8 +2189,9 @@ a:link, a:visited {
    width: 100%;    
    }
    .node-type-product .row .col-sm-6 img,
-      .node-type-product-kit .row .col-sm-6 img{
-      width: 320px;   
+   .node-type-product-kit .row .col-sm-6 img{
+      width: 100%;
+      height: auto;
    }
    #cart-form-pane{
       overflow-y: hidden;
@@ -2201,8 +2202,15 @@ a:link, a:visited {
    #views_slideshow_cycle_teaser_section_ks_testimonials-block_1{
          height: 275px !important;
    }
+   .node-type-product .col-sm-6:first-child, .node-type-product-kit .col-sm-6:first-child {
+      width: 100%;
+   }
    .caption{
    width:  235px;
+   }
+   .node-type-product .row .col-sm-6 h2,
+   .node-type-product-kit  .row .col-sm-6 h2{
+      font-size: 22px;
    }
    .node-type-product .row .col-sm-6,
    .node-type-product-kit  .row .col-sm-6{
@@ -2278,8 +2286,16 @@ a:link, a:visited {
       width: 90%;
    }
    .node-type-product .row .col-sm-6 img,
-   .node-type-product-kit  .row .col-sm-6 img{
-      width: 250px;   
+   .node-type-product-kit .row .col-sm-6 img{
+      width: 100%;
+      height: auto;
+   }
+      .node-type-product .row .col-sm-6 h2,
+   .node-type-product-kit  .row .col-sm-6 h2{
+      font-size: 22px;
+   }
+   .node-type-product .col-sm-6:first-child, .node-type-product-kit .col-sm-6:first-child {
+      width: 100%;
    }
    #views_slideshow_cycle_teaser_section_ks_testimonials-block_1{
       height: 350px !important;
