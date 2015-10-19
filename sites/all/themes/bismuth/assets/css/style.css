@@ -2476,8 +2476,8 @@ a:link, a:visited {
     margin: 0;
 }
 .header .nav > li > .search:hover{
-   color: #0c59e4;
-   background-color: #0c59e4;
+   color: #0c59e4 !important;
+   background-color: #0c59e4 !important;
 }
 .navbar-toggle:hover{
   background-color: #0c59e4 !important; 
