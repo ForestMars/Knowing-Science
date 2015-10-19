@@ -2183,7 +2183,7 @@ a:link, a:visited {
    }
    .node-type-product .row .col-sm-6 img,
       .node-type-product-kit .row .col-sm-6 img{
-      width: 350px;   
+      width: 320px;   
    }
    #cart-form-pane{
       overflow-y: hidden;
@@ -2261,7 +2261,7 @@ a:link, a:visited {
    }
    .node-type-product .row .col-sm-6 img,
    .node-type-product-kit  .row .col-sm-6 img{
-      width: 310px;   
+      width: 250px;   
    }
    #views_slideshow_cycle_teaser_section_ks_testimonials-block_1{
       height: 350px !important;
@@ -2331,8 +2331,8 @@ a:link, a:visited {
     display: inline-block;
     padding-bottom: 4px;
     padding-left: 4px;
-    width: 30%;
-    text-align: right;
+    width: auto;
+    text-align: left;
 }
 .node-type-product .row ,
 .node-type-product-kit .row {
