@@ -2291,9 +2291,12 @@ a:link, a:visited {
       width: 100%;
       height: auto;
    }
-      .node-type-product .row .col-sm-6 h2,
+   .node-type-product .row .col-sm-6 h2,
    .node-type-product-kit  .row .col-sm-6 h2{
       font-size: 21px;
+   }
+   .navbar-toggle:hover{
+      background-color: #027ac6 !important; 
    }
    .node-type-product .col-sm-6:first-child, .node-type-product-kit .col-sm-6:first-child {
       width: 100% !important;
@@ -2481,9 +2484,6 @@ a:link, a:visited {
 }
 .wrapper .header .navbar-toggle {
     border-color: #027ac6 !important;
-}
-.navbar-toggle:hover{
-  background-color: #027ac6 !important; 
 }
 .search-open .form-actions input.form-submit{
     border: 0;
