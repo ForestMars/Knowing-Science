@@ -2123,6 +2123,9 @@ a:link, a:visited {
     text-decoration: none;
     white-space: nowrap;
 }
+#uc-cart-view-form .form-actions a {
+   margin: 3px 10px 3px 0;
+}
 #uc-cart-view-form  input#edit-update{
    margin-right: 12px;
 }
