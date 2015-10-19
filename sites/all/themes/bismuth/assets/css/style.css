@@ -2471,8 +2471,16 @@ a:link, a:visited {
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 #search-block-form .container-inline .form-type-textfield{
-      float: left;
+    float: left;
     width: 80%;
+    margin: 0;
+}
+.header .nav > li > .search:hover{
+   color: #0c59e4;
+   background-color: #0c59e4;
+}
+.navbar-toggle:hover{
+  background-color: #0c59e4 !important; 
 }
 .search-open .form-actions input.form-submit{
     border: 0;
@@ -2486,5 +2494,4 @@ a:link, a:visited {
     white-space: nowrap;
     display: inline-block;
     text-decoration: none;
-    margin-top: 14px;
 }
