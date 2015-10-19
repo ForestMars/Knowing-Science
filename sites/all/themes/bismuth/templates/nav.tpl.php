@@ -184,13 +184,19 @@
                     <li>
                         <i class="search fa fa-search search-btn"></i>
                         <div class="search-open">
+                            <?php
+                                $block_search = module_invoke('search', 'block_view', 'form');
+                                print render($block_search);
+                            ?>
+                        </div>
+<!--                        <div class="search-open">
                             <div class="input-group animated fadeInDown">
                                 <input type="text" class="form-control" placeholder="Search">
                                 <span class="input-group-btn">
                                     <button class="btn-u" type="button">Go</button>
                                 </span>
                             </div>
-                        </div>
+                        </div>-->
                     </li>
                     <!-- End Search Block -->
                 </ul>
