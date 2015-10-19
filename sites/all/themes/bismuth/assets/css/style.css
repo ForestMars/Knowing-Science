@@ -2109,11 +2109,15 @@ a:link, a:visited {
   vertical-align: top;
   padding: 20px;
 }
+#uc-cart-view-form .form-actions{
+   text-align: left;
+}
 #uc-cart-view-form input.form-submit,
 #uc-cart-view-form .form-actions a{
     background: #18ba9b none repeat scroll 0 0;
      font-size: 18px;
     padding: 10px 25px;
+    margin: 3px 10px 5px 0;
     border: none;
     color: #fff;
     cursor: pointer;
