@@ -2482,7 +2482,7 @@ a:link, a:visited {
     font-weight: 400;
     padding: 6px 13px;
     position: relative;
-    background: #72c02c;
+    background: #3498db none repeat scroll 0 0 !important;
     white-space: nowrap;
     display: inline-block;
     text-decoration: none;
