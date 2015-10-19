@@ -2501,3 +2501,18 @@ a:link, a:visited {
 .node-video iframe{
    width: 100%;
 }
+.publications {
+    border: 1px solid #ddd;
+    float: left;
+    height: 266px;
+    margin: 10px;
+    padding: 2px;
+    width: auto;
+}
+.publications img {
+    height: 261px;
+    width: 100%;
+}
+.page-node-22 .field-name-upload{
+   clear: both;
+}
