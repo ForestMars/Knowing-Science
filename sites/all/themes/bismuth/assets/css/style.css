@@ -2327,6 +2327,7 @@ a:link, a:visited {
 .node-type-product-kit .col-sm-6 .product-info{
     font-size: 30px;
     font-weight: bold;
+    float: none !important;
    color: #c9253c;
     display: inline-block;
     padding-bottom: 4px;
