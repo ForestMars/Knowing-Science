@@ -5,7 +5,9 @@
                 <div class="row">
                     <!-- About -->
                     <div class="col-md-3 md-margin-bottom-40">
-                        <a href="index.html"><img id="logo-footer" class="footer-logo" src="<?php echo '/'.drupal_get_path('theme',$theme) . '/assets/img/kid_knowledge/kid-knowledge-logo-stars-trans.gif' ?>" alt="" width="200px"></a>
+                        <a href="index.html">
+<img id="logo-footer" class="footer-logo" src="<?php echo path_to_theme() . '/assets/img/old-stem-kit-logo.png' ?>" alt="" width="200px">
+</a>
 
                     </div><!--/col-md-3-->
                     <!-- End About -->
@@ -13,7 +15,7 @@
                     <!-- Latest -->
                     <div class="col-md-3 md-margin-bottom-40">
                         <div class="posts">
-                            <div class="headline"><h2>Curricula</h2></div>
+                            <!-- div class="headline"><h2>Curricula</h2></div>
                             <ul class="list-unstyled latest-list">
                                 <li>
                                     <a href="/scope-and-sequence">Scope & Sequence</a>
@@ -27,7 +29,7 @@
                                     <a href="#">Media</a>
                                     <small>Knowing Science in the News</small>
                                 </li>
-                            </ul>
+                            </ul -->
                         </div>
                     </div><!--/col-md-3-->
                     <!-- End Latest -->
@@ -37,7 +39,7 @@
                         <div class="headline"><h2>Links</h2></div>
                         <ul class="list-unstyled link-list">
                             <li><a href="/about">About Us</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="/scope-and-sequence">STEM kits</a><i class="fa fa-angle-right"></i></li>
+                            <!-- li><a href="/scope-and-sequence">STEM kits</a><i class="fa fa-angle-right"></i></li -->
                             <li><a href="terms-of-service">Terms of Use</a><i class="fa fa-angle-right"></i></li>
                             <li><a href="privacy-policy">Privacy Policy</a><i class="fa fa-angle-right"></i></li>
                             <li><a href="/sitemap">Site Map</a><i class="fa fa-angle-right"></i></li>
