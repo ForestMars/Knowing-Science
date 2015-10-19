@@ -2193,6 +2193,7 @@ a:link, a:visited {
       width: 100%;
       height: auto;
    }
+   
    #cart-form-pane{
       overflow-y: hidden;
       width: 100%;
@@ -2203,7 +2204,7 @@ a:link, a:visited {
          height: 275px !important;
    }
    .node-type-product .col-sm-6:first-child, .node-type-product-kit .col-sm-6:first-child {
-      width: 100%;
+      width: 100% !important;
    }
    .caption{
    width:  235px;
@@ -2292,10 +2293,10 @@ a:link, a:visited {
    }
       .node-type-product .row .col-sm-6 h2,
    .node-type-product-kit  .row .col-sm-6 h2{
-      font-size: 22px;
+      font-size: 21px;
    }
    .node-type-product .col-sm-6:first-child, .node-type-product-kit .col-sm-6:first-child {
-      width: 100%;
+      width: 100% !important;
    }
    #views_slideshow_cycle_teaser_section_ks_testimonials-block_1{
       height: 350px !important;
