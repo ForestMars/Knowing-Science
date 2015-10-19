@@ -2304,6 +2304,10 @@ a:link, a:visited {
    #views_slideshow_cycle_teaser_section_ks_testimonials-block_1{
       height: 350px !important;
    }
+   .header .nav > li > .search:hover{
+   color: #027ac6 !important;
+   background-color: #027ac6 !important;
+   }
    #cart-form-pane{
       overflow-y: hidden;
       width: 100%;
@@ -2477,10 +2481,6 @@ a:link, a:visited {
     float: left;
     width: 80%;
     margin: 0;
-}
-.header .nav > li > .search:hover{
-   color: #027ac6 !important;
-   background-color: #027ac6 !important;
 }
 .wrapper .header .navbar-toggle {
     border-color: #027ac6 !important;
