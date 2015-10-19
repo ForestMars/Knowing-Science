@@ -2476,11 +2476,11 @@ a:link, a:visited {
     margin: 0;
 }
 .header .nav > li > .search:hover{
-   color: #0c59e4 !important;
-   background-color: #0c59e4 !important;
+   color: #027ac6 !important;
+   background-color: #027ac6 !important;
 }
 .navbar-toggle:hover{
-  background-color: #0c59e4 !important; 
+  background-color: #027ac6 !important; 
 }
 .search-open .form-actions input.form-submit{
     border: 0;
