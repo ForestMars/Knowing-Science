@@ -2479,6 +2479,9 @@ a:link, a:visited {
    color: #027ac6 !important;
    background-color: #027ac6 !important;
 }
+.wrapper .header .navbar-toggle {
+    border-color: #027ac6 !important;
+}
 .navbar-toggle:hover{
   background-color: #027ac6 !important; 
 }
